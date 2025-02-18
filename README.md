@@ -18,6 +18,8 @@ Planning to include:
   -   Ranger Cryodon Guide
   -   Monk Way of Healing Hands
   -   Paladin Oath of Survival
+  -   Rogue Shadowlurker
   -   Sorcerer Concentrated Chaos
   -   Warlock The Splice
+  -   Wizard School of Onieromancy
 - Items from Gorthan's Crafty Crafting Guide
