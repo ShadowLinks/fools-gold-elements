@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/source.xml" />
+		</update>
+	</info>
+	<element name="Fools Gold" type="Source" source="Core" id="ID_FOOLSGOLD">
+		<description>
+			<p><strong>Fool’s Gold: Into the Bellowing Wilds introduces the world of Ambria and focuses on the Bellowing Wilds, a jungle filled with mysteries, dangers, friends, foes, and truly awful sheep. Keep in mind that the information in this book is a scaffolding for your game, but it isn’t your story. Your adventures together as a group will become your story</strong></p>
+		</description>
+		<setters>
+			<set name="abbreviation">FLGD</set>
+			<set name="url">https://foolsgold.fun/</set>
+			<set name="image">https://hitpointpress.com/cdn/shop/files/foolsgold-pdf-listing__43903.1694545936.1280.1280.png?v=1713272721&width=1100</set>
+			<set name="author" abbreviation="DD" url="https://x.com/DingoDoodles">Dingo Doodles</set>
+			<set name="third-party">true</set>
+			<set name="release">2023</set>
+		</setters>
+	</element>
+</elements>
