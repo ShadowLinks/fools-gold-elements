@@ -3,7 +3,7 @@ https://github.com/ShadowLinks/fools-gold-elements/raw/refs/heads/main/foolsgold
 
 Planning to include:
 - Races
-  -   Beastfold
+  -   Beastfolk
   -   Mohsnian
   -   Weaver
   -   Forclaimer
