@@ -20,3 +20,4 @@ Planning to include:
   -   Paladin Oath of Survival
   -   Sorcerer Concentrated Chaos
   -   Warlock The Splice
+- Items from Gorthan's Crafty Crafting Guide
