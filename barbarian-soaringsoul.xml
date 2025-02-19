@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="barbarian-soaringsoul.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/barbarian-soaringsoul.xml" />
+		</update>
+	</info>
+    <element name="Path of the Soaring Soul" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_BARBARIAN_SOARING_SOUL">
+        <supports>Primal Path</supports>
+        <description>
+            <p>The Path of the Soaring Soul calls to barbarians who place deep trust in their weapons. When you take exceptional care of your weapons, you will find your weapons will also take exceptional care of you. As your bond deepens, you and your weapon will zip across the battlefield, bringing the hurt from every angle.</p>
+            <p class="indent"></p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SOUL_BOUND_WEAPON" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RANGED_STRIKE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_WEAPONS_EXPERT" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SAVAGE_RICOCHET" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RAGING_LEAP" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_PAIRED_FURY" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SHARED_DEMISE" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SOUL_BOUND_WEAPON" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RANGED_STRIKE" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_WEAPONS_EXPERT" level="6" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SAVAGE_RICOCHET" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RAGING_LEAP" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_PAIRED_FURY" level="14" />
+            <select name="Optional Feature" type="Archetype Feature" supports="shared-demise"  />
+        </rules>
+    </element>
+    <element name="Soul-bound Weapons" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SOUL_BOUND_WEAPON">
+        <description>
+            <p>At 3rd level when you adopt this path, choose one martial melee weapon from your equipment to become your soul-bound weapon. A rune unique to you appears on the weapon. Attacks you make with your soul-bound weapon are considered magical. Additionally, you are immune to damage from your soul-bound weapon and can sense its direction as long as you are on the same plane of existence.</p>
+            <p class="indent">When you choose the Path of the Soaring Soul, you can choose to dedicate yourself to a single weapon or to gain experience with many different weapons. Choose one of the following options:</p>
+            <p class="indent"><strong>Dedicated Soul.</strong> Your care for a single weapon allows it to grow in power along with you. Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC equal to 8 + your Constitution modifier + your proficiency bonus, or be unable to lift the weapon. Additionally, your soul bound-weapon becomes a +1 weapon when you reach 6th level in this class, a +2 weapon when you reach 10th level, and a +3 weapon when you reach 14th level.</p>
+            <p class="indent"><strong>Wandering Soul.</strong> When you gain a level in this class, you can choose to exchange your soul-bound weapon for another or gain an additional soul-bound weapon by carrying out a ritual that takes no less than 12 hours to complete. You can have a number of soul-bound weapons equal to your Constitution modifier (minimum of 1). You consider all martial melee weapons that you have soul-bound as light and can wield them one-handed for the purpose of two weapon fighting. Additionally, you always use the larger damage die whether you wield a versatile soul-bound weapon one-handed or two-handed.</p>
+        </description>
+        <sheet>
+            <description>Choose one martial melee weapon from your equipment to become your soul-bound weapon. A rune unique to you appears on the weapon. Attacks you make with your soul-bound weapon are considered magical. Additionally, you are immune to damage from your soul-bound weapon and can sense its direction as long as you are on the same plane of existence.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" supports="soul-weapons-option"/>
+        </rules>
+    </element>
+    <element name="Dedicated Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_DEDICATED_SOUL">
+        <supports>soul-weapons-option</supports>
+        <description>
+            <p>Your care for a single weapon allows it to grow in power along with you. Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC equal to 8 + your Constitution modifier + your proficiency bonus, or be unable to lift the weapon. Additionally, your soul bound-weapon becomes a +1 weapon when you reach 6th level in this class, a +2 weapon when you reach 10th level, and a +3 weapon when you reach 14th level.</p>
+        </description>
+        <sheet>
+            <description>Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC {{sbdc}} , or be unable to lift the weapon.</description>
+            <description level="6">Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC {{sbdc}} , or be unable to lift the weapon. Your Weapon is +1</description>
+            <description level="10">Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC {{sbdc}} , or be unable to lift the weapon. Your Weapon is +2</description>
+            <description level="14">Any creature other than you who attempts to wield your soul-bound weapon must first succeed on a Strength (Athletics) check with a DC {{sbdc}} , or be unable to lift the weapon. Your Weapon is +3</description>
+        </sheet>
+        <rules>
+            <stat name="sbdc" value="8" bonus="base"/>
+            <stat name="sbdc" value="constitution:modifier"/>
+            <stat name="sbdc" value="proficiency"/>
+        </rules>
+    </element>
+    <element name="Wandering Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_WANDERING_SOUL">
+        <supports>soul-weapons-option</supports>
+        <description>
+            <p>When you gain a level in this class, you can choose to exchange your soul-bound weapon for another or gain an additional soul-bound weapon by carrying out a ritual that takes no less than 12 hours to complete. You can have a number of soul-bound weapons equal to your Constitution modifier (minimum of 1). You consider all martial melee weapons that you have soul-bound as light and can wield them one-handed for the purpose of two weapon fighting. Additionally, you always use the larger damage die whether you wield a versatile soul-bound weapon one-handed or two-handed.</p>
+        </description>
+        <sheet>
+            <description>When you gain a level in this class, you can choose to exchange your soul-bound weapon for another or gain an additional soul-bound weapon by carrying out a ritual that takes no less than 12 hours to complete. You can have a {{soulboundcount}} soul-bound weapons. You consider all martial melee weapons that you have soul-bound as light and can wield them one-handed for the purpose of two weapon fighting. Additionally, you always use the larger damage die whether you wield a versatile soul-bound weapon one-handed or two-handed.</description>
+        </sheet>
+        <rules>
+            <stat name="soulboundcount" value="constitution:modifier" bonus="base" />
+        </rules>
+    </element>
+    <element name="Ranged Strike" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RANGED_STRIKE">
+        <description>
+            <p>Starting when you choose this path at 3rd level, you can throw your soul-bound weapon and make ranged attacks with it using your Strength modifier instead of your Dexterity modifier at a range of 20/60 feet. When you make a ranged strike with your soul-bound weapon while you are raging, if the attack hits, you can have your weapon fly back to your grasp as your weapon eagerly wishes to be used again.</p>
+        </description>
+        <sheet>
+            <description>You can throw your soul-bound weapon and make ranged attacks with it using your Strength modifier instead of your Dexterity modifier at a range of 20/60 feet. When you make a ranged strike with your soul-bound weapon while you are raging, if the attack hits, you can have your weapon fly back to your grasp as your weapon eagerly wishes to be used again.</description>
+        </sheet>
+    </element>
+    <element name="Weapons Expert" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_WEAPONS_EXPERT">
+        <description>
+            <p>At 6th level, your understanding of weapons deepens. By handling a weapon or piece of armor for at least one minute, you can estimate its value accurately. When making Intelligence (History) checks related to weapons and armor, you are considered to have expertise in the History skill, doubling your proficiency bonus.</p>
+            <p class="indent">Additionally, if you spend at least ten minutes handling a weapon, you can determine if it has any magical properties, as if you had cast the identify spell, as well as the identity of the last creature to wield it. At 14th level, when using this ability, you gain additional information, as if you had cast the legend lore spell.</p>
+            <p class="indent">You can use this ability a number of times a day equal to your Constitution modifier (minimum of 1).</p>
+        </description>
+        <sheet usage="{{constitution:modifier}}/day">
+            <description>By handling a weapon or piece of armor for at least one minute, you can estimate its value accurately. When making Intelligence (History) checks related to weapons and armor, you are considered to have expertise in the History skill, doubling your proficiency bonus. Additionally, if you spend at least ten minutes handling a weapon, you can determine if it has any magical properties, as if you had cast the identify spell, as well as the identity of the last creature to wield it. At 14th level, when using this ability, you gain additional information, as if you had cast the legend lore spell.</description>
+        </sheet>
+    </element>
+    <element name="Savage Ricochet" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SAVAGE_RICOCHET">
+        <description>
+            <p>At 10th level, your bond with your soul-bound weapon strengthens, improving your ranged strikes. When you make a ranged attack with your soul-bound weapon, your weapon bounces off the target and flies back to your grasp, whether the attack hits or misses. If the attack hits, you can have your soul-bound weapon to make a second ranged attack against an additional target within 10 feet of the first target before returning to you. At 14th level, when this second ranged attack also hits, your weapon can make a third ranged attack against another target within 10 feet of the second target before returning to you.</p>
+        </description>
+        <sheet>
+            <description>When you make a ranged attack with your soul-bound weapon, your weapon bounces off the target and flies back to your grasp, whether the attack hits or misses. If the attack hits, you can have your soul-bound weapon to make a second ranged attack against an additional target within 10 feet of the first target before returning to you. </description>
+            <description level="14">When you make a ranged attack with your soul-bound weapon, your weapon bounces off the target and flies back to your grasp, whether the attack hits or misses. If the attack hits, you can have your soul-bound weapon to make a second ranged attack against an additional target within 10 feet of the first target before returning to you.  When this second ranged attack also hits, your weapon can make a third ranged attack against another target within 10 feet of the second target before returning to you.</description>
+        </sheet>
+    </element>
+    <element name="Raging Leap" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_RAGING_LEAP">
+        <description>
+            <p>At 10th level, you can build up incredible momentum by swinging your soul-bound weapon, allowing you to leap extraordinary lengths. While raging, your long jump and high jump distances are doubled, and you no longer need a running start.</p>
+            <p class="indent">Additionally, when you take damage during your rage by falling 10 feet or more while making an attack that hits, your target takes extra damage from your weapon equal to double the amount of damage you take from the fall.</p>
+        </description>
+        <sheet>
+            <description>While raging, your long jump and high jump distances are doubled, and you no longer need a running start. Additionally, when you take damage during your rage by falling 10 feet or more while making an attack that hits, your target takes extra damage from your weapon equal to double the amount of damage you take from the fall.</description>
+        </sheet>
+    </element>
+    <element name="Paired Fury" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_PAIRED_FURY">
+        <description>
+            <p>At 14th level, your bond with your soul-bound weapon is perfected. You can use your reckless attack feature when making ranged attacks with your soul-bound weapons. Additionally, choose one of the following options.</p>
+            <p class="indent"><strong>Brash Soul.</strong> When you hit a creature with your ranged strike while you are raging, you can push or pull it 10 feet in a direction of your choice as your soul-bound weapon barrels into it.</p>
+            <p class="indent"><strong>Hopeful Soul.</strong> When you miss with a ranged strike with your soul-bound weapon, you can reroll the attack and add 1d6 to the result. You must use the new result. Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+            <p class="indent"><strong>Independent Soul.</strong> One of your soul-bound weapons gains sentience. While you are raging, it gains a fly (hover) speed equal to half your walking speed and can act independently to make attacks. In combat, it takes its turn immediately after yours. It can make melee attacks using your Strength modifier plus your proficiency bonus. Once per round, either you or your weapon can gain advantage on an attack while you are both within 5 feet of the target. Your sentient weapon loses its fly speed and its ability to attack independently if it moves more than 60 feet from you, you stop raging, or you fall unconscious.</p>
+            <p class="indent"><strong>Shooting Soul.</strong> You and your soul-bound weapon can soar through the sky together. While raging, you gain a fly speed equal to your walking speed while you are wielding your soul-bound weapon.</p>
+        </description>
+        <sheet>
+            <description>You can use your reckless attack feature when making ranged attacks with your soul-bound weapons.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" supports="paired-fury"/>
+        </rules>
+    </element>
+    <element name="Brash Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_BRASH_SOUL">
+        <supports>paired-fury</supports>
+        <description>
+            <p>When you hit a creature with your ranged strike while you are raging, you can push or pull it 10 feet in a direction of your choice as your soul-bound weapon barrels into it.</p>
+        </description>
+        <sheet>
+            <description>When you hit a creature with your ranged strike while you are raging, you can push or pull it 10 feet in a direction of your choice as your soul-bound weapon barrels into it.</description>
+        </sheet>
+    </element>
+    <element name="Hopeful Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_HOPEFUL_SOUL">
+        <supports>paired-fury</supports>
+        <description>
+            <p>When you miss with a ranged strike with your soul-bound weapon, you can reroll the attack and add 1d6 to the result. You must use the new result. Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>When you miss with a ranged strike with your soul-bound weapon, you can reroll the attack and add 1d6 to the result. You must use the new result. Once you use this feature, you can’t use it again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+    <element name="Independent Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_INDEPENDENT_SOUL">
+        <supports>paired-fury</supports>
+        <description>
+            <p>One of your soul-bound weapons gains sentience. While you are raging, it gains a fly (hover) speed equal to half your walking speed and can act independently to make attacks. In combat, it takes its turn immediately after yours. It can make melee attacks using your Strength modifier plus your proficiency bonus. Once per round, either you or your weapon can gain advantage on an attack while you are both within 5 feet of the target. Your sentient weapon loses its fly speed and its ability to attack independently if it moves more than 60 feet from you, you stop raging, or you fall unconscious.</p>
+        </description>
+        <sheet>
+            <description>One of your soul-bound weapons gains sentience. While you are raging, it gains a fly (hover) speed equal to half your walking speed and can act independently to make attacks. In combat, it takes its turn immediately after yours. It can make melee attacks using your Strength modifier plus your proficiency bonus. Once per round, either you or your weapon can gain advantage on an attack while you are both within 5 feet of the target. Your sentient weapon loses its fly speed and its ability to attack independently if it moves more than 60 feet from you, you stop raging, or you fall unconscious.</description>
+        </sheet>
+    </element>
+    <element name="Shooting Soul" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SHOOTING_SOUL">
+        <supports>paired-fury</supports>
+        <description>
+            <p>You and your soul-bound weapon can soar through the sky together. While raging, you gain a fly speed equal to your walking speed while you are wielding your soul-bound weapon.</p>
+        </description>
+        <sheet>
+            <description>You and your soul-bound weapon can soar through the sky together. While raging, you gain a fly speed equal to your walking speed while you are wielding your soul-bound weapon.</description>
+        </sheet>
+    </element>
+    <element name="OPTIONAL FEATURE: Shared Demise" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_BARBARIAN_SOARING_SOUL_SHARED_DEMISE">
+        <supports>shared-demise</supports>
+        <description>
+            <p>If any of your soul-bound weapons are destroyed, you immediately drop to 0 hit points, ignoring your relentless rage feature. If you roll a 20 on a death saving throw while unconscious due to this shared demise, you regain half the hit points you had when your weapon was destroyed. If you succeed on three death saving throws, you regain 1 hit point. If your soul-bound weapon is destroyed, you can summon its spirit to return to you by completing a ritual that consumes materials equal to the cost of the weapon and takes no less than 24 hours to complete. At the end of this ritual, you gain a new soul-bound weapon of the same kind as the one that was destroyed.</p>
+        </description>
+        <sheet>
+            <description>If any of your soul-bound weapons are destroyed, you immediately drop to 0 hit points, ignoring your relentless rage feature. If you roll a 20 on a death saving throw while unconscious due to this shared demise, you regain half the hit points you had when your weapon was destroyed. If you succeed on three death saving throws, you regain 1 hit point. If your soul-bound weapon is destroyed, you can summon its spirit to return to you by completing a ritual that consumes materials equal to the cost of the weapon and takes no less than 24 hours to complete. At the end of this ritual, you gain a new soul-bound weapon of the same kind as the one that was destroyed.</description>
+        </sheet>
+    </element>
+</elements>
