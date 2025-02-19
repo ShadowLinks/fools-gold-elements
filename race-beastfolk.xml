@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-beastfolk.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-beastfolk.xml" />
+		</update>
+	</info>
+    <element name="Beastfolk" type="Race" source="Fools Gold" id="ID_HPP_FOOLS_RACE_BEASTFOLK">
+        <description>
+            <p>Take a humanoid and an animal, toss them in a magical blender, and what do you get? Beastfolk. Thanks to their varied origins and different animal traits, beastfolk are a hugely varied people. Beastfolk can be created from a blend of any kind of humanoid and animal.</p>
+            <h4>BECOMING BEASTFOLK</h4>
+            <p>Humanoids can become beastfolk by undergoing the beastfolk splicing ritual, performed by a skilled Splicer warlock. For some, becoming a beastfolk can be a true rebirth or a way of gaining new abilities and perspectives. Some seek the mental and physical prowess that results from the ritual. Others are looking for a chance at a new life or running away from their past.</p>
+            <p class="indent">Many beastfolk have never experienced the splicing ritual firsthand but instead were born to one or more beastfolk parents. Most beastfolk children inherit only one parent’s animal appearance.</p>
+            <h4>CONNECTION TO NATURE</h4>
+            <p>Beastfolk’s animal natures can be expressed in many ways and to different degrees. Some beastfolk may have enhanced hearing or sense of smell; others may be able to see more of the color spectrum. Some find it easy to balance their animal or humanoid aspects, while others struggle to keep both sides of their nature in harmony.</p>
+            <p class="indent"></p>
+            <h4>BEASTFOLK NAMES</h4>
+            <p>Some beastfolk keep the name they had before they were transformed. Others choose a new name, especially if they became a beastfolk to leave their past behind. In many beastfolk families, giving children names referencing their animal aspects is considered unusual. These families tend to look to elf, human, halfling, or orc names for inspiration. It is rare for any beastfolk to use a family name—a tradition stemming from the separation that the ritual represents between one’s old life and one’s new life.</p>
+            <h4>name Traits</h4>
+            <p>As someone who was either born or transformed into a beastfolk, you have certain traits in common with other beastfolk. Beastfolk are very diverse, based on the animal used to create them, how they became a beastfolk, and their life experiences.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1, and your choice of either Strength, Dexterity, or Constitution increases by 1 as well.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Your maximum natural lifespan depends on your own or your ancestors’ original humanoid race, combined with the longevity of the animal you take after. For example, a turtle beastfolk created from an elf might live for hundreds of years, while a mix of human and hamster might not live past 50.</p>
+            <p class="indent"><strong><em>Size.</em></strong> The size of the animal and the humanoid used in a beastfolk splicing ritual affects the size of the beastfolk created, but the results are unpredictable. For example, a halfling fused with a hippopotamus might retain their halfling height, become much larger, or end up somewhere in between. Your size is either Medium or Small.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Beast Bond.</em></strong>  You have advantage on Animal Handling checks made to interact with beasts that match the beast you take after, for example, a bear beastfolk interacting with bears.</p>
+            <p class="indent"><strong><em>Beast Senses.</em></strong> You have a beast’s heightened senses. Choose one from between these two traits:</p>
+            <ul>
+                <li><strong>Darkvision.</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray</li>
+                <li><strong>Enhanced Perception.</strong> You gain proficiency in the Perception skill. Choose either hearing, smell, or sight. You gain advantage on Perception checks made using this sense.</li>
+            </ul>
+            <p class="indent"><strong><em>Beast Defense.</em></strong> Your body is equipped with a natural defense. Choose one from between these two traits:</p>
+            <ul>
+                <li><strong>Armor of the Beast.</strong> You are covered in a tough hide or hard shell. While you are not wearing any armor, your Armor Class is 16. You can use a shield and still gain this benefit.</li>
+                <li><strong>Weapons of the Beast.</strong> You have a set of natural weapons, such as horns, claws, fangs, hooves, or a tail, that you can use to make unarmed strikes. Choose whether these unarmed strikes use your Dexterity modifier or your Strength modifier for attack and damage rolls and what kind of damage the attack deals from among bludgeoning, piercing, or slashing damage. On a hit, this attack deals 1d6 + your chosen ability score modifier damage of the chosen type. When you roll a critical hit with this attack, it deals an extra 1d6 damage in addition to the extra damage of the critical hit.</li>
+            </ul>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common. If you became a beastfolk through a ritual, you retain any languages you knew before you became a beastfolk.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> A wide variety of beastfolk can be found across Ambria, but beastfolk created from animals with similar habitats will have more in common with each other than those from different climates. Choose one subrace from among arctic beastfolk, aquatic beastfolk, desert beastfolk, forest beastfolk, or urban beastfolk.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+			<set name="names" type="male">Danny, Idris, Jose, Luca, Max, Omar, Robert, Sanjay</set>
+			<set name="names" type="female">Annie, Hana, Ji-an, Lulu, Noor, Pippa, Sara, Zaya</set>
+            <set name="names" type="gender neutral">Alex, Blake, Flossy, Kane, Roni, Jojo, Tolu, Yuuki</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement +1 (Beastfolk)" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION" />
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>    
+            <select name="Beastfolk Size" type="Size" supports="ID_SIZE_SMALL|ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="30" bonus="base" />
+            <select name="Beast Senses" type="Racial Trait" supports="beastfolk-senses" />
+            <select name="Beast Defenses" type="Racial Trait" supports="beastfolk-defenses" />
+            <select name="Beastfolk Subrace" type="Sub Race" supports="beastfolk" />
+        </rules>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_DARKVISION">
+        <supports>beastfolk-senses</supports>
+        <description>
+            <p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+        </description>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Enhanced Perception" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_ENHANCED_PERCEPTION">
+        <supports>beastfolk-senses</supports>
+        <description>
+            <p>You gain proficiency in the Perception skill. Choose either hearing, smell, or sight. You gain advantage on Perception checks made using this sense.</p>
+        </description>
+        <sheet>
+            <description>Choose either hearing, smell, or sight. You gain advantage on Perception checks made using this sense.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Armor of the Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_ARMOR_OF_THE_BEAST">
+        <supports>beastfolk-defenses</supports>
+        <description>
+            <p>You are covered in a tough hide or hard shell. While you are not wearing any armor, your Armor Class is 16. You can use a shield and still gain this benefit.</p>
+        </description>
+        <sheet>
+            <description>While you are not wearing any armor, your Armor Class is 16. You can use a shield and still gain this benefit.</description>
+        </sheet>
+        <rules>
+            <stat name="beastfolk:natural armor" value="16" bonus="base"/>
+            <stat name="ac:calculation" value="beastfolk:natural armor" bonus="calculation" alt="Natural Armor (Beastfolk)"/>
+        </rules>
+    </element>
+    <element name="Weapons of the Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_WEAPONS_OF_THE_BEAST">
+        <supports>beastfolk-defenses</supports>
+        <description>
+            <p>You have a set of natural weapons, such as horns, claws, fangs, hooves, or a tail, that you can use to make unarmed strikes. Choose whether these unarmed strikes use your Dexterity modifier or your Strength modifier for attack and damage rolls and what kind of damage the attack deals from among bludgeoning, piercing, or slashing damage. On a hit, this attack deals 1d6 + your chosen ability score modifier damage of the chosen type. When you roll a critical hit with this attack, it deals an extra 1d6 damage in addition to the extra damage of the critical hit.</p>
+        </description>
+        <sheet>
+            <description>You have a set of natural weapons, such as horns, claws, fangs, hooves, or a tail, that you can use to make unarmed strikes. Choose whether these unarmed strikes use your Dexterity modifier {{dexterity:modifier}} or your Strength modifier {{strength:modifier}} for attack and damage rolls and what kind of damage the attack deals from among bludgeoning, piercing, or slashing damage. On a hit, this attack deals 1d6 + your chosen ability score modifier damage of the chosen type. When you roll a critical hit with this attack, it deals an extra 1d6 damage in addition to the extra damage of the critical hit.</description>
+        </sheet>
+    </element>
+    <element name="Arctic Beastfolk" type="Sub Race" source="Tanares RPG 5E" id="ID_HPP_FOOLS_SUBRACE_ARCTIC_BEASTFOLK">
+        <supports>beastfolk</supports>
+        <description>
+            <p>Created from animals that hail from the frost-laden peaks of tall mountains, or Ambria’s windswept tundras, such as caribou, polar bears, and penguins, these beastfolk are hearty and well insulated against the cold.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong>
+                Your Constitution score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Frostborn Beast.</em>
+                </strong>
+                You gain proficiency in the Survival skill. You make Survival checks related to mountainous and arctic environments with advantage.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Coldproof.</em>
+                </strong>
+                You have resistance to cold damage.
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <stat name="Constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_ARCTIC_FROSTBORN_BEAST"/>
+        </rules>
+    </element>
+    <element name="Frostborn Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_ARCTIC_FROSTBORN_BEAST">
+        <sheet>
+            <description>You make Survival checks related to mountainous and arctic environments with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Aquatic Beastfolk" type="Sub Race" source="Tanares RPG 5E" id="ID_HPP_FOOLS_SUBRACE_AQUATIC_BEASTFOLK">
+        <supports>beastfolk</supports>
+        <description>
+            <p>Created from beasts that inhabit the seas, rivers, coasts, or marshes, such as sharks, frogs, and otters, this adaptable group of beastfolk are adept at moving between worlds both wet and dry.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong>
+                Your Wisdom score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Waterborn Beast.</em>
+                </strong>
+                You gain proficiency in the Survival skill. You make Survival checks related to coastal, marshy, and aquatic environments with advantage. 
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Marine Life.</em>
+                </strong>
+                You gain a swim speed equal to your walking speed, and you can attempt to hide when you are at least partially submerged in water. Additionally, choose one of the following traits:
+            </p>
+            <ul>
+                <li>Amphibious. You can breathe both air and water. If you do not spend at least 10 minutes immersed in water every 8 hours, you gain a level of exhaustion.</li>
+                <li>Hold Breath. You can hold your breath for up to 1 hour.</li>
+            </ul>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="innate speed:swim" value="speed" bonus="base" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_AQUATIC_WATERBORN_BEAST" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_AQUATIC_MARINE_LIFE" />
+        </rules>
+    </element>
+    <element name="Waterborn Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_AQUATIC_WATERBORN_BEAST">
+        <sheet>
+            <description>You make Survival checks related to coastal, marshy, and aquatic environments with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Marine Life" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_AQUATIC_MARINE_LIFE">
+        <description>
+            <p>You gain a swim speed equal to your walking speed, and you can attempt to hide when you are at least partially submerged in water. Additionally, choose one of the following traits:</p>
+             <ul>
+                <li>Amphibious. You can breathe both air and water. If you do not spend at least 10 minutes immersed in water every 8 hours, you gain a level of exhaustion.</li>
+                <li>Hold Breath. You can hold your breath for up to 1 hour.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You gain a swim speed equal to your walking speed, and you can attempt to hide when you are at least partially submerged in water. </description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:swim" value="speed" bonus="base" />
+            <select type="Racial Trait" supports="marine-life" />
+        </rules>
+    </element>
+    <element name="Amphibious" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_AMPHIBIOUS">
+        <supports>marine-life</supports>
+        <description>
+            <p>You can breathe both air and water. If you do not spend at least 10 minutes immersed in water every 8 hours, you gain a level of exhaustion.</p>
+        </description>
+        <sheet>
+            <description>You can breathe both air and water. If you do not spend at least 10 minutes immersed in water every 8 hours, you gain a level of exhaustion.</description>
+        </sheet>
+    </element>
+    <element name="Hold Breath" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_BEASTFOLK_HOLD_BREATH">
+        <supports>marine-life</supports>
+        <description>
+            <p>You can hold your breath for up to 1 hour.</p>
+        </description>
+        <sheet>
+            <description>You can hold your breath for up to 1 hour.</description>
+        </sheet>
+    </element>
+    <element name="Desert Beastfolk" type="Sub Race" source="Tanares RPG 5E" id="ID_HPP_FOOLS_SUBRACE_DESERT_BEASTFOLK">
+        <supports>beastfolk</supports>
+        <description>
+            <p></p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong>
+                Your Constitution score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Sandborn Beast.</em>
+                </strong>
+                You gain proficiency in the Survival skill. You make Survival checks related to desert and scrubland environments with advantage.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Heatproof.</em>
+                </strong>
+                You have resistance to fire damage.
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <stat name="Constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_DESERT_SANDBORN_BEAST" level="1"/>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+        </rules>
+    </element>
+    <element name="Sandborn Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_DESERT_SANDBORN_BEAST">
+        <sheet>
+            <description>You make Survival checks related to desert and scrubland environments with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Forest Beastfolk" type="Sub Race" source="Tanares RPG 5E" id="ID_HPP_FOOLS_SUBRACE_FOREST_BEASTFOLK">
+        <supports>beastfolk</supports>
+        <description>
+            <p>Created from beasts that thrive in dense forests and jungles, such as apes, panthers, and parrots, these beastfolk are well-rounded survivors who know how to use the environment to their advantage.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong>
+                Your Dexterity score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Treeborn Beast.</em>
+                </strong>
+                You make Survival checks related to forest and jungle environments with advantage.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Alert and Wary.</em>
+                </strong>
+                Your body is attuned to surviving in the eat-or-be-eaten world of the forest. You can add your Wisdom modifier (minimum of 1) as a bonus to your initiative rolls.
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="Dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FOREST_TREEBORN_BEAST" level="1"/>
+            <stat name="initiative" value="wisdom:modifier"/>
+        </rules>
+    </element>
+    <element name="Treeborn Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FOREST_TREEBORN_BEAST">
+        <sheet>
+            <description>You gain proficiency in the Survival skill. You make Survival checks related to forest and jungle environments with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Urban Beastfolk" type="Sub Race" source="Tanares RPG 5E" id="ID_HPP_FOOLS_SUBRACE_URBAN_BEASTFOLK">
+        <supports>beastfolk</supports>
+        <description>
+            <p>Created from domesticated and wild animals that have adapted to living around humanoid settlements, such as dogs, foxes, and horses, these beastfolk are insightful and adaptable.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong>
+                Your Charisma score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Cityborn Beast.</em>
+                </strong>
+                You gain proficiency in the Survival skill. You make Survival checks related to urban environments with advantage.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Streetwise.</em>
+                </strong>
+                Your senses are adapted to keep you alive in the hustle and bustle of the humanoid world. You gain proficiency in the Insight skill and have advantage on Insight checks made to determine if someone is lying to you.
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="Charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_URBAN_CITYBORN_BEAST" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_URBAN_STREETWISE" />
+        </rules>
+    </element>
+    <element name="Cityborn Beast" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_URBAN_CITYBORN_BEAST">
+        <sheet>
+            <description>You gain proficiency in the Survival skill. You make Survival checks related to urban environments with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Streetwise" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_URBAN_STREETWISE">
+        <sheet>
+            <description>have advantage on Insight checks made to determine if someone is lying to you.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+        </rules>
+    </element>
+</elements>
