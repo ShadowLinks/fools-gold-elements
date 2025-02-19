@@ -308,574 +308,572 @@
     <element name="Feature: Curse 26" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_026">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>26- </p>
+            <p>26- One of your arms turns into a tentacle. You can still use it to hold and wield items, activate the properties of magic items, or perform the somatic components of spells, but you can no longer wear gloves or bracers.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_026" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_026">
+    <element name="CURSE: One of your arms turns into a tentacle. You can still use it to hold and wield items, activate the properties of magic items, or perform the somatic components of spells, but you can no longer wear gloves or bracers." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_026">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 27" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_027">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>27- </p>
+            <p>27- You grow one or more 2-inch long horns from your forehead. Whenever you steal from or kill another creature, the horns grow 1 inch longer.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_027" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_027">
+    <element name="CURSE: You grow one or more 2-inch long horns from your forehead. Whenever you steal from or kill another creature, the horns grow 1 inch longer." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_027">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 28" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_028">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>28- </p>
+            <p>28- Your feet become ducks that quack as you move. You have disadvantage on Dexterity (Stealth) checks. Whenever you try to speak quietly, you must succeed on a Charisma saving throw against your Curse DC, or your duck-feet let out a loud honk audible out to 300 feet.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_028" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_028">
+    <element name="CURSE: Your feet become ducks that quack as you move. You have disadvantage on Dexterity (Stealth) checks. Whenever you try to speak quietly, you must succeed on a Charisma saving throw against your Curse DC, or your duck-feet let out a loud honk audible out to 300 feet." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_028">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 29" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_029">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>29- </p>
+            <p>29- An eerie tattoo appears on your arm, leg, torso, or face. Whenever you kill another creature, make a Constitution saving throw against your Curse DC. On a failure, you gain a new tattoo on another listed part of your body. Once you have three tattoos on each of these body parts, you die.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_029" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_029">
+    <element name="CURSE: An eerie tattoo appears on your arm, leg, torso, or face. Whenever you kill another creature, make a Constitution saving throw against your Curse DC. On a failure, you gain a new tattoo on another listed part of your body. Once you have three tattoos on each of these body parts, you die." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_029">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 30" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_030">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>30- </p>
+            <p>30- You can only speak falsehoods. If affected by a zone of truth spell or subjected to a similar effect, you are unable to say anything.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_030" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_030">
+    <element name="CURSE: You can only speak falsehoods. If affected by a zone of truth spell or subjected to a similar effect, you are unable to say anything." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_030">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 31" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_031">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>31- </p>
+            <p>31- A powerful NPC chosen by the GM believes you have wronged them and is hostile toward you. If the NPC dies or you reconcile with them, another powerful NPC becomes hostile to you in the same way.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_031" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_031">
+    <element name="CURSE: A powerful NPC chosen by the GM believes you have wronged them and is hostile toward you. If the NPC dies or you reconcile with them, another powerful NPC becomes hostile to you in the same way." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_031">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 32" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_032">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>32- </p>
+            <p>32- Plants grow all over your body and regrow instantly if removed. When you take fire damage, roll a Constitution saving throw against your Curse DC. On a failure, you are incapacitated until the end of your
+next turn.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_032" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_032">
+    <element name="CURSE: Plants grow all over your body and regrow instantly if removed. When you take fire damage, roll a Constitution saving throw against your Curse DC. On a failure, you are incapacitated until the end of your next turn." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_032">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 33" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_033">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>33- </p>
+            <p>33- Whenever you fall from a height of 10 feet or more, a pile of manure appears beneath you to soften your landing, reducing any damage you take from falling by half. You can’t clean off the manure by magical means.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_033" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_033">
+    <element name="CURSE: Whenever you fall from a height of 10 feet or more, a pile of manure appears beneath you to soften your landing, reducing any damage you take from falling by half. You can’t clean off the manure by magical means." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_033">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 34" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_034">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>34- </p>
+            <p>34- You can no longer sleep or trance. You must stay perfectly motionless for the same amount of time as you previously had to sleep or trance to benefit from a long rest, but you remain alert and conscious. You can’t be affected by dream magic.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_034" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_034">
+    <element name="CURSE: You can no longer sleep or trance. You must stay perfectly motionless for the same amount of time as you previously had to sleep or trance to benefit from a long rest, but you remain alert and conscious. You can’t be affected by dream magic." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_034">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 35" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_035">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>35- </p>
+            <p>35- In direct sunlight, you exude an aura of shadows in a 10-foot radius. You and creatures within the aura have disadvantage on Wisdom (Perception) checks that rely on sight. Once each day, you can attempt to suppress this aura by making a Charisma saving throw against your Curse DC. On a failure, your aura becomes total darkness for 1 minute.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_035" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_035">
+    <element name="CURSE: In direct sunlight, you exude an aura of shadows in a 10-foot radius. You and creatures within the aura have disadvantage on Wisdom (Perception) checks that rely on sight. Once each day, you can attempt to suppress this aura by making a Charisma saving throw against your Curse DC. On a failure, your aura becomes total darkness for 1 minute." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_035">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 36" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_036">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>36- </p>
+            <p>36- You grow a pair of donkey ears, which replace your own.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_036" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_036">
+    <element name="CURSE: You grow a pair of donkey ears, which replace your own." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_036">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 37" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_037">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>37- </p>
+            <p>37- Your adrenaline makes you teleport unpredictably. Whenever you roll initiative, make a Charisma saving throw against your Curse DC. On a failure, you are teleported to an unoccupied space of the GM’s choice at the start of your turn.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_037" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_037">
-        <supports>Vulnerability</supports>
-    </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_">
+    <element name="CURSE: Your adrenaline makes you teleport unpredictably. Whenever you roll initiative, make a Charisma saving throw against your Curse DC. On a failure, you are teleported to an unoccupied space of the GM’s choice at the start of your turn." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_037">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 38" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_038">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>38- </p>
+            <p>38- You are semi-translucent in the daylight and can only regain hit points in dim light or darkness.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_038" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_038">
+    <element name="CURSE: You are semi-translucent in the daylight and can only regain hit points in dim light or darkness." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_038">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 39" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_039">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>39- </p>
+            <p>39- A tooth grows somewhere conspicuous on your body. If the tooth isn’t cleaned regularly, more teeth appear on your body in random spots.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_039" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_039">
+    <element name="CURSE: A tooth grows somewhere conspicuous on your body. If the tooth isn’t cleaned regularly, more teeth appear on your body in random spots." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_039">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 40" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_040">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>40- </p>
+            <p>40- You are cursed to slowly become a tree. Your skin becomes wood-like, branches grow from your body, and your base walking speed is reduced by 5 feet. Every 10 days, you must make a Wisdom saving throw against your Curse DC, or your base walking speed is reduced by another 5 feet. Once your base walking speed becomes 0, you transform into a tree. A remove curse spell or similar magic can restore 5 feet of your base movement speed, but it won’t remove the curse.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_040" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_040">
+    <element name="CURSE: You are cursed to slowly become a tree. Your skin becomes wood-like, branches grow from your body, and your base walking speed is reduced by 5 feet. Every 10 days, you must make a Wisdom saving throw against your Curse DC, or your base walking speed is reduced by another 5 feet. Once your base walking speed becomes 0, you transform into a tree. A remove curse spell or similar magic can restore 5 feet of your base movement speed, but it won’t remove the curse." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_040">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 41" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_041">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>41- </p>
+            <p>41- Your body turns into living glass. You no longer need to eat, drink, or sleep, though you must still rest as normal for a creature of your kind. You are immune to poison damage and the poisoned condition but are vulnerable to bludgeoning damage. You can’t gain resistance or immunity to bludgeoning damage. Whenever you make a Constitution check or saving throw, use your Curse DC or the DC of the effect, whichever is higher.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_041" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_041">
+    <element name="CURSE: Your body turns into living glass. You no longer need to eat, drink, or sleep, though you must still rest as normal for a creature of your kind. You are immune to poison damage and the poisoned condition but are vulnerable to bludgeoning damage. You can’t gain resistance or immunity to bludgeoning damage. Whenever you make a Constitution check or saving throw, use your Curse DC or the DC of the effect, whichever is higher." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_041">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 42" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_042">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>42- </p>
+            <p>42- Wherever you walk, you leave a trail of dark, sooty footsteps that resemble either monstrous feet or cloven hooves. Creatures have advantage on Wisdom (Survival) checks made to track you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_042" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_042">
+    <element name="CURSE: Wherever you walk, you leave a trail of dark, sooty footsteps that resemble either monstrous feet or cloven hooves. Creatures have advantage on Wisdom (Survival) checks made to track you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_042">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 43" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_043">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>43- </p>
+            <p>43- Your body regresses to its child form. Your size becomes Small, but none of your other statistics change. NPCs tend to underestimate and patronize you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_043" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_043">
+    <element name="CURSE: Your body regresses to its child form. Your size becomes Small, but none of your other statistics change. NPCs tend to underestimate and patronize you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_043">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 44" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_044">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>44- </p>
+            <p>44- Whenever you feel angry or frightened, you must make a Constitution saving throw against your Curse DC. On a failure, your whole face inflates like a pufferfish until you become calm again.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_044" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_044">
+    <element name="CURSE: Whenever you feel angry or frightened, you must make a Constitution saving throw against your Curse DC. On a failure, your whole face inflates like a pufferfish until you become calm again." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_044">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 45" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_045">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>45- </p>
+            <p>45- You grow a lantern-like organ somewhere conspicuous on your body. The organ constantly sheds bright light in a 10-foot radius and dim light in a 10-foot radius beyond that. Covering the light causes you intense discomfort until you let it shine again.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_045" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_045">
+    <element name="CURSE: You grow a lantern-like organ somewhere conspicuous on your body. The organ constantly sheds bright light in a 10-foot radius and dim light in a 10-foot radius beyond that. Covering the light causes you intense discomfort until you let it shine again." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_045">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 46" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_046">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>46- </p>
+            <p>46- You begin each day as a young adult but age rapidly, becoming middle-aged at midday and elderly by the evening. Each day at dawn, this process repeats. This transformation does not affect your ability scores, but your personality may change over a day.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_046" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_046">
+    <element name="CURSE: You begin each day as a young adult but age rapidly, becoming middle-aged at midday and elderly by the evening. Each day at dawn, this process repeats. This transformation does not affect your ability scores, but your personality may change over a day." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_046">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 47" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_047">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>47- </p>
+            <p>47- You must pet a beast by succeeding on a Wisdom (Animal Handling) check against your Curse DC once per day or suffer a level of exhaustion at the start of the next day.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_047" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_047">
+    <element name="CURSE: You must pet a beast by succeeding on a Wisdom (Animal Handling) check against your Curse DC once per day or suffer a level of exhaustion at the start of the next day." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_047">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 48" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_048">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>48- </p>
+            <p>48- Your eyes change color according to your emotions, making your mood plain for all to see. Other creatures have advantage on Wisdom (Insight) checks against you as long as they can see your eyes.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_048" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_048">
+    <element name="CURSE: Your eyes change color according to your emotions, making your mood plain for all to see. Other creatures have advantage on Wisdom (Insight) checks against you as long as they can see your eyes." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_048">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 49" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_049">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>49- </p>
+            <p>49- Missiles are attracted to you. Whenever a ranged weapon attack is made against a target within 10 feet of you, you become the target of the attack instead.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_049" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_049">
+    <element name="CURSE: Missiles are attracted to you. Whenever a ranged weapon attack is made against a target within 10 feet of you, you become the target of the attack instead." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_049">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 50" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_050">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>50- </p>
+            <p>50- You become allergic to healing magic. Whenever you regain hit points from a spell or potion, the number of hit points you regain is reduced by half, and you sneeze uncontrollably for 10 minutes.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_050" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_050">
+    <element name="CURSE: You become allergic to healing magic. Whenever you regain hit points from a spell or potion, the number of hit points you regain is reduced by half, and you sneeze uncontrollably for 10 minutes." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_050">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 51" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_051">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>51- </p>
+            <p>51- Creatures of the beast type are hostile toward you, growling or hissing whenever they spot you. You have disadvantage on Wisdom (Animal Handling) checks.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_051" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_051">
+    <element name="CURSE: Creatures of the beast type are hostile toward you, growling or hissing whenever they spot you. You have disadvantage on Wisdom (Animal Handling) checks." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_051">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 52" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_052">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>52- </p>
+            <p>52- When you fail an Intelligence (Investigation) check made to search for a clue or object, you find a live octopus instead.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_052" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_052">
+    <element name="CURSE: When you fail an Intelligence (Investigation) check made to search for a clue or object, you find a live octopus instead." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_052">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 53" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_053">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>53- </p>
+            <p>53- Once per day at a time of the GM’s choice, a flock of geese appears and swarms you, pecking at you for one round. You must succeed on a Dexterity saving throw against your Curse save DC or fall prone. The geese vanish after their ambush.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_053" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_053">
+    <element name="CURSE: Once per day at a time of the GM’s choice, a flock of geese appears and swarms you, pecking at you for one round. You must succeed on a Dexterity saving throw against your Curse save DC or fall prone. The geese vanish after their ambush." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_053">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 54" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_054">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>54- </p>
+            <p>54- Your body temperature dramatically decreases. You have vulnerability to fire damage. Whenever you touch a nonmagical object with your bare hands, you must succeed on a Charisma saving throw against your Curse DC, or your curse freezes it solid.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_054" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_054">
+    <element name="CURSE: Your body temperature dramatically decreases. You have vulnerability to fire damage. Whenever you touch a nonmagical object with your bare hands, you must succeed on a Charisma saving throw against your Curse DC, or your curse freezes it solid." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_054">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 55" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_055">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>55- </p>
+            <p>55- Each dawn, you must make a Constitution saving throw against your Curse DC. On a failure, you are vulnerable to a random damage type of the GM’s choice for the next 8 hours. An irremovable note appears on your back that references the damage type, such as “Hit me with acid.”</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_055" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_055">
+    <element name="CURSE: Each dawn, you must make a Constitution saving throw against your Curse DC. On a failure, you are vulnerable to a random damage type of the GM’s choice for the next 8 hours. An irremovable note appears on your back that references the damage type, such as “Hit me with acid.”" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_055">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 56" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_056">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>56- </p>
+            <p>56- If a humanoid NPCs or PCs doesn’t see you for 2d4 days, they forget everything about you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_056" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_056">
+    <element name="CURSE: If a humanoid NPCs or PCs doesn’t see you for 2d4 days, they forget everything about you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_056">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 57" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_057">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>57- </p>
+            <p>57- You become stuck levitating 6 inches above the ground. Your speed remains unchanged, and you still take fall damage if you try to move over empty space. The only way for you to move is to declare your direction with a command such as, “forward, 30 feet,” or “left, 5 feet.”</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_057" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_057">
+    <element name="CURSE: You become stuck levitating 6 inches above the ground. Your speed remains unchanged, and you still take fall damage if you try to move over empty space. The only way for you to move is to declare your direction with a command such as, “forward, 30 feet,” or “left, 5 feet.”" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_057">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 58" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_058">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>58- </p>
+            <p>58- Your eyes are replaced with eyestalks, like those of a mantis shrimp. You can see a massive range of colors beyond normal humanoid perception, but you can’t describe those colors to others in a meaningful way or perceive colors as other humanoids do. You are also incapable of wearing or benefitting from lenses or other items meant to be worn over the eyes.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_058" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_058">
+    <element name="CURSE: Your eyes are replaced with eyestalks, like those of a mantis shrimp. You can see a massive range of colors beyond normal humanoid perception, but you can’t describe those colors to others in a meaningful way or perceive colors as other humanoids do. You are also incapable of wearing or benefitting from lenses or other items meant to be worn over the eyes." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_058">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 59" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_059">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>59- </p>
+            <p>59- Your body sparks with cursed lightning. Whenever you touch another creature, you must make a Charisma saving throw against your Curse DC. On a failure, both you and the creature you touch take 1d6 lightning damage and are pushed 10 feet apart. Resistance or immunity to lightning can’t reduce the damage you take from this curse.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_059" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_059">
+    <element name="CURSE: Your body sparks with cursed lightning. Whenever you touch another creature, you must make a Charisma saving throw against your Curse DC. On a failure, both you and the creature you touch take 1d6 lightning damage and are pushed 10 feet apart. Resistance or immunity to lightning can’t reduce the damage you take from this curse." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_059">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 60" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_060">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>60- </p>
+            <p>60- Your body temperature dramatically increases. You have vulnerability to cold damage. Whenever you touch a nonmagical object with your bare hands, you must succeed on a Charisma saving throw against your Curse DC, or your curse sets the object on fire.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_060" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_060">
+    <element name="CURSE: Your body temperature dramatically increases. You have vulnerability to cold damage. Whenever you touch a nonmagical object with your bare hands, you must succeed on a Charisma saving throw against your Curse DC, or your curse sets the object on fire." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_060">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 61" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_061">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>61- </p>
+            <p>61- You are cursed to wander. Whenever you or a group you are with attempt to navigate, you must make a Wisdom (Survival) check against your Curse DC in addition to any other check made to find your way. On a failure, your party becomes lost as you stumble in danger.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_061" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_061">
+    <element name="CURSE: You are cursed to wander. Whenever you or a group you are with attempt to navigate, you must make a Wisdom (Survival) check against your Curse DC in addition to any other check made to find your way. On a failure, your party becomes lost as you stumble in danger." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_061">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 62" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_062">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>62- </p>
+            <p>62- An eldritch symbol appears somewhere on your body, marking you for death. If you are reduced to 0 hit points, you die and immediately rise again as a wraith.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_062" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_062">
+    <element name="CURSE: An eldritch symbol appears somewhere on your body, marking you for death. If you are reduced to 0 hit points, you die and immediately rise again as a wraith." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_062">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 63" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_063">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>63- </p>
+            <p>63- You have a visible purple aura surrounding you at all times. You have advantage on Charisma (Intimidation) checks but disadvantage on Charisma (Persuasion) checks.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_063" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_063">
+    <element name="CURSE: You have a visible purple aura surrounding you at all times. You have advantage on Charisma (Intimidation) checks but disadvantage on Charisma (Persuasion) checks." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_063">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 64" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_064">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>64- </p>
+            <p>64- Witnessing violence hurts you. When you see a creature take damage for the first time in combat, you feel a sharp jolt of pain and must make a Wisdom saving throw against your Curse save DC. On a failure, you take 1d4 psychic damage.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_064" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_064">
+    <element name="CURSE: Witnessing violence hurts you. When you see a creature take damage for the first time in combat, you feel a sharp jolt of pain and must make a Wisdom saving throw against your Curse save DC. On a failure, you take 1d4 psychic damage." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_064">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 65" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_065">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>65- </p>
+            <p>65- All nonmagical plants, fruits, and vegetables that you touch wither and die.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_065" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_065">
+    <element name="CURSE: All nonmagical plants, fruits, and vegetables that you touch wither and die." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_065">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 66" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_066">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>66- </p>
+            <p>66- You suffer no direct effect from this curse, but when NPCs see you, they are overcome with a strong feeling that you are cursed.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_066" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_066">
+    <element name="CURSE: You suffer no direct effect from this curse, but when NPCs see you, they are overcome with a strong feeling that you are cursed." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_066">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 67" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_067">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>67- </p>
+            <p>67- You attract cursed magic items. You can attune to up to four magic items at once, but only if at least two of them have a curse.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_067" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_067">
+    <element name="CURSE: You attract cursed magic items. You can attune to up to four magic items at once, but only if at least two of them have a curse." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_067">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 68" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_068">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>68- </p>
+            <p>68- You cry and sweat blood. Whenever you must make a saving throw to resist gaining a level of exhaustion, use your Curse DC or the DC of the check, whichever is higher.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_068" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_068">
+    <element name="CURSE: You cry and sweat blood. Whenever you must make a saving throw to resist gaining a level of exhaustion, use your Curse DC or the DC of the check, whichever is higher." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_068">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 69" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_069">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>69- </p>
+            <p>69- You lose the ability to swim, as well as any swim speed or ability to breathe water, though you can still breathe air. While submerged in water, you have disadvantage on Strength (Athletics) checks and must succeed on a Strength saving throw against your Curse DC at the start of each of your turns or sink by 5 feet.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_069" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_069">
+    <element name="CURSE: You lose the ability to swim, as well as any swim speed or ability to breathe water, though you can still breathe air. While submerged in water, you have disadvantage on Strength (Athletics) checks and must succeed on a Strength saving throw against your Curse DC at the start of each of your turns or sink by 5 feet." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_069">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 70" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_070">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>70- </p>
+            <p>70- You grow eyes all over your body. You can see in all directions at once and have advantage on Wisdom (Perception) checks that rely on sight, but you can’t avert your eyes from a creature’s gaze, and you have disadvantage on saving throws against being blinded.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_070" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_070">
+    <element name="CURSE: You grow eyes all over your body. You can see in all directions at once and have advantage on Wisdom (Perception) checks that rely on sight, but you can’t avert your eyes from a creature’s gaze, and you have disadvantage on saving throws against being blinded." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_070">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 71" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_071">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>71- </p>
+            <p>71- Whenever you are uncomfortable or nervous, you sweat bright green droplets. The droplets form a 10-foot-radius circle puddle on the ground, centered on you. Each creature that starts its turn standing in the puddle or that enters the puddle for the first time on its turn must succeed on a Dexterity saving throw against your Curse DC or fall prone.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_071" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_071">
+    <element name="CURSE: Whenever you are uncomfortable or nervous, you sweat bright green droplets. The droplets form a 10-foot-radius circle puddle on the ground, centered on you. Each creature that starts its turn standing in the puddle or that enters the puddle for the first time on its turn must succeed on a Dexterity saving throw against your Curse DC or fall prone." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_071">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 72" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_072">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>72- </p>
+            <p>72- You teleport randomly at inconvenient moments. Whenever you roll initiative, you must make a Constitution saving throw against your Curse DC. On a failure, you teleport up to your movement speed in a random direction (chosen by the GM), and your speed becomes 0 until the end of your first turn.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_072" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_072">
+    <element name="CURSE: You teleport randomly at inconvenient moments. Whenever you roll initiative, you must make a Constitution saving throw against your Curse DC. On a failure, you teleport up to your movement speed in a random direction (chosen by the GM), and your speed becomes 0 until the end of your first turn." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_072">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 73" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_073">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>73- </p>
+            <p>73- Whenever you buy something, merchants charge you twice the standard price.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_073" />    
@@ -887,313 +885,313 @@
     <element name="Feature: Curse 74" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_074">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>74- </p>
+            <p>74- You lose your name. No mortal creature can refer to you by your name, and any new name that you take on or nickname that becomes a name for you is also lost each day at dusk. You can’t be targeted with the sending spell.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_074" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_074">
+    <element name="CURSE: You lose your name. No mortal creature can refer to you by your name, and any new name that you take on or nickname that becomes a name for you is also lost each day at dusk. You can’t be targeted with the sending spell." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_074">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 75" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_075">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>75- </p>
+            <p>75- Wherever you walk, your feet leave a trail of oil. You have disadvantage on Dexterity (Acrobatics) checks and on checks or saving throws to resist being shoved.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_075" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_075">
+    <element name="CURSE: Wherever you walk, your feet leave a trail of oil. You have disadvantage on Dexterity (Acrobatics) checks and on checks or saving throws to resist being shoved." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_075">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 76" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_076">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>76- </p>
+            <p>76- A small black mark appears on anyone you love if you kiss them. The mark grows slightly larger each day. One month after the kiss, the person with the mark drops dead.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_076" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_076">
+    <element name="CURSE: A small black mark appears on anyone you love if you kiss them. The mark grows slightly larger each day. One month after the kiss, the person with the mark drops dead." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_076">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 77" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_077">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>77- </p>
+            <p>77- Your entire body is covered in fragile spikes. Whenever a creature touches you, the spikes deal 1d4 piercing damage to the creature and to you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_077" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_077">
+    <element name="CURSE: Your entire body is covered in fragile spikes. Whenever a creature touches you, the spikes deal 1d4 piercing damage to the creature and to you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_077">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 78" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_078">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>78- </p>
+            <p>78- You grow a second mouth somewhere on your body that has its own personality traits, ideals, and flaws chosen randomly from your background or a background of the GM’s choice but shares your bond. The mouth speaks on its own if not kept covered, and it consumes food and drink each day as though it were a second person. If you don’t feed it each day, you gain 1 level of exhaustion.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_078" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_078">
+    <element name="CURSE: You grow a second mouth somewhere on your body that has its own personality traits, ideals, and flaws chosen randomly from your background or a background of the GM’s choice but shares your bond. The mouth speaks on its own if not kept covered, and it consumes food and drink each day as though it were a second person. If you don’t feed it each day, you gain 1 level of exhaustion." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_078">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 79" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_079">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>79- </p>
+            <p>79- You radiate a Chaos Zone in a 5-foot radius centered on yourself.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_079" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_079">
+    <element name="CURSE: You radiate a Chaos Zone in a 5-foot radius centered on yourself." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_079">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 80" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_080">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>80- </p>
+            <p>80- If you touch a bird, both you and the bird drop to 0 hit points.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_080" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_080">
+    <element name="CURSE: If you touch a bird, both you and the bird drop to 0 hit points." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_080">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 81" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_081">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>81- </p>
+            <p>81- At a moment of the GM’s choice while you are speaking, make a Charisma saving throw against your Curse DC. On a failure, a swarm of bees emerges from your mouth. The GM chooses whether the swarm is hostile or not. This curse can only activate once per day</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_081" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_081">
+    <element name="CURSE: At a moment of the GM’s choice while you are speaking, make a Charisma saving throw against your Curse DC. On a failure, a swarm of bees emerges from your mouth. The GM chooses whether the swarm is hostile or not. This curse can only activate once per day" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_081">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 82" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_082">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>82- </p>
+            <p>82- Your hands and feet are swapped. You have disadvantage on Dexterity (Sleight of Hand) checks.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_082" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_082">
+    <element name="CURSE: Your hands and feet are swapped. You have disadvantage on Dexterity (Sleight of Hand) checks." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_082">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 83" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_083">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>83- </p>
+            <p>83- You sprout a unicorn horn and tiny wings. They are useless and regrow if removed. Small children are drawn to taunt, admire, or stare at you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_083" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_083">
+    <element name="CURSE: You sprout a unicorn horn and tiny wings. They are useless and regrow if removed. Small children are drawn to taunt, admire, or stare at you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_083">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 84" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_084">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>84- </p>
+            <p>84- Any nonmagical book you touch turns into a potato.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_084" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_084">
+    <element name="CURSE: Any nonmagical book you touch turns into a potato." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_084">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 85" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_085">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>85- </p>
+            <p>85- You can only speak in Goblin, though you gain no special ability to read, write, or understand the language.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_085" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_085">
+    <element name="CURSE: You can only speak in Goblin, though you gain no special ability to read, write, or understand the language." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_085">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 86" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_086">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>86- </p>
+            <p>86- Your clothing, hair, fur, feathers, or scales appear disheveled. No amount of grooming can change this.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_086" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_086">
+    <element name="CURSE: Your clothing, hair, fur, feathers, or scales appear disheveled. No amount of grooming can change this." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_086">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 87" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_087">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>87- </p>
+            <p>87- You are cursed to lose everything you treasure. Whenever you store an object in a pocket or container worn, carried, or held by you, you must make a Wisdom saving throw against your Curse DC. On failure, the object is randomly transported somewhere else in the world (the GM chooses where).</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_087" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_087">
+    <element name="CURSE: You are cursed to lose everything you treasure. Whenever you store an object in a pocket or container worn, carried, or held by you, you must make a Wisdom saving throw against your Curse DC. On failure, the object is randomly transported somewhere else in the world (the GM chooses where)." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_087">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 88" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_088">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>88- </p>
+            <p>88- You are cursed to fear one type of non-humanoid creature of the GM’s choice. Whenever you see a creature of this type, you must succeed on a Wisdom saving throw against your Curse DC or become frightened of the creature for 1 hour. You can repeat this saving throw at the end of each of your turns, ending the effect on a success.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_088" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_088">
+    <element name="CURSE: You are cursed to fear one type of non-humanoid creature of the GM’s choice. Whenever you see a creature of this type, you must succeed on a Wisdom saving throw against your Curse DC or become frightened of the creature for 1 hour. You can repeat this saving throw at the end of each of your turns, ending the effect on a success." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_088">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 89" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_089">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>89- </p>
+            <p>89- You are haunted by a golden potato with wings that appears to distract you at the worst possible times. You have disadvantage on initiative rolls.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_089" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_089">
+    <element name="CURSE: You are haunted by a golden potato with wings that appears to distract you at the worst possible times. You have disadvantage on initiative rolls." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_089">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 90" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_090">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>90- </p>
+            <p>90- You can’t enter any residence or place of business without explicit permission from a creature living or working there.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_090" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_090">
+    <element name="CURSE: You can’t enter any residence or place of business without explicit permission from a creature living or working there." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_090">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 91" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_091">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>91- </p>
+            <p>91- You are always 1d12 minutes late to events and appointments that have a set time.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_091" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_091">
+    <element name="CURSE: You are always 1d12 minutes late to events and appointments that have a set time." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_091">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 92" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_092">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>92- </p>
+            <p>92- Your head becomes that of a random beast of CR 2 or lower. It is sized appropriately to fit your frame, and you retain your own senses, mental ability scores, and ability to speak.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_092" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_092">
+    <element name="CURSE: Your head becomes that of a random beast of CR 2 or lower. It is sized appropriately to fit your frame, and you retain your own senses, mental ability scores, and ability to speak." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_092">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 93" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_093">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>93- </p>
+            <p>93- Your reflection in any reflective surface is a specter that looks like you. It taunts you silently whenever you see it. If a mirror you are reflected in is broken, the specter is released and attacks you. If killed, the specter returns to the realm of reflections and continues its harassment of you.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_093" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_093">
+    <element name="CURSE: Your reflection in any reflective surface is a specter that looks like you. It taunts you silently whenever you see it. If a mirror you are reflected in is broken, the specter is released and attacks you. If killed, the specter returns to the realm of reflections and continues its harassment of you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_093">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 94" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_094">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>94- </p>
+            <p>94- You become a piece of furniture, such as an armchair, wardrobe, or candlestick. Your game statistics remain the same. Your equipment changes to fit your new size and shape, and you can manipulate objects using part of your new body</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_094" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_094">
+    <element name="CURSE: You become a piece of furniture, such as an armchair, wardrobe, or candlestick. Your game statistics remain the same. Your equipment changes to fit your new size and shape, and you can manipulate objects using part of your new body" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_094">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 95" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_095">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>95- </p>
+            <p>95- You are cursed to dance whenever you move and are unable to take the Disengage action.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_095" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_095">
+    <element name="CURSE: You are cursed to dance whenever you move and are unable to take the Disengage action." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_095">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 96" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_096">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>96- </p>
+            <p>96- Your head catches fire whenever you’re angry. These flames are harmless to you but can set unattended nonmagical objects within 5 feet of you on fire.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_096" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_096">
+    <element name="CURSE: Your head catches fire whenever you’re angry. These flames are harmless to you but can set unattended nonmagical objects within 5 feet of you on fire." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_096">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 97" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_097">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>97- </p>
+            <p>97- Any nonmagical item you touch becomes cursed. Roll on this table to determine the curse an object gains. Other creatures can gain that curse if they touch the object.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_097" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_097">
+    <element name="CURSE: Any nonmagical item you touch becomes cursed. Roll on this table to determine the curse an object gains. Other creatures can gain that curse if they touch the object." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_097">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 98" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_098">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>98- </p>
+            <p>98- Your body becomes rubbery and stretchy. You automatically succeed on checks made to escape from nonmagical restraints or grapples, but you have disadvantage on Strength checks and saving throws.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_098" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_098">
+    <element name="CURSE: Your body becomes rubbery and stretchy. You automatically succeed on checks made to escape from nonmagical restraints or grapples, but you have disadvantage on Strength checks and saving throws." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_098">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 99" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_099">
         <supports>fools-gold-curse</supports> 
         <description>
-            <p>99- </p>
+            <p>99- Your touch curses others. If a creature you touch fails a Wisdom saving throw against your Curse DC, it is afflicted with a random curse. Roll on this table to determine the curse the target receives.</p>
         </description>
         <rules>
             <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_099" />    
         </rules>
     </element>
-    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_099">
+    <element name="CURSE: Your touch curses others. If a creature you touch fails a Wisdom saving throw against your Curse DC, it is afflicted with a random curse. Roll on this table to determine the curse the target receives." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_099">
         <supports>Vulnerability</supports>
     </element>
     <element name="Feature: Curse 100" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_100">
