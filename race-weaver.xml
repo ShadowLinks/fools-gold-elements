@@ -49,6 +49,10 @@
             </ul>
         </description>
         <sheet display="false" />
+         <setters>
+            <set name="names" type="Name">AAurum, Caliper, Brugba, Fame, Gravity, Hoofstomp, Inlier, Look-Look, Loyal, Mason, Mega Moss, Nugget, Phosphene, River, Roslyn, Silhouette, Tumble, Vine</set>
+            <set name="names-format">{{Name}}</set>
+        </setters>
         <rules>
             <select type="Racial Trait" name="Size (Weaver)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM"/>
             <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>

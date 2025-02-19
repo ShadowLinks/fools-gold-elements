@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-foreclaimer.xml" />
+		</update>
+	</info>
+    <element name="Foreclaimer" type="Race" source="Fools Gold" id="ID_HPP_FOOLS_RACE_FORECLAIMER">
+        <description>
+            <p> s the foreclaimers are so deeply tied to the lore of the Bellowing Wilds, talk with your GM before creating a foreclaimer character and ways to integrate your foreclaimer character’s backstory into the campaign. Discuss some of the following questions to help integrate your foreclaimer character into a campaign everyone can enjoy: How much of the mystery do you want to preserve? If your GM is planning a game in which uncovering what happened to the foreclaimers will play a major part, then having a living, breathing spoiler walking around isn’t ideal. Consider ways a foreclaimer character might not have all the information in this chapter from the start. Perhaps they were raised outside of foreclaimer culture, have lost their memories, or don’t even know they are a foreclaimer. When is the adventure set? If your game takes place in a version of Ambria set after the events of the original Fool’s Gold campaign or the events of Part 7: Fool’s Gold All QUACKed Up, foreclaimer characters from Seelia could have returned to Ambria. Such games could explore themes of rediscovery and reconciliation. If your game takes place before the potential return of the foreclaimers, consider how a foreclaimer player character arrived in the right place at the right time to take part in the adventure. You and the GM could work on this together, or you could leave it up to the GM to decide, opening up the opportunity of a reveal similar to Gothi’s from the original Fool’s Gold game.</p>
+            <h4>DIVINELY CRAFTED BODIES</h4>
+            <p>The foreclaimers were originally crafted by the goddess Stella, who patterned them after elves and gifted them with a high level of curiosity. Their distant relation to elves is evident in their features: pointed ears, slender yet muscular physiques, and long lifespans. They’re taller than most elves, typically between six and seven feet tall. Their skin tones are shades of greenish-gray, from the color of light stone to deep, mossy green. Foreclaimers’ hair comes in various textures, typically in muted shades that help them blend in with their jungle home, such as earthy greens, soft blues, and subdued reds.</p>
+            <p class="indent"></p>
+            <h4>CURIOSITY AND KNOWLEDGE</h4>
+            <p>Foreclaimers are voraciously curious about the world and constantly seek to expand their knowledge. They love to offer solutions to problems, whether these are asked for or not. Such behavior is not regarded as rude in foreclaimer society, which values efficiency as the highest virtue.</p>
+            <p class="indent"></p>
+            <h4>NAMES</h4>
+            <p>Due to the natural flow of Stelkin, foreclaimers prefer names with two to three syllables, such as Gothica, Elowen, or Goddrick. Names that are overly long or short interrupt the breathing pattern used in the foreclaimer language. Foreclaimers are often named after their parents or other family members.</p>
+            <p class="indent">In addition to given names, foreclaimers use last names, which indicate a foreclaimer’s role in society. While foreclaimers pass down their last names to their children, if a foreclaimer enters a different specialization or accomplishes a significant scientific discovery or notable feat, they may adopt a new last name to mark the occasion.</p>
+            <h4>POWER CRYSTAL AUGMENTATION</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>name Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity and Intelligence scores each increase by 1. In addition, one other ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Foreclaimers reach adulthood at age 20. Unaugmented foreclaimers have a natural lifespan of around 700 years.</p>
+            <p class="indent"><strong><em>Size.</em></strong>  Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray</p>
+            <p class="indent"><strong><em>Fey Ancestry.</em></strong> Stella created the foreclaimers using elves as a template, and you share traits with your distant cousins. You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+            <p class="indent"><strong><em>Observant.</em></strong> You have proficiency in the Investigation and Perception skills.</p>
+            <p class="indent"><strong><em>Stella's Blessing.</em></strong> The light of the dead god Stella still burns inside you. You know the light cantrip. Intelligence is your spellcasting ability for this spell.</p>
+            <p class="indent"><strong><em>Augmentation.</em></strong> Augmentations push a foreclaimer’s body far beyond its natural limits. As an augmented foreclaimer, you have undergone an irreversible procedure that integrates circuitry and a power crystal socket into your body. You have also received specialized augmentations to enhance your abilities to perform your duties in foreclaimer society</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Stelkin and one other language.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="netural">Abrutis, Creneck, Dalatz, Farriun, Hazwick, Kolotho, Nyefin, Tathgis</set>
+			<set name="names" type="male">Carburk, Rahanult, Divalef, Farodirk, Serifalk, Hathgott, Lennisk, Zantan</set>
+			<set name="names" type="female">Ankai, Ethori, Falkana, Hithrike, Kilka, Ollanore, Urajen, Winrith</set>
+			<set name="names" type="surname"> Artenma, Brankia, Ferrstruct, Futirfo, Kappax, Nervivir, Sciosect, Tallum</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+        <rules>
+            <stat name="Intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <stat name="Dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Unaugmented Foreclaimer)" supports="Custom Ability Score Increase 1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <grant type="Language" id="ID_LANGUAGE_STELKIN" />
+            <select type="Language" name="Language, " supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_STELLAS_BLESSING" />
+            <select type="Racial Trait" name="Unaugmented or Augmented" supports="augemented-foreclaimer" />
+        </rules>
+    </element>
+    <element name="Stella's Blessing" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_STELLAS_BLESSING">
+        <description>
+            <p>The light of the dead god Stella still burns inside you. You know the light cantrip. Intelligence is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description>You know the light cantrip. Intelligence is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+        </rules>
+    </element>
+     <element name="Augmented Foreclaimer" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_AUGMENTED">
+        <supports>augemented-foreclaimer</supports>
+        <description>
+            <p>Augmentations push a foreclaimer’s body far beyond its natural limits. As an augmented foreclaimer, you have undergone an irreversible procedure that integrates circuitry and a power crystal socket into your body. You have also received specialized augmentations to enhance your abilities to perform your duties in foreclaimer society</p>
+            <p class="indent">As an augmented foreclaimer, you have the following traits in addition to all the unaugmented foreclaimer traits:</p>
+            <p class="indent"><strong>Power Crystal.</strong> You are sustained by a charged power crystal*, which fuels your augmented body. If the crystal is removed, you suffer three levels of exhaustion and lose all your augmented foreclaimer traits, including your specialization traits. You can remove these levels of exhaustion by taking long rests, provided you have consumed some food and drink. You regain the traits you lost when you insert a charged power crystal* into your power crystal socket but must finish a long rest to remove any remaining levels of exhaustion.</p>
+            <p class="indent"><strong>Delayed Aging.</strong> You can live up to 1,400 years if sustained by charged power crystals*. If you do not have a charged power crystal* for more than 24 hours, your body ages rapidly over that time to the physical age you would have been had you not been augmented, and your maximum lifespan is reduced to the natural lifespan of an unaugmented foreclaimer, even if you replace your crystal later.</p>
+            <p class="indent"><strong>Crystal Charged Metabolism.</strong> You do not require food, drink, or sleep. You need only rest while carrying out light activities for 4 hours to gain the benefits of a long rest.</p>
+            <p class="indent"><strong>Specialization.</strong> You have one of the following specializations: Arcane Technician, Leader, Tracker, Warrior</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_POWER_CRYSTAL" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_DELAYED_AGING" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_CRYSTAL_CHARGED_METABOLISM" />
+            <select type="Sub Race" supports="forclaimer-specialization" />
+        </rules>
+    </element>
+    <element name="Power Crystal" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_POWER_CRYSTAL">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You are sustained by a charged power crystal*, which fuels your augmented body. If the crystal is removed, you suffer three levels of exhaustion and lose all your augmented foreclaimer traits, including your specialization traits. You can remove these levels of exhaustion by taking long rests, provided you have consumed some food and drink. You regain the traits you lost when you insert a charged power crystal* into your power crystal socket but must finish a long rest to remove any remaining levels of exhaustion.</description>
+        </sheet>
+    </element>
+    <element name="Delayed Aging" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_DELAYED_AGING">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You can live up to 1,400 years if sustained by charged power crystals*. If you do not have a charged power crystal* for more than 24 hours, your body ages rapidly over that time to the physical age you would have been had you not been augmented, and your maximum lifespan is reduced to the natural lifespan of an unaugmented foreclaimer, even if you replace your crystal later. Crystal Charged Metabolism. You do not require food, drink, or sleep. You need only rest while carrying out light activities for 4 hours to gain the benefits of a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Crystal Charged Metabolism" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_CRYSTAL_CHARGED_METABOLISM">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You do not require food, drink, or sleep. You need only rest while carrying out light activities for 4 hours to gain the benefits of a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Specialized Arcane Technician Foreclaimer" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_FORECLAIMER_ARCANE_TECHNICIAN">
+        <supports>forclaimer-specialization</supports>
+        <description>
+            <p>Arcane technicians are scholars and researchers who push the boundaries of innovation and magic to pursue knowledge.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 1</p>
+            <p class="indent"><strong>Arcane Mind.</strong> Choose two 1st-level spells from the wizard’s spell list. When you reach 3rd level, choose one 2nd-level spell from the wizard’s spell list. You can cast each of these spells once a day using this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+            <p class="indent"><strong>Enhanced Cognition.</strong> You have advantage on Intelligence ability checks and can accurately recall anything you have seen or heard throughout your entire lifetime.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ARCANE_MIND"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ENHANCED_COGNITION"/>
+            <stat name="Intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Arcane Mind" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ARCANE_MIND">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>Choose two 1st-level spells from the wizard’s spell list. When you reach 3rd level, choose one 2nd-level spell from the wizard’s spell list. You can cast each of these spells once a day using this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>           
+            <select type="Spell" supports="Wizard,1" number="2" />
+            <select type="Spell" supports="Wizard,2" number="1" level="3" />
+        </rules>
+    </element>
+    <element name="Enhanced Cognition" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ENHANCED_COGNITION">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You have advantage on Intelligence ability checks and can accurately recall anything you have seen or heard throughout your entire lifetime.</description>
+        </sheet>
+    </element>
+    <element name="Specialized Leader Foreclaimer" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_FORECLAIMER_LEADER">
+        <supports>forclaimer-specialization</supports>
+        <description>
+            <p>Members of the leadership specialization are augmented with adaptations that allow them to survive major disasters so that foreclaimer society can endure any crisis.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Charisma score increases by 1.</p>
+            <p class="indent"><strong>Survival Mechanism.</strong> You have advantage on death saving throws. Additionally, if you succeed on three death saving throws, you regain 1 hit point.</p>
+            <p class="indent"><strong>Tactical Observation. </strong>You can make Wisdom (Perception) checks as a bonus action.</p>
+            <p class="indent"><strong>Toxic Blood.</strong> You gain immunity to disease and resistance to poison damage.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_SURVIVAL_MECHANISM"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TACTICAL_OBSERVATION"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOXIC_BLOOD"/>
+        </rules>
+    </element>
+    <element name="Survival Mechanism" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_SURVIVAL_MECHANISM">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You have advantage on death saving throws. Additionally, if you succeed on three death saving throws, you regain 1 hit point.</description>
+        </sheet>
+    </element>
+    <element name="Tactical Observation" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TACTICAL_OBSERVATION">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You can make Wisdom (Perception) checks as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Toxic Blood" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOXIC_BLOOD">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description> You gain immunity to disease and resistance to poison damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+    <element name="Specialized Tracker Foreclaimer" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_FORECLAIMER_TRACKER">
+        <supports>forclaimer-specialization</supports>
+        <description>
+            <p>Trackers excel in exploring the wilderness. With their augmentations and specialized training, they can survive in nearly any environment.</p>
+            <p class="indent"><strong>Ability Score Increase. </strong>Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong>Enhanced Agility.</strong> Your base walking speed increases by 10 feet, and you have advantage on checks and saves made to move through difficult terrain.</p>
+            <p class="indent"><strong>Rapid Reflexes.</strong> You add your proficiency bonus to your initiative rolls.</p>
+            <p class="indent"><strong>Wilderness Adaptations.</strong> Your body has been augmented to allow you to excel in various harsh environments. You have a climbing speed and swimming speed equal to your walking speed and can breathe both air and water using gills grafted to your neck.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<stat name="initiative" value="proficiency" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ENHANCED_AGILITY"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_WILDERNESS_ADAPTATIONS"/>
+        </rules>
+    </element>
+    <element name="Enhanced Agility" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_ENHANCED_AGILITY">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>Your base walking speed increases by 10 feet, and you have advantage on checks and saves made to move through difficult terrain.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed" value="10" />
+        </rules>
+    </element>
+    <element name="Wilderness Adaptation" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_WILDERNESS_ADAPTATIONS">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You have a climbing speed and swimming speed equal to your walking speed and can breathe both air and water using gills grafted to your neck.</description>
+        </sheet>
+        <rules>
+            <stat name="speed:climb" value="speed" bonus="base" />
+            <stat name="speed:swim" value="speed" bonus="base" />
+        </rules>
+    </element>
+    <element name="Specialized Warrior Foreclaimer" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_FORECLAIMER_WARRIOR">
+        <supports>forclaimer-specialization</supports>
+        <description>
+            <p>Warriors’ augmentations for strength and durability make them highly effective in battle and let them carry out tough physical labor.</p>
+            <p class="indent"><strong>Ability Score Increase. </strong>Your Strength score increases by 1.</p>
+            <p class="indent"><strong>Enhanced Musculature. </strong>You gain expertise in the Athletics skill, which means your proficiency bonus is doubled for any ability check you make with it. Additionally, your carrying capacity is doubled.</p>
+            <p class="indent"><strong>Toughened Nerves. </strong>Your body is able to withstand massive damage and pain. You have a +1 bonus to your Armor Class, and you have advantage on Constitution saving throws.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <stat name="Strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" bonus="double" />
+        </rules>
+    </element>
+    <element name="Toughened Nerves" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You have a +1 bonus to your Armor Class, and you have advantage on Constitution saving throws.</description>
+        </sheet>
+        <rules>
+            <stat name="ac" value="1" bonus="enhancement"/>
+        </rules>
+    </element>
+    <element name="Stelkin" type="Language" source="Fools Gold" id="ID_LANGUAGE_STELKIN">
+        <supports>Exotic</supports>
+        <description>
+            <p>Typically spoken by Foreclaimers.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Foreclaimers</set>
+            <set name="script">-</set>
+        </setters>
+    </element>
+</elements>
