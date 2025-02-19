@@ -161,6 +161,10 @@
             <set name="short">Nature, Survival, Cook's utensions, and 1 tool</set>
         </setters>
         <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+            <select type="Proficiency" name="Tool Proficiency (Outback Cook)" supports="Tools" />
             <grant type="Background Feature" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_CAMPOUT_CUISINE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
             <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
             <select type="List" name="Personality Trait" number="2">
