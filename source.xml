@@ -9,20 +9,20 @@
 		<description>
 			<p><strong>Based on the popular Fool's Gold animated YouTube series by Dingo Doodles!</strong></p>
 			<p>Fools Gold: Into the Bellowing Wilds (PDF) is an exciting new 5e adventure that takes place in the world’s deadliest jungle where everything wants to kill you! Fun!</p>
-			<p>Enhance your games with this jungle campaign setting, which includes a buttload of new content, including brand new wilder magic & curse charts that will definitely excite GMs while the players pray to the dice gods.</p>
+			<p>Enhance your games with this jungle campaign setting, which includes a buttload of new content, including brand new wilder magic and curse charts that will definitely excite GMs while the players pray to the dice gods.</p>
 			<p>Delve into the Bellowing Wilds, discover the rich lore of the world, and find out what happened to the ancient Foreclaimers who disappeared thousands of years ago, leaving ruins, mysteries, MECHANICAL DRAGONS AND DINOSAURS, and awesome treasures behind…</p>
 			<ul>
 				<li>30+ new spells and a new sub-school of magic: Oneiromancy</li>
-				<li><4 new races, including the Foreclaimers and the honorable Weavers/li>
+				<li>4 new races, including the Foreclaimers and the honorable Weavers</li>
 				<li>8 kickass subclasses</li>
-				<li>New character backgrounds like the Cursed Soul, Gold Shaper & Outback Cook</li>
+				<li>New character backgrounds like the Cursed Soul, Gold Shaper, and Outback Cook</li>
 				<li>Tons of new items and craftable gear</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="abbreviation">FOOLS</set>
 			<set name="url">https://foolsgold.fun/</set>
-			<set name="image">https://hitpointpress.com/cdn/shop/files/foolsgold-pdf-listing__43903.1694545936.1280.1280.png?v=1713272721&width=1100</set>
+			<set name="image">https://hitpointpress.com/cdn/shop/files/foolsgold-pdf-listing__43903.1694545936.1280.1280.png</set>
 			<set name="author" abbreviation="HPP" url="https://hitpointpress.com">Hit Point Press</set>
 			<set name="third-party">true</set>
 			<set name="release">20230913</set>
