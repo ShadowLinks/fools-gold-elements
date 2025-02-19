@@ -46,7 +46,7 @@
         <rules>
             <select type="Ability Score Improvement" name="Ability Score Improvement +1 (Beastfolk)" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION" />
             <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>    
-            <select name="Beastfolk Size" type="Size" supports="ID_SIZE_SMALL|ID_SIZE_MEDIUM"/>
+            <select type="Racial Trait" name="Size (Beastfolk)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM"/>
             <stat name="innate speed" value="30" bonus="base" />
             <select name="Beast Senses" type="Racial Trait" supports="beastfolk-senses" />
             <select name="Beast Defenses" type="Racial Trait" supports="beastfolk-defenses" />
