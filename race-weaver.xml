@@ -5,38 +5,202 @@
 			<file name="race-weaver.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-weaver.xml" />
 		</update>
 	</info>
-    <element name="name" type="Race" source="Fools Gold" id="ID_HPP_FOOLS_RACE_">
+    <element name="Weaver" type="Race" source="Fools Gold" id="ID_HPP_FOOLS_RACE_WEAVER">
         <description>
-            <p></p>
-            <h4>HEADING</h4>
-            <p></p>
+            <p>The many-eyed, many-limbed weavers are sometimes called spiderfolk. They are the devoted followers of the giant, holy spiders, the Araknights. Thanks to their relationship with the Araknights and monastic training, weavers are considered honorable, enlightened individuals with deep ties to the gods and a strong sense of morality. They also have a reputation as serious folks who can be inflexible in their beliefs. In truth, weavers vary widely in personality. They come from all races, walks of life, and backgrounds, and their personalities depend on who they were before they were turned into a weaver, the temper of their Araknight mentor, and where they received their weaver education.</p>
+            <h4>TRANSFORMED BODIES</h4>
+            <p>Weavers don’t reproduce naturally. They’re products of the Ceremony of Weaving, the Araknights’ most sacred rite, gifted to them by the goddess Generisa. The specifics of the ceremony are a well-guarded secret, which has naturally led outsiders to spin wild, horrible tales. The truth is simple: you are encased in a special cocoon by an Araknight and remain there in a month-long slumber while you metamorphose. During this time, the cocoon is kept under close guard by Araknights, other weavers, and trusted acolytes.</p>
+            <p class="indent">Those who undergo the Ceremony of Weaving keep few of their original features, usually no more than ears, hair or eye color, or tusks. Skin is replaced with chitin, fangs sprout, eyes multiply, and four spider legs grow on the back. These new spider legs are strong and dextrous, allowing weavers to walk on walls or ceilings.</p>
+            <p class="indent">The transformation is drastic, but weavers are well prepared for what to expect of their new bodies. They emerge with an innate control over their new form and abilities and the ability to speak and understand the musical language of the Araknights.</p>
+            <h4>SERVANTS OF THE ARAKNIGHTS</h4>
+            <p>Regardless of race, upbringing, education, or past actions, anyone can join an Araknight community as an acolyte as long as they devote themselves to the gods. Even those guilty of terrible crimes can be embraced and sheltered by the Araknights.</p>
+            <p class="indent">Acolytes spend their days serving their communities, tending to shrines, worshiping, studying history, and engaging in martial and magical training under senior acolytes, weavers, and Araknights. This monastic life significantly impacts weavers and their outlook on the world. Acolytes born into Araknight communities tend to make more rigid weavers than those who join from the outside world. Technically, anyone could become a weaver, but few receive the honor. Only the most devoted acolytes, or non-acolytes who have accomplished particularly heroic deeds, will be chosen by the Araknights to become weavers.</p>
+            <p class="indent">The different types of Araknights create different types of weavers. In the Bellowing Wilds, the Araknights are Opi (gladius), Moirai (acrobatios), Saula (acrobatios), Bregan (sicario), and Frigolda (sicario). Until recently, a sixth Araknight, Kaydi (gladius), was also creating weavers but is now presumed dead. There are other Araknights outside the Bellowing Wilds capable of creating weavers too.</p>
+            <h4>WEAVER LIFESPANS</h4>
+            <p>The Ceremony of Weaving acts as a contract between a weaver and their Araknight mentor. Barring death in combat or an accident, a weaver will die exactly 300 years after they were transformed, regardless of their original race’s lifespan. On rare occasions, a weaver’s Araknight can perform another Ceremony of Weaving on a weaver, extending their lifespan for another 300 years, but many weavers consider this a heretical practice.</p>
             <p class="indent"></p>
-            <h4>HEADING</h4>
-            <p></p>
-            <p class="indent"></p>
-            <h4>name Traits</h4>
-            <p></p>
-            <p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
-            <p class="indent"><strong><em>Age.</em></strong> _______</p>
-            <p class="indent"><strong><em>Alignment.</em></strong> _______</p>
-            <p class="indent"><strong><em>Size.</em></strong> _______</p>
-            <p class="indent"><strong><em>Speed.</em></strong> _______</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-            <p class="indent"><strong><em>Languages.</em></strong> _______</p>
+            <h4>A RARE SIGHT</h4>
+            <p>Although they have a strong sense of service, weavers are rarely seen outside Araknight strongholds like Velgari. When they do leave, it tends to be on missions given to them by their huge spider leaders. Some more independent weavers venture through Ambria in search of knowledge, while others become guardians and caretakers of religious sites and restorers of abandoned shrines. As heralds of the Araknights, they frequently act as ambassadors, diplomats, or mediators.</p>
+            <p class="indent">Most people have a healthy respect and awe for the fearsome Araknights, which extends to the weavers. In the Bellowing Wilds, some consider weavers to be lucky and that shaking their hands (or one of their many spider legs) brings good fortune.</p>
+            <p class="indent">Because their numbers in Ambria are so few, weavers stand out in a crowd. They embrace this difference as a gift from the Araknights and the goddess Generisa. Weavers frequently embrace their distinctiveness by treating their bodies as artistic canvasses for expression. They tend to dress colorfully and make great use of bright silks and sparkling gems.</p>
+            <h4>WEAVER NAMES</h4>
+            <p>Many weavers choose to keep the name they had before the Ceremony of Weaving, but some ask their Araknight mentor to bestow a new name on them to create distance from their old life. These names tend to be short and have profound meanings in the Araknight language.</p>
+            <p class="indent">The name of a weaver’s patron Araknight is added in place of any family name the weaver once had, as weavers are expected to give up family ties when they are transformed. Weaver is both the name of the race and a title. For example, a weaver named Gandus, who was transformed by the Araknight Opi, would be formally addressed as Weaver Gandus of Opi.</p>
+            <h4>Weaver Traits</h4>
+            <p>After being reborn as a weaver, you have lost most traits of your original race but have gained new traits in common with other weavers.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>  Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Weavers can live for up to 300 years after they emerge from their ceremonial cocoon but die after exactly 300 years have passed unless given another 300 years by their Araknight patron.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You retain the size of your previous race after being reborn as a weaver. Your size is Medium or Small.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet. Your extra spider legs give you a climbing speed equal to your walking speed.</p>
+            <p class="indent"><strong><em>Arachnid Arts.</em></strong> You know the guidance cantrip. When you reach 3rd level, you can cast the web spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+            <p class="indent"><strong><em>Improved Spider Climb.</em></strong> You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You climb using your spider limbs, leaving your hands free to hold objects or wield weapons as you move.</p>
+            <p class="indent"><strong><em>Lucky Spider.</em></strong> As an action, you can touch a creature and give it good luck. Within the next 10 minutes, when that creature rolls a 1 on an ability check, attack roll or saving throw, it can choose to reroll and must use the new result. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Web Vision.</em></strong> As a bonus action, you can send out fine strands of silk in a 10-foot-radius sphere centered on you. While you remain within or adjacent to the sphere, you can perceive everything within the sphere as if you have truesight. You also have advantage on checks made to locate creatures within the sphere. The sphere lasts for 1 minute or until it is exposed to fire. Once you use this feature, you can’t use it again until you finish a short or long rest. When you reach 5th level, the area increases to a 20-foot-radius sphere.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The type of weaver you are is determined by the Araknight who performed your Ceremony of Weaving. Choose one from either acrobatios, gladius, or sicario:</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Araknight. You retain any languages you knew before you became a weaver.</p>
+            <p><strong>Consider these questions when creating your weaver character:</strong></p>
+            <ul>
+                <li>Who were you before you were transformed?</li>
+                <li>What did you accomplish to become a weaver? Years of devotion? A heroic feat?</li>
+                <li>What is your relationship with your Araknight mentor and the gods?</li>
+                <li>Are you from Velgari, or is your Araknight community elsewhere in Ambria?</li>
+                <li>Were you born in an Araknight community, or did you join it later in life?</li>
+                <li>What made you leave your community? Are you on a special assignment, or did you choose to leave for your own reasons?</li>
+            </ul>
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Racial Trait" id="ID____" />
-            <grant type="Racial Trait" id="ID____" />
+            <select type="Racial Trait" name="Size (Weaver)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM"/>
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="speed:climb" value="speed" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ARACHNID_ARTS" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_IMPROVED_SPIDER_CLIMB" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_LUCK_SPIDER" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_WEB_VISION" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SUBRACE" />
         </rules>
     </element>
-    <element name="name" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_">
+    <element name="Arachnid Arts" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ARACHNID_ARTS">
         <description>
-            <p></p>
+            <p>You know the guidance cantrip. When you reach 3rd level, you can cast the web spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
         </description>
         <sheet>
-            <description></description>
+            <description>You know the guidance cantrip. Wisdom is your spellcasting ability.</description>            
+            <description level="3">You know the guidance cantrip. When you reach 3rd level, you can cast the web spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</description>
         </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
+            <grant type="Spell" id="ID_PHB_SPELL_WEB" level="3" />
+        </rules>
+    </element>
+    <element name="Improved Spider Climb" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_IMPROVED_SPIDER_CLIMB">
+        <description>
+            <p>You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You climb using your spider limbs, leaving your hands free to hold objects or wield weapons as you move.</p>
+        </description>
+        <sheet>
+            <description>You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You climb using your spider limbs, leaving your hands free to hold objects or wield weapons as you move.</description>            
+        </sheet>
+        <rules>
+        </rules>
+    </element>
+    <element name="Lucky Spider" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_LUCK_SPIDER">
+        <description>
+            <p>As an action, you can touch a creature and give it good luck. Within the next 10 minutes, when that creature rolls a 1 on an ability check, attack roll or saving throw, it can choose to reroll and must use the new result. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>As an action, you can touch a creature and give it good luck. Within the next 10 minutes, when that creature rolls a 1 on an ability check, attack roll or saving throw, it can choose to reroll and must use the new result. Once you use this feature, you can’t use it again until you finish a long rest.</description>            
+        </sheet>
+        <rules>
+        </rules>
+    </element>
+    <element name="Web Vision" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_WEB_VISION">
+        <description>
+            <p>As a bonus action, you can send out fine strands of silk in a 10-foot-radius sphere centered on you. While you remain within or adjacent to the sphere, you can perceive everything within the sphere as if you have truesight. You also have advantage on checks made to locate creatures within the sphere. The sphere lasts for 1 minute or until it is exposed to fire. Once you use this feature, you can’t use it again until you finish a short or long rest. When you reach 5th level, the area increases to a 20-foot-radius sphere.</p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>As a bonus action, you can send out fine strands of silk in a 10-foot-radius sphere centered on you. While you remain within or adjacent to the sphere, you can perceive everything within the sphere as if you have truesight. You also have advantage on checks made to locate creatures within the sphere. The sphere lasts for 1 minute or until it is exposed to fire. Once you use this feature, you can’t use it again until you finish a short or long rest.</description>
+            <description level="5">As a bonus action, you can send out fine strands of silk in a 20-foot-radius sphere centered on you. While you remain within or adjacent to the sphere, you can perceive everything within the sphere as if you have truesight. You also have advantage on checks made to locate creatures within the sphere. The sphere lasts for 1 minute or until it is exposed to fire. Once you use this feature, you can’t use it again until you finish a short or long rest.</description>            
+        </sheet>
+        <rules>
+        </rules>
+    </element>
+    <element name="Weaver Subrace" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SUBRACE">
+        <description>
+            <p>The type of weaver you are is determined by the Araknight who performed your Ceremony of Weaving. Choose one from either acrobatios, gladius, or sicario:</p>
+        </description>
+        <sheet display="false">
+            <description></description>            
+        </sheet>
+        <rules>
+            <select type="Sub Race" name="Weaver Subrace" supports="weaver-subrace" />
+        </rules>
+    </element>
+    <element name="Acrobatios Weaver" type="Sub Race"  source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_WEAVER_ACRO" >
+        <supports>weaver-subrace</supports>
+        <description>
+            <p>Your cocoon was spun by a dextrous acrobatios Araknight, making you particularly agile. Your body is covered in short, soft hairs in bright colors.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Dexterity score increases by 2</p>
+            <p class="indent"><strong>Reborn Acrobat.</strong> You have proficiency in the Acrobatics and Performance skills.</p>
+            <p class="indent"><strong>Spider's Leap</strong> You can jump a number of feet equal to five times your proficiency bonus without provoking opportunity attacks. You can’t use this trait if your speed is 0.</p>
+            <p class="indent">You can use this trait a number of times per day equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="Dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+            <grant name="Spider's Leap" type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ACRO_SPIDERS_LEAP" />
+        </rules>
+    </element>
+    <element name="Spiders Leap" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ACRO_SPIDERS_LEAP">
+        <sheet>
+            <description>You can jump {{spider-leap}} feet without provoking opportunity attacks. You can’t use this trait if your speed is 0. You can use this trait {{proficiency}} of times per day and regain all expended uses when you finish a long rest. </description>
+        </sheet>
+        <rules>
+            <stat name="spider-leap" value="proficiency" bonus="base" />
+            <stat name="spider-leap" value="proficiency" />
+            <stat name="spider-leap" value="proficiency" />
+            <stat name="spider-leap" value="proficiency" />
+            <stat name="spider-leap" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Gladius Weaver" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_WEAVER_GLADIUS" >
+        <supports>weaver-subrace</supports>
+        <description>
+            <p>Your cocoon was spun by a tough gladius Araknight, granting you the gift of enhanced strength. Your stature is sturdy, and you have particularly tough chitin. Your body is covered in dense fur in earthy colors, making you an intimidating presence in melee combat.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Strength score increases by 2.</p>
+            <p class="indent"><strong>Reborn Guardian.</strong> You can use your reaction to impose disadvantage on an attack aimed at a creature within 5 feet of you, potentially causing the attack to miss.</p>
+            <p class="indent">You can use this trait a number of times per day equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong>Retribution.</strong> When an attacker that you can see hits you with an attack, you can use your reaction to halve this triggering attack’s damage against you. Until the end of your next turn, each time you hit with an attack, you can add a bonus to your attack’s damage equal to the amount of damage dealt to you by the triggering attack after using this feature. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="Strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant name="Reborn Guardian" type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_GLADIUS_REBORN_GUARDIAN" />
+            <grant name="Reborn Retribution" type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_GLADIUS_RETRIBUTION" />
+        </rules>
+    </element>
+    <element name="Reborn Guardian" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_GLADIUS_REBORN_GUARDIAN">
+        <sheet usage="Reaction {{proficiency}}/Long Rest">
+            <description>You can use your reaction to impose disadvantage on an attack aimed at a creature within 5 feet of you, potentially causing the attack to miss. You can use this trait  {{proficiency}} times and regain all expended uses when you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Retribution" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_GLADIUS_RETRIBUTION">
+        <sheet>
+            <description usage="Reaction 1/Long Rest">When an attacker that you can see hits you with an attack, you can use your reaction to halve this triggering attack’s damage against you. Until the end of your next turn, each time you hit with an attack, you can add a bonus to your attack’s damage equal to the amount of damage dealt to you by the triggering attack after using this feature. Once you use this feature, you can’t use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Sicario Weaver" type="Sub Race" source="Fools Gold" id="ID_HPP_FOOLS_SUBRACE_WEAVER_SICARIO" >
+        <supports>weaver-subrace</supports>
+        <description>
+            <p>Your cocoon was imbued with the toxins of the sicario Araknight that spun it, and its venom flows through your body. Your slick chitin is dark and adorned with brightly colored spots, which warn experienced foes of your venomous abilities. In addition, you have sharp, angled fangs on your face.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong>Reborn Agent.</strong> You can attempt to Hide in an area of dim light and can move stealthily at a normal pace.</p>
+            <p class="indent"><strong>Spider’s Fangs.</strong> Your venomous fangs are a natural weapon, which you can use to make unarmed strikes using either your Dexterity modifier or Strength modifier for both attack and damage rolls. On a hit, you deal piercing damage instead of bludgeoning damage, and the target must make a Constitution saving throw. The DC for this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poison damage if it fails its saving throw, or half as much damage if it succeeds.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="Constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <grant name="Reborn Agent" type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SICARIO_REBORN_AGENT" />
+            <grant name="Spider's Fangs" type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SICARIO_SPIDERS_FANGS" />
+        </rules>
+    </element>
+    <element name="Reborn Agent" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SICARIO_REBORN_AGENT">
+        <sheet>
+            <description>You can attempt to Hide in an area of dim light and can move stealthily at a normal pace.</description>
+        </sheet>
+    </element>
+    <element name="Spider's Fangs" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SICARIO_SPIDERS_FANGS">
+        <sheet>
+            <description> Your venomous fangs are a natural weapon, which you can use to make unarmed strikes using either your Dexterity modifier or Strength modifier for both attack and damage rolls. On a hit, you deal piercing damage instead of bludgeoning damage, and the target must make a Constitution saving throw. The DC is {{spider-fangs}}. A creature takes 2d6 poison damage if it fails its saving throw, or half as much damage if it succeeds.</description>
+        </sheet>
+        <rules>
+            <stat name="spider-fangs" value="8" bonus="base" />            
+            <stat name="spider-fangs" value="constitution:modifier" />
+            <stat name="spider-fangs" value="proficiency" />
+        </rules>
     </element>
 </elements>
