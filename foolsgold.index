@@ -10,6 +10,7 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/source.xml" />
-
+		<file name="backgrounds.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/backgrounds.xml" />
+		<file name="curses.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/curses.xml" />
 	</files>
 </index>

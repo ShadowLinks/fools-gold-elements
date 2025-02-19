@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <update version="0.0.1">
+            <file name="curses.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/curses.xml" />
+        </update>
+    </info>
+    <element name="Feature: Curse 01" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_001">
+        <supports>fools-gold-curse</supports>
+        <description>
+            <p>1- Your hair grows 6 inches longer at the start of each day. If you don’t have hair, you grow it. Your hair is supernaturally tough and can only be cut using a magic blade by a creature that succeeds on a Strength check against your Curse DC.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_001" />
+        </rules>
+    </element>
+    <element name="CURSE: Your hair grows 6 inches longer at the start of each day. If you don’t have hair, you grow it. Your hair is supernaturally tough and can only be cut using a magic blade by a creature that succeeds on a Strength check against your Curse DC." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_001">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 02" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_002">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>2- Bright sparkles and rainbows appear whenever you make an attack or cast a spell. Also, cheerful birds and little forest animals dance and sing around you at inconvenient and inappropriate times</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_002" />    
+        </rules>
+    </element>
+    <element name="CURSE: Bright sparkles and rainbows appear whenever you make an attack or cast a spell. Also, cheerful birds and little forest animals dance and sing around you at inconvenient and inappropriate times" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_002">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 03" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_003">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>3- Your body generates a magnetic field of unpredictable strength. When you are within 30 feet of an object no larger than a 5-foot cube that is made either partly or entirely of metal, the GM can ask you to make a Charisma saving throw against your Curse save DC. On a failure, the object is pulled 30 feet toward you and sticks to your body. A stuck object can only be removed with a DC 15 Strength check.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_003" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your body generates a magnetic field of unpredictable strength. When you are within 30 feet of an object no larger than a 5-foot cube that is made either partly or entirely of metal, the GM can ask you to make a Charisma saving throw against your Curse save DC. On a failure, the object is pulled 30 feet toward you and sticks to your body. A stuck object can only be removed with a DC 15 Strength check." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_003">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 04" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_004">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>4- Each morning, your appearance and voice change to that of a random humanoid, though all your game statistics remain the same. You can’t be affected by illusion magic that disguises your appearance, such as disguise self</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_004" />    
+        </rules>
+    </element>
+    <element name="CURSE: Each morning, your appearance and voice change to that of a random humanoid, though all your game statistics remain the same. You can’t be affected by illusion magic that disguises your appearance, such as disguise self" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_004">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 05" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_005">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>5- Your presence attracts creatures such as rats, flies, crows, or other beasts of ill omen. These creatures can be driven away with a successful Animals Handling check against your Curse DC. The creatures always return within 1d4 hours.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_005" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your presence attracts creatures such as rats, flies, crows, or other beasts of ill omen. These creatures can be driven away with a successful Animals Handling check against your Curse DC. The creatures always return within 1d4 hours." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_005">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 06" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_006">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>6- You can only spend hit dice or recover from exhaustion by resting while submerged in water. You still gain any other benefits of completing a rest while not submerged.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_006" />    
+        </rules>
+    </element>
+    <element name="CURSE: You can only spend hit dice or recover from exhaustion by resting while submerged in water. You still gain any other benefits of completing a rest while not submerged." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_006">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 07" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_007">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>7- The top of your head becomes an oversized mushroom cap. You can’t wear or benefit from helmets, hoods, hats, or other such items, as they won’t fit over the mushroom cap. You can still wear headbands, as well as lenses or other items that fit over your eyes</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_007" />    
+        </rules>
+    </element>
+    <element name="CURSE: The top of your head becomes an oversized mushroom cap. You can’t wear or benefit from helmets, hoods, hats, or other such items, as they won’t fit over the mushroom cap. You can still wear headbands, as well as lenses or other items that fit over your eyes" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_007">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 08" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_008">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>8- Every time you kill another creature, you must make a Wisdom saving throw against your Curse DC. On a failure, the slain creature haunts you, becoming a spirit that only you can see. These spirits follow you wherever you go but don’t harm you directly.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_008" />    
+        </rules>
+    </element>
+    <element name="CURSE: Every time you kill another creature, you must make a Wisdom saving throw against your Curse DC. On a failure, the slain creature haunts you, becoming a spirit that only you can see. These spirits follow you wherever you go but don’t harm you directly." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_008">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 09" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_009">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>9- Your bad luck is costly. Whenever you fail an ability check, 1d4 x 10 gp in your possession turns to lead.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_009" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your bad luck is costly. Whenever you fail an ability check, 1d4 x 10 gp in your possession turns to lead." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_009">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 10" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLSID_HPP_FOOLS_CURSE_010">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>10- Your luck is now bound to a lucky charm, which is a Tiny nonmagical object on your person at the time you become cursed. If you don’t have this object on your person or if it is destroyed, you have disadvantage on ability checks and saving throws until you spend 8 hours holding onto another Tiny item to make it your new lucky charm.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_010" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITIONID_HPP_FOOLS_CURSE_010">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 11" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_011">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>11- Once per day, you are subject to the effect of the confusion spell at a time determined by the GM. The spell only targets you, and you can resist the effect by succeeding on a Wisdom save against the spell, which uses your Curse DC.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_011" />    
+        </rules>
+    </element>
+    <element name="CURSE: Once per day, you are subject to the effect of the confusion spell at a time determined by the GM. The spell only targets you, and you can resist the effect by succeeding on a Wisdom save against the spell, which uses your Curse DC." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_011">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 12" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_012">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>12- Your cursed tongue gets you into trouble. In combat, you must insult an enemy creature on each of your turns. The insulted creature must succeed on a Wisdom saving throw against your Curse DC or be compelled to target you on its next turn. If a creature succeeds on its saving throw, it is immune to your curse’s effect for the next 24 hours</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_012" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your cursed tongue gets you into trouble. In combat, you must insult an enemy creature on each of your turns. The insulted creature must succeed on a Wisdom saving throw against your Curse DC or be compelled to target you on its next turn. If a creature succeeds on its saving throw, it is immune to your curse’s effect for the next 24 hours" type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_012">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 13" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_013">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>13- Once per day, at a time determined by the GM, you are targeted by a polymorph spell, using your Curse DC as the spell save DC. On a failure, you are transformed into a Tiny beast chosen by the GM.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_013" />    
+        </rules>
+    </element>
+    <element name="CURSE: Once per day, at a time determined by the GM, you are targeted by a polymorph spell, using your Curse DC as the spell save DC. On a failure, you are transformed into a Tiny beast chosen by the GM." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_013">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 14" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_014">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>14- When you drink a potion, you must make a Constitution saving throw against your Curse DC. On a failure, you gain none of the potion’s effects and are poisoned for 1d4 rounds.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_014" />    
+        </rules>
+    </element>
+    <element name="CURSE: When you drink a potion, you must make a Constitution saving throw against your Curse DC. On a failure, you gain none of the potion’s effects and are poisoned for 1d4 rounds." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_014">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 15" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_015">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>15- You cannot see your reflection on any reflective surface, but your image is reflected on all non-reflective surfaces. You have disadvantage on Dexterity (Stealth) checks.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_015" />    
+        </rules>
+    </element>
+    <element name="CURSE: You cannot see your reflection on any reflective surface, but your image is reflected on all non-reflective surfaces. You have disadvantage on Dexterity (Stealth) checks." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_015">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 16" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_016">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>16- You are cursed with otherworldly insight. Once per day, at the GM’s discretion, you must make a Wisdom (Insight) check against your Curse DC. On a success, nothing happens. On a failure, you receive a disorienting vision of things, past, present, or future, and have disadvantage on all Intelligence and Wisdom checks until you complete a long rest.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_016" />    
+        </rules>
+    </element>
+    <element name="CURSE: You are cursed with otherworldly insight. Once per day, at the GM’s discretion, you must make a Wisdom (Insight) check against your Curse DC. On a success, nothing happens. On a failure, you receive a disorienting vision of things, past, present, or future, and have disadvantage on all Intelligence and Wisdom checks until you complete a long rest." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_016">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 17" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_017">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>17- Your body becomes cheese. Animals such as rats are frequently drawn toward you, and all creatures have advantage on Perception checks made using smell to detect your location.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_017" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your body becomes cheese. Animals such as rats are frequently drawn toward you, and all creatures have advantage on Perception checks made using smell to detect your location." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_017">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 18" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_018">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>18- Every item you craft with your tools, as well as any equipment you wear, carry, or wield for more than 1 hour, takes on an eerie or sinister appearance. Good and neutral aligned NPCs tend to be suspicious of you.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_018" />    
+        </rules>
+    </element>
+    <element name="CURSE: Every item you craft with your tools, as well as any equipment you wear, carry, or wield for more than 1 hour, takes on an eerie or sinister appearance. Good and neutral aligned NPCs tend to be suspicious of you." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_018">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 19" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_019">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>19- You can’t be touched by or become submerged in water or other liquids as if you are permanently affected by the water walk spell.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_019" />    
+        </rules>
+    </element>
+    <element name="CURSE: You can’t be touched by or become submerged in water or other liquids as if you are permanently affected by the water walk spell." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_019">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 20" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_020">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>20- A strange sigil appears on your tongue that makes it hard for you to lie. Whenever you attempt to deceive, the GM can ask you to make a Charisma saving throw against your Curse DC. On a failure, you blurt out the truth you were trying to conceal.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_020" />    
+        </rules>
+    </element>
+    <element name="CURSE: A strange sigil appears on your tongue that makes it hard for you to lie. Whenever you attempt to deceive, the GM can ask you to make a Charisma saving throw against your Curse DC. On a failure, you blurt out the truth you were trying to conceal." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_020">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 21" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_021">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>21- You gain a sensitivity to sunlight. You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_021" />    
+        </rules>
+    </element>
+    <element name="CURSE: You gain a sensitivity to sunlight. You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_021">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 22" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_022">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>22- You become cursed with bad luck. Whenever you use a gaming set or make an Acrobatics, Animal Handling, or Sleight of Hand check, you must succeed on a Charisma saving throw against your Curse DC or have disadvantage on the check.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_022" />    
+        </rules>
+    </element>
+    <element name="CURSE: You become cursed with bad luck. Whenever you use a gaming set or make an Acrobatics, Animal Handling, or Sleight of Hand check, you must succeed on a Charisma saving throw against your Curse DC or have disadvantage on the check." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_022">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 23" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_023">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>23- You are cursed never to carry a tune and automatically fail any Charisma (Performance) check based on music. If you are a bard, you can still use music to cast your spells, but it always sounds terrible.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_023" />    
+        </rules>
+    </element>
+    <element name="CURSE: You are cursed never to carry a tune and automatically fail any Charisma (Performance) check based on music. If you are a bard, you can still use music to cast your spells, but it always sounds terrible." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_023">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 24" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_024">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>24- Your teeth turn to metal. You can no longer digest normal food, but you can survive by eating at least 1 pound of Tiny nonmagical objects made of metal, such as coins, per day.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_024" />    
+        </rules>
+    </element>
+    <element name="CURSE: Your teeth turn to metal. You can no longer digest normal food, but you can survive by eating at least 1 pound of Tiny nonmagical objects made of metal, such as coins, per day." type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_024">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 25" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_025">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>25- A black owl follows you at a distance of 15 feet at all times. At night it whispers dark prophecies that only you can hear. The owl cannot be harmed or driven away by any means.</p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_025" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_025">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 26" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_026">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>26- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_026" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_026">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 27" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_027">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>27- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_027" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_027">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 28" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_028">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>28- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_028" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_028">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 29" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_029">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>29- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_029" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_029">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 30" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_030">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>30- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_030" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_030">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 31" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_031">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>31- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_031" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_031">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 32" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_032">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>32- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_032" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_032">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 33" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_033">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>33- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_033" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_033">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 34" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_034">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>34- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_034" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_034">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 35" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_035">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>35- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_035" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_035">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 36" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_036">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>36- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_036" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_036">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 37" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_037">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>37- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_037" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_037">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 38" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_038">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>38- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_038" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_038">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 39" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_039">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>39- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_039" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_039">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 40" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_040">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>40- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_040" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_040">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 41" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_041">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>41- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_041" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_041">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 42" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_042">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>42- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_042" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_042">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 43" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_043">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>43- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_043" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_043">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 44" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_044">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>44- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_044" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_044">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 45" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_045">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>45- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_045" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_045">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 46" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_046">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>46- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_046" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_046">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 47" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_047">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>47- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_047" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_047">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 48" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_048">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>48- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_048" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_048">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 49" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_049">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>49- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_049" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_049">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 50" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_050">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>50- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_050" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_050">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 51" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_051">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>51- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_051" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_051">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 52" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_052">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>52- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_052" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_052">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 53" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_053">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>53- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_053" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_053">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 54" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_054">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>54- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_054" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_054">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 55" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_055">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>55- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_055" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_055">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 56" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_056">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>56- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_056" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_056">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 57" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_057">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>57- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_057" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_057">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 58" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_058">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>58- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_058" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_058">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 59" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_059">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>59- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_059" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_059">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 60" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_060">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>60- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_060" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_060">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 61" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_061">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>61- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_061" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_061">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 62" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_062">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>62- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_062" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_062">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 63" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_063">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>63- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_063" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_063">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 64" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_064">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>64- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_064" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_064">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 65" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_065">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>65- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_065" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_065">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 66" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_066">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>66- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_066" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_066">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 67" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_067">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>67- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_067" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_067">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 68" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_068">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>68- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_068" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_068">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 69" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_069">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>69- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_069" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_069">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 70" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_070">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>70- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_070" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_070">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 71" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_071">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>71- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_071" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_071">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 72" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_072">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>72- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_072" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_072">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 73" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_073">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>73- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_073" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_073">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 74" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_074">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>74- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_074" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_074">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 75" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_075">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>75- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_075" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_075">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 76" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_076">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>76- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_076" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_076">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 77" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_077">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>77- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_077" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_077">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 78" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_078">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>78- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_078" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_078">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 79" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_079">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>79- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_079" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_079">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 80" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_080">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>80- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_080" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_080">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 81" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_081">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>81- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_081" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_081">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 82" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_082">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>82- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_082" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_082">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 83" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_083">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>83- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_083" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_083">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 84" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_084">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>84- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_084" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_084">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 85" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_085">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>85- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_085" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_085">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 86" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_086">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>86- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_086" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_086">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 87" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_087">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>87- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_087" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_087">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 88" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_088">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>88- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_088" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_088">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 89" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_089">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>89- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_089" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_089">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 90" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_090">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>90- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_090" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_090">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 91" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_091">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>91- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_091" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_091">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 92" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_092">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>92- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_092" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_092">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 93" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_093">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>93- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_093" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_093">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 94" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_094">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>94- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_094" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_094">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 95" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_095">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>95- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_095" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_095">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 96" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_096">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>96- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_096" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_096">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 97" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_097">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>97- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_097" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_097">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 98" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_098">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>98- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_098" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_098">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 99" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_099">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>99- </p>
+        </description>
+        <rules>
+            <grant type="Condition" id="ID_HPP_FOOLS_CONDITION_CURSE_099" />    
+        </rules>
+    </element>
+    <element name="CURSE: " type="Condition" source="Fools Gold" id="ID_HPP_FOOLS_CONDITION_CURSE_099">
+        <supports>Vulnerability</supports>
+    </element>
+    <element name="Feature: Curse 100" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_CURSE_100">
+        <supports>fools-gold-curse</supports> 
+        <description>
+            <p>100- Super cursed! Roll twice on this table and apply both curses. Curses can stack on you, and you can gain additional curses while cursed.</p>
+        </description>
+        <rules>
+            <select type="Background Feature" number="2" supports="fools-gold-curse" /> 
+        </rules>
+    </element>
+    
+</elements>

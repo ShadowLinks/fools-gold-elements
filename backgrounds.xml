@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="backgrounds.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/backgrounds.xml" />
+		</update>
+	</info>
+    <element name="Cursed Soul" type="Background" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_CURSED_SOUL">
+        <description>
+            <p>Your very soul is cursed. Misfortune and misery stick to you like the dung you just accidentally stepped in (again). Whenever things are going well, your curse ruins it. Whether you brought this fate upon yourself or were the hapless victim of circumstance, the curse is something you must live with. Your curse arouses fear in the superstitious, but something keeps you going. It’s up to you to find a way to lift your curse or to accept the challenges it brings to your life. Either way, a long road lies ahead.</p>
+            <p class="indent">Your curse can’t be removed through ordinary means. Choose a curse and its origin from Appendix F: Curses, or create one yourself.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Insight, Intimidation</li>
+                <li><strong>Tool Proficiencies:</strong> -</li>
+                <li><strong>Languages:</strong> One of your choice of Abyssal, Celestial, Deep-Speech, Draconic, Infernal, Primordial, or Sylvan, and one other language</li>
+                <li><strong>Equipment:</strong>  A knife, an unpaid bill, a sentimental trinket, a set of common clothes, and a pouch containing 2gp and a small rock</li>
+            </ul>
+            <div element="ID_HPP_FOOLS_BACKGROUND_FEATURE_FEARED_OUTCAST" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>People with cursed souls are greatly influenced by the way the curse has affected their lives. Those who have mostly managed to avoid the negative consequences of their curse may live relatively happy lives, while those who have experienced many accidents and unlucky circumstances tend to be quite pessimistic about the world.</p>
+        </description>
+        <setters>
+            <set name="short">Insight, Intimidation, Choice of language and another language</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+            <select type="Language" name="Language (Feared Outcast specific) " supports="ID_LANGUAGE_ABYSSAL|ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_DEEP_SPEECH|ID_LANGUAGE_DRACONIC|ID_LANGUAGE_PRIMORDIAL|ID_LANGUAGE_SYLVAN"  />
+            <select type="Language" name="Language (Feared Outcast) " supports="Standard||Exotic" />
+            <grant type="Background Feature" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_FEARED_OUTCAST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+           <select type="Background Feature" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_CURSE" supports="fools-gold-curse" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Personality Trait" number="2">
+                <item id="1">My experiences have left me bitter and cold.</item>
+                <item id="2">I am always ready to flee when I sense danger.</item>
+                <item id="3">My trust is hard won and easily lost.</item>
+                <item id="4">I am empathetic toward others who are suffering</item>
+                <item id="5">I’m an eternal optimist</item>
+                <item id="6">I have come to enjoy life’s simple pleasures. A cool breeze, a warm bed, or a hot meal can make my day.</item>
+                <item id="7">I study arcane mysteries to better understand my curse.</item>
+                <item id="8">Being close to other people makes me anxious.</item>
+            </select>
+            <select type="List" name="Ideal">
+                <item id="1">Prudence. Meddling with forces we don’t understand only brings trouble. (Neutral)</item>
+                <item id="2">Spite. This world wronged me; I will do what I want and take what I’m owed. (Evil)</item>
+                <item id="3">Acceptance. Those who accept me for who I am are my true family. (Neutral)</item>
+                <item id="4">Self-Determination. Curse or no curse, no one tells me what to do. (Chaotic)</item>
+                <item id="5">Sacrifice. I won’t let anyone else suffer the way I have, no matter the cost to myself. (Good)</item>
+                <item id="6">Hope. I won’t let this curse break my spirit. (Any)</item>
+            </select>
+            <select type="List" name="Bond">
+                <item id="1">I will find the one responsible for my curse and make them pay.</item>
+                <item id="2">My curse has affected someone I care about; I must help them.</item>
+                <item id="3">Why should I be the only miserable one? I will live happily and spread my curse as much as I can.</item>
+                <item id="4">I have done something terrible and deserved this curse. I will repent and seek forgiveness.</item>
+                <item id="5">I was driven away from my home, friends, or family due to my curse. I want to go back.</item>
+                <item id="6">I want to understand how and why I was cursed and learn how to lift it.</item>
+            </select>
+            <select type="List" name="Flaw">
+                <item id="1">I have no regard for my own safety. I’m already cursed; what more could happen?</item>
+                <item id="2">I keep my true self hidden to avoid being hurt.</item>
+                <item id="3">I’m quick to make accusations of others and deflect blame for my actions.</item>
+                <item id="4">I’m always second-guessing my actions.</item>
+                <item id="5">I never let go of a grudge.</item>
+                <item id="6">I would do anything to lift my curse.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Feature: Feared Outcast" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_FEARED_OUTCAST">
+        <description>
+            <p>Your curse has marked you as an outsider. Everywhere you go, people look upon you with suspicion and fear. When in a small or superstitious settlement, you can get away with minor offenses such as refusing to pay for food at a tavern or breaking the doors of a shop, as most people fear you. Your status as an outsider makes others on the fringes of society more willing to share information and provide you with hospitality.</p>
+        </description>
+        <sheet alt="Feared Outcast">
+            <description>Your curse has marked you as an outsider. Everywhere you go, people look upon you with suspicion and fear. When in a small or superstitious settlement, you can get away with minor offenses such as refusing to pay for food at a tavern or breaking the doors of a shop, as most people fear you. Your status as an outsider makes others on the fringes of society more willing to share information and provide you with hospitality.</description>
+        </sheet>
+    </element>    
+    <element name="Gold Shaper" type="Background" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_GOLD_SHAPER">
+        <description>
+            <p>You were born with innate magic that allows you to shape gold with your mind alone. Only a few are born with your gift, and though superstitious folk may accuse you of making a bargain with devils for your power, no one quite knows where the magic of gold shaping came from. Perhaps you were lucky enough to find a mentor capable of training you in the use of your gift. Or perhaps you were cared for by a noble patron who spared no expense for your education? Or maybe you fell in with those who wanted to use your skills to enrich themselves? Wherever you go, you will find people who are interested in your gift.</p>
+            <p class="indent"></p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> History, Persuasion</li>
+                <li><strong>Tool Proficiencies:</strong> Jeweler's Tools or Smith's tools</li>
+                <li><strong>Languages:</strong> One of your choice</li>
+                <li><strong>Equipment:</strong> A light hammer, a set of either jeweler’s tools or tinker’s tools, a note with the details of the latest piece you were commissioned to make, a signet ring bearing your maker’s mark, a set of fine clothes, and a pouch containing 15gp</li>
+            </ul>
+            <div element="ID_HPP_FOOLS_BACKGROUND_FEATURE_GOLD_SHAPING" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Gold shapers may be honored or distrusted for their gift. Their outlook is greatly shaped by whether they were able to find a supportive mentor early on or if they were exploited by those trying to turn a profit off their ability</p>
+        </description>
+        <setters>
+            <set name="short">History, Persuasion, Jeweler or Smith tools,  1 language</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <select type="Proficiency" name="Tool Proficiency, Gold Shaper" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+            <select type="Language" name="Language, Gold Shaper" supports="Standard||Exotic" />
+            <grant type="Background Feature" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_GOLD_SHAPING" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Personality Trait" number="2">
+                <item id="1">I name my lovely creations and talk to gold.</item>
+                <item id="2">I’m a perfectionist when it comes to everything, not just my gold shaping.</item>
+                <item id="3">I want people to recognize how fabulous I am and show off my power whenever I can.</item>
+                <item id="4">I’m always wary of those who might try to cheat me and keep my abilities hidden.</item>
+                <item id="5">I have a sharp appraising eye and am quick to lavish others’ work with either praise or insults depending on its quality.</item>
+                <item id="6">I grew up poor. I cherish every piece of gold I earn.</item>
+                <item id="7">I idolize the person who trained me.</item>
+                <item id="8">Everyone has their price, and I’m ready to make a deal.</item>
+            </select>
+            <select type="List" name="Ideal">
+                <item id="1">Charity. What good is personal wealth if it impoverishes the world? It’s time to start giving back. (Good)</item>
+                <item id="2">Artistry. The core of art is self-expression, and my work speaks for itself. (Any)</item>
+                <item id="3">Greed. I intend to squeeze gold out of people one way or another. (Evil)</item>
+                <item id="4">Power. I’ll use my wealth to gain the status and influence I deserve. (Lawful)</item>
+                <item id="5">Beauty. I want to leave a legacy of lasting beauty through my work. (Good)</item>
+                <item id="6">Reserve. I’m determined to hide my natural skills, so I won’t be exploited. (Any)</item>
+            </select>
+            <select type="List" name="Bond">
+                <item id="1">I will train until I can create the grandest golden artifact of all time.</item>
+                <item id="2">I have a mentor who is renowned throughout Ambria. I long to leave their shadow and make a name for myself.</item>
+                <item id="3">I will uncover the true origin of my gift.</item>
+                <item id="4">I cheated my former patron, and they still hold a grudge against me.</item>
+                <item id="5">I am working on an exquisite piece of jewelry to impress someone I deeply care for.</item>
+                <item id="6">I’ve seen too many become corrupted by greed and struggle to fight this temptation within myself.</item>
+            </select>
+            <select type="List" name="Flaw">
+                <item id="1">I insulted a noble with my art and would do so again.</item>
+                <item id="2">I assume the worst in people and aim to cheat others before they can cheat me.</item>
+                <item id="3">I must try to improve any golden objects I come across.</item>
+                <item id="4">I favor style over substance.</item>
+                <item id="5">I am insecure about my skills and cover this with boasting.</item>
+                <item id="6">I have developed expensive tastes and constantly need more gold to fuel my lifestyle.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Feature: Gold Shaping and Lets Make a Deal" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_GOLD_SHAPING">
+        <description>
+            <p>From birth, you have been able to shape gold using your innate magic into any form you choose. You use your Charisma to shape gold and are proficient in any gold shaping checks you make to craft objects from pure gold. The GM treats gold shaping checks as checks made using a set of artisan’s tools for the purpose of crafting objects. Shaping gold requires immense focus, and you must concentrate on your shaping as if you were concentrating on a spell.</p>
+            <p class="indent">As a gold shaper, your rare gift keeps your services in high demand. You generally find yourself in good company among merchants and the nobility. In a large enough settlement, you can find merchants or patrons who will pay you wages enough to maintain a comfortable lifestyle in exchange for your work. Furthermore, you can usually find those in need of your talents who are willing to provide information, favors, or other special services instead of payment.</p>
+        </description>
+        <sheet alt="Gold Shaping and Lets Make a Deal">
+            <description>From birth, you have been able to shape gold using your innate magic into any form you choose. You use your Charisma to shape gold and are proficient in any gold shaping checks you make to craft objects from pure gold. The GM treats gold shaping checks as checks made using a set of artisan’s tools for the purpose of crafting objects. Shaping gold requires immense focus, and you must concentrate on your shaping as if you were concentrating on a spell. As a gold shaper, your rare gift keeps your services in high demand. You generally find yourself in good company among merchants and the nobility. In a large enough settlement, you can find merchants or patrons who will pay you wages enough to maintain a comfortable lifestyle in exchange for your work. Furthermore, you can usually find those in need of your talents who are willing to provide information, favors, or other special services instead of payment.</description>
+        </sheet>
+    </element>
+    <element name="Outback Cook" type="Background" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_OUTBACK_COOK">
+        <description>
+            <p>You are an outback cook, a survival expert who has learned from painstaking trial and error how to cook up the most delectable bits of just about any monster you come across. You are as rugged as your meals are delicious, and your time camping out with only your wits and culinary skills to rely on has given you a unique perspective on life. Outback cooks have a motto: “Your next meal could be your last, so it might as well be tasty!” Whether you’re a thrill-seeker who enjoys the taste of danger, a culinary rogue bored by the tepid offerings in your home city, or simply someone who does what’s needed to endure the Bellowing Wilds, you know no meal can be taken for granted.</p>
+            <p class="indent"></p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Nature, Survival</li>
+                <li><strong>Tool Proficiencies:</strong> Cook's Utensils and one other of your choice</li>
+                <li><strong>Languages:</strong> -</li>
+                <li><strong>Equipment:</strong> A butcher’s knife, sickle, a set of cook’s utensils, a pouch filled with eleven different herbs and spices, a flask of cooking oil, a book of recipes you’ve developed on the trail, an inkpen, a bottle of ink, a set of traveler’s clothes, and a pouch containing 5 gp</li>
+            </ul>
+            <div element="ID_HPP_FOOLS_BACKGROUND_FEATURE_CAMPOUT_CUISINE" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Outback cooks enjoy traveling worldwide to learn cooking techniques and develop special meals. They meet people from countless different backgrounds, shaping their choice of cuisine and outlook on the world</p>
+        </description>
+        <setters>
+            <set name="short">Nature, Survival, Cook's utensions, and 1 tool</set>
+        </setters>
+        <rules>
+            <grant type="Background Feature" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_CAMPOUT_CUISINE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Personality Trait" number="2">
+                <item id="1">The wild is my kitchen, and those in it must follow my rules because I’m the Head Chef.</item>
+                <item id="2">I’m always eager to learn, especially if it can help my cooking</item>
+                <item id="3">I can’t help but review and critique every meal I eat.</item>
+                <item id="4">I speak plainly. Honesty is the best policy, even if the truth is bitter.</item>
+                <item id="5">My self-worth deflates like a bad souffle whenever someone speaks harshly to me.</item>
+                <item id="6">I don’t believe in wasting food and am touchy about others not finishing their meals.</item>
+                <item id="7">I’ll try anything once, whether that’s an ingredient or a dangerous activity.</item>
+                <item id="8">I don’t express myself well with words. I show how I feel through the food I cook.</item>
+            </select>
+            <select type="List" name="Ideal">
+                <item id="1">Charity. Gold won’t fill hungry stomachs, but my meals can. (Good)</item>
+                <item id="2">Community. Most disagreements can be solved by sitting down to eat together. (Good)</item>
+                <item id="3">Control. If someone’s hungry enough, they’ll eat whatever you feed them. (Evil)</item>
+                <item id="4">Conservation. Nature provides us with sustenance, so we must protect its bounty. (Lawful)</item>
+                <item id="5">Thrill Seeking. Danger is the best sauce. (Chaotic)</item>
+                <item id="6">Innovation. Our minds, like our palates, crave what’s new and fresh. (Chaotic)</item>
+            </select>
+            <select type="List" name="Bond">
+                <item id="1">One day, I will prepare a meal worthy of the great dragon Gresh and serve it to her.</item>
+                <item id="2">Someone poisoned my food and framed me for the deed. I will serve them an ice-cold dish of revenge.</item>
+                <item id="3">I will feed anyone who is hungry and never waste any food.</item>
+                <item id="4">I lost someone on an outback expedition because I was careless. I will never let this happen again.</item>
+                <item id="5">I want to improve my craft to impress my mentor.</item>
+                <item id="6">I’m only adventuring until I can afford to retire and start my own restaurant.</item>
+            </select>
+            <select type="List" name="Flaw">
+                <item id="1">I have a terrible sense of smell.</item>
+                <item id="2">I always believe I know best, both in and out of the kitchen.</item>
+                <item id="3">I guard the secrets of my recipes and ingredient sources far too jealously</item>
+                <item id="4">My food is always spicy enough to make a dragon cry.</item>
+                <item id="5">I’ll risk life and limb for a rare ingredient.</item>
+                <item id="6">Any criticism sends me into a spiral of self-doubt.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Feature: Campout Cuisine and From the Stomach to the Heart" type="Background Feature" source="Fools Gold" id="ID_HPP_FOOLS_BACKGROUND_FEATURE_CAMPOUT_CUISINE">
+        <description>
+            <p>As an outback cook, you have experience using many rare and unusual ingredients while braving both the figurative and literal frontiers of gourmet cooking. While traveling in the wilderness, you can always tell whether or not wild creatures, plants, or berries you find are edible (decided by the GM). You can also use parts of the corpse of any aberration, beast, dragon, monstrosity, ooze, or plant that hasn’t been dead for more than a day as ingredients and can make meals out of them, provided you have access to cook’s utensils. Creatures that spend at least one hour eating the dish you cook gain temporary hit points equal to your character level. A creature can only benefit from this feature once per day. Bon appetit!</p>
+            <p class="indent">Your culinary explorations have taught you how to fine-tune your meals to please audiences with different preferences. When you cook a meal for people, provided you have the ingredients you need, the people who eat your food are inclined to enjoy it and admire you.</p>
+        </description>
+        <sheet alt="Campout Cuisine and From the Stomach to the Heart">
+            <description>As an outback cook, you have experience using many rare and unusual ingredients while braving both the figurative and literal frontiers of gourmet cooking. While traveling in the wilderness, you can always tell whether or not wild creatures, plants, or berries you find are edible (decided by the GM). You can also use parts of the corpse of any aberration, beast, dragon, monstrosity, ooze, or plant that hasn’t been dead for more than a day as ingredients and can make meals out of them, provided you have access to cook’s utensils. Creatures that spend at least one hour eating the dish you cook gain temporary hit points equal to your character level. A creature can only benefit from this feature once per day. Bon appetit! Your culinary explorations have taught you how to fine-tune your meals to please audiences with different preferences. When you cook a meal for people, provided you have the ingredients you need, the people who eat your food are inclined to enjoy it and admire you.</description>
+        </sheet>
+    </element>
+</elements>
