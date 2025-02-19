@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-mohsnian.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-mohsnian.xml" />
+		</update>
+	</info>
+    <element name="Mohsnian" type="Race" source="Fools Gold" id="ID_HPP_FOOLS_RACE_MOHSNIAN">
+        <description>
+            <p>Sturdy, proud, loyal, and exuberant, the mohsnians are living gemstones. Their reputation as skilled craftspeople means they’re often sought out by traders for their valuable creations. Traveling with a mohsnian is like traveling with the living embodiment of pride and loyalty. Most mohsnians in the Bellowing Wilds come from the town of Granite. See Exploring the Bellowing Wilds for more information about mohsnian culture in the Wilds.</p>
+            <h4>CARVED TO LIFE</h4>
+            <p>Mohsnians are made, not born, brought to life through craft, skill, and patience. The first mohsnian, Stumpy the Unbreakable, was created by a wizard who didn’t really think through the ethics of creating sentient rocks. Stumpy created his children by carving them from precious gems and passing on a piece of his lifeforce to them. All mohsnians are descended from that first spark of life. Therefore, many mohsnians consider all other mohsnians family.</p>
+            <p class="indent">When mohsnians are ready to create a new member of the family, one or more parents choose a gemstone to become the child’s body. An extraordinary amount of careful carving is required to sculpt a mohsnian child, a process that can take many years.</p>
+            <p class="indent">Once the carving is complete, the new mohsnian is given life by their parents, who take a crystal piece of their bodies and fuse it into the new body. When the fusion is complete, the new mohsnian awakens and is welcomed into the family. Mohsnian children’s size when they come to life is determined by the size of the stone they were carved from. Some are no larger than pebbles; others start life as tall as a full-grown humanoid.</p>
+            <h4>BUILT TO LAST</h4>
+            <p>Mohsnians are known as the sturdiest race in Ambria. As living humanoid crystals imbued with magic, they can regrow limbs and repair their bodies with gold.</p>
+            <p class="indent">Mohsnians are a long-lived race. They don’t reach adulthood until age 50, by which time they’re typically over 6 feet tall. They keep growing steadily for another 100 years after that before slowing down after reaching around 8 feet tall, though they continue to grow slowly for the rest of their lives. No matter their age, mohsnians always have the ability to regrow shattered parts of their bodies</p>
+            <h4>BIG AND BOISTEROUS</h4>
+            <p>Mohsnians often have big personalities. Their culture encourages exuberant expressions of emotion and emphasizes the celebration of events, large and small. Mohsnians tend to be very physical with each other and those they call friends. Knocking heads with each other is a sign of affection.</p>
+            <p class="indent">Outsiders might assume a hierarchy among mohsnians based on the value of the gemstone they’re made from, but this is a misconception. Parents choose any gemstone to create their children, and the type of stone plays no part in how a mohsnian is seen by other mohsnians. Instead, size is a sign of high status. As mohsnians grow throughout their lifespan, great size is considered a sign of wisdom and prudence.</p>
+            <h4>INNER LIGHT</h4>
+            <p>The crystalline bodies of mohsnians are animated by magic and sunlight. Exposure to light helps fortify and empower mohsnians, making their gemstone bodies shine. Different gems confer certain magical characteristics on mohsnians, but they don’t determine their destiny or profession.</p>
+            <p class="indent"></p>
+            <h4>RESONANT IDENTITIES</h4>
+            <p>Mohsnians choose their names when they find one that resonates with them. Until then, children are called “Child of” their parent’s name. For example, if a mohsnian named Raute gave life to three new mohsnians, they would be referred to as Eldest, Middlest, and Youngest Child of Raute until they decide on their own names. Young mohsnians usually pick a name for themselves within the first 10 years of their life, but some may take centuries to find a name that resonates perfectly with them. Mohsnian names are very varied. Some are influenced by other cultures and languages or are drawn from the natural world, concepts, and values, while a few are just pleasing sounds.</p>
+            <p class="indent">Similarly, mohsnians pick their own genders if they wish to. Many mohsnians have no gender at all, while others enjoy experimenting with gender until they find one that resonates for them.</p>
+            <h4>name Traits</h4>
+            <p>Your mohsnian character has some characteristics in common with other mohsnians.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2. Another of your ability scores increases based on your birthstone.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Mohsnians reach adulthood around age 50 and can live hundreds of years before the arcane energies that power them finally run dry.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Mohsnians are usually tall, reaching heights of up to 8 feet or more in adulthood. They can weigh from around 300 to up to 1,000 pounds. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Cyrstalline Body.</em></strong> Your body is made of living crystal, granting you the following benefits: you don’t need to eat, drink, or breathe, you have resistance to radiant and poison damage, and you are immune to petrification and disease.</p>
+            <p class="indent"><strong><em>Gemstone Armor</em></strong> Your crystalline body is hard and durable. While not wearing armor, your Armor Class equals 10 + your Constitution modifier + your Dexterity modifier. You can use a shield and still gain this benefit.</p>
+            <p class="indent"><strong><em>Strategic Shattering</em></strong> When a creature scores a critical hit against you, you can use your reaction to halve the damage from that attack by allowing one of your limbs to absorb the blow and shatter. Once you use this ability, you can’t use it again until you finish a long rest. While one or more of your limbs is shattered, you cannot take reactions until the limbs have regrown or been repaired. Your body is always growing, and any shattered body parts regenerate over the course of 1d4 months, as long as your head remains intact. You can also fix your own body rapidly, repairing a shattered body part with gold over a long rest provided you have access to jeweler’s, smith’s, or tinker’s tools and at least 100 gp worth of gold, which is consumed in the repair.</p>
+            <p class="indent"><strong><em>Sunlight Dependency</em></strong> You need light to survive. If you go more than ten days without exposure to bright light, you suffer a level of exhaustion at the end of each day. Exhaustion levels gained in this way are persistent and can’t be removed unless you finish a long rest in bright light.</p>
+            <p class="indent"><strong><em>Brilliant Radiance</em></strong> You can use your action to unleash the arcane energy that naturally builds up in your crystalline body when you are exposed to light. When you unleash your brilliant radiance, each creature within a 10-foot radius of you must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 radiant damage on a failed save, or half as much damage on a successful one. The radiant damage increases to 2d8 at 6th level, 3d8 at 11th level, and 4d8 at 16th level.</p>
+            <p class="indent">Additionally, your birthstone type enhances your radiance with an additional effect or lets you channel it in a unique way.</p>
+            <p class="indent">After you unleash your brilliant radiance, you can’t use it again until you finish a short or long rest or you take radiant damage.</p>
+            <p class="indent"><strong><em>Birthstone</em></strong> You were carved by one or more parents out of a precious stone known as your birthstone. Choose one type of gem from the Birthstone table. Your second ability score increase and the special properties of your brilliant radiance are determined by your birthstone gem type, as shown in the Birthstone Types table.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Terran</p>
+            <p><strong>Consider these questions when creating your mohsnian character:</strong></p>
+            <ul>
+                <li>Mohsnians can vary greatly in shape and size. Do you have any notable crystalline features?</li>
+                <li>Many mohsnians are skilled crafters. Does your character enjoy crafting something particular? Or are they not interested in crafts?</li>
+                <li>What prompted you to leave and set out on an adventure?</li>
+                <li>Who do you consider to be your family?</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="Chosen Name">Aurum, Caliper, Brugba, Fame, Gravity, Hoofstomp, Inlier, Look-Look, Loyal, Mason, Mega Moss, Nugget, Phosphene, River, Roslyn, Silhouette, Tumble, Vine</set>
+            <set name="names-format">{{Chosen Name}}</set>
+        </setters>
+        <rules>
+            <stat name="Constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_CRYSTALLINE_BODY" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_GEMSTONE_ARMOR" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_STRATEGIC_SHATTERING" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_SUNLIGHT_DEPENDENCY" />
+            <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_BRILLIANT_RAIDANCE" />
+            <select type="Racial Trait" supports="birthstone" />
+            
+        </rules>
+    </element>
+    <element name="Crystalline Body" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_CRYSTALLINE_BODY">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>Your body is made of living crystal granting you immunity to petrification and disease.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            
+        </rules>
+    </element>
+    <element name="Gemstone Armor" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_GEMSTONE_ARMOR">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>While not wearing armor, your Armor Class equals 10 + your Constitution modifier + your Dexterity modifier. You can use a shield and still gain this benefit.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:gemstone armor:base" value="10"/>
+            <stat name="ac:gemstone armor:dexterity" value="dexterity:modifier"/>
+            <stat name="ac:gemstone armor:constitution" value="constitution:modifier"/>
+            <stat name="ac:gemstone armor" value="ac:gemstone armor:base"/>
+            <stat name="ac:gemstone armor" value="ac:gemstone armor:dexterity"/>
+            <stat name="ac:gemstone armor" value="ac:gemstone armor:constitution"/>
+            <stat name="ac:calculation" value="ac:gemstone armor" bonus="calculation" alt="Gemstone Armor (Mohsnian)"/>
+        </rules>
+    </element>
+    <element name="Strategic Shattering" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_STRATEGIC_SHATTERING">
+        <description>
+            <p></p>
+        </description>
+        <sheet usage="Reaction">
+            <description>When a creature scores a critical hit against you, you can use your reaction to halve the damage from that attack by allowing one of your limbs to absorb the blow and shatter. Once you use this ability, you can’t use it again until you finish a long rest. While one or more of your limbs is shattered, you cannot take reactions until the limbs have regrown or been repaired. Your body is always growing, and any shattered body parts regenerate over the course of 1d4 months, as long as your head remains intact. You can also fix your own body rapidly, repairing a shattered body part with gold over a long rest provided you have access to jeweler’s, smith’s, or tinker’s tools and at least 100 gp worth of gold, which is consumed in the repair.</description>
+        </sheet>
+    </element>
+    <element name="Sunlight Dependency" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_SUNLIGHT_DEPENDENCY">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>You need light to survive. If you go more than ten days without exposure to bright light, you suffer a level of exhaustion at the end of each day. Exhaustion levels gained in this way are persistent and can’t be removed unless you finish a long rest in bright light.</description>
+        </sheet>
+    </element>
+    <element name="Brilliant Radiance" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_BRILLIANT_RAIDANCE">
+        <description>
+            <p></p>
+        </description>
+        <sheet>
+            <description>When you unleash your brilliant radiance, each creature within a 10-foot radius of you must make a Constitution saving throw DC {{brilliant-rad}}. A creature takes 1d8 radiant damage on a failed save, or half as much damage on a successful one. The radiant damage increases to 2d8 at 6th level, 3d8 at 11th level, and 4d8 at 16th level. After you unleash your brilliant radiance, you can’t use it again until you finish a short or long rest or you take radiant damage.</description>
+        </sheet>
+        <rules>
+            <stat name="brilliant-rad" value="8" />
+            <stat name="brilliant-rad" value="constitution:modifier" />
+            <stat name="brilliant-rad" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Amethyst" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_AMETHYST">
+        <supports>birthstone</supports>
+        <description>
+            <p>Instead of your brilliant radiance’s usual damage, you can have it grant temporary hit points that last for 1 hour, equal to the radiant damage it would normally deal to each creature within a 10-foot radius of you.</p>
+            <p class="indent">You Intelligence increases by 1.</p>
+        </description>
+        <sheet>
+            <description>Instead of your brilliant radiance’s usual damage, you can have it grant temporary hit points that last for 1 hour, equal to the radiant damage it would normally deal to each creature within a 10-foot radius of you.</description>
+        </sheet>
+        <rules>
+            <stat name="Intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Diamond" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_DIAMOND">
+        <supports>birthstone</supports>
+        <description>
+            <p>Each creature that fails its saving throw against your brilliant radiance is also blinded until the start of your next turn.</p>
+            <p class="indent">You Charisma increases by 1.</p>
+        </description>
+        <sheet>
+            <description>Each creature that fails its saving throw against your brilliant radiance is also blinded until the start of your next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="Charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Emerald" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_EMERALD">
+        <supports>birthstone</supports>
+        <description>
+            <p>Each creature that fails its saving throw against your brilliant radiance is charmed by you until the start of your next turn.</p>
+            <p class="indent">You Charisma increases by 1.</p>
+        </description>
+        <sheet>
+            <description>Each creature that fails its saving throw against your brilliant radiance is charmed by you until the start of your next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="Charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Opal" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_OPAL">
+        <supports>birthstone</supports>
+        <description>
+            <p>Each creature that fails its saving throw against your brilliant radiance is frightened of you until the start of your next turn.</p>
+            <p class="indent">You Wisdom increases by 1.</p>
+        </description>
+        <sheet>
+            <description>Each creature that fails its saving throw against your brilliant radiance is frightened of you until the start of your next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Quartz" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_QUARTZ">
+        <supports>birthstone</supports>
+        <description>
+            <p>Instead of your brilliant radiance’s usual damage, you can have it restore hit points equal to the radiant damage it would normally deal to each creature within a 10-foot radius of you. Once you use your brilliant radiance in this way, you can’t do so again until you finish a long rest.</p>
+            <p class="indent">You Wisdom increases by 1.</p>
+        </description>
+        <sheet>
+            <description>Instead of your brilliant radiance’s usual damage, you can have it restore hit points equal to the radiant damage it would normally deal to each creature within a 10-foot radius of you. Once you use your brilliant radiance in this way, you can’t do so again until you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Ruby" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_RUBY">
+        <supports>birthstone</supports>
+        <description>
+            <p>You gain resistance to fire damage and can choose to unleash your brilliant radiance as a reaction when you take fire damage. You can have your brilliant radiance deal fire or radiant damage whenever you unleash it.</p>
+            <p class="indent">You Charisma increases by 1.</p>
+        </description>
+        <sheet>
+            <description>You gain resistance to fire damage and can choose to unleash your brilliant radiance as a reaction when you take fire damage. You can have your brilliant radiance deal fire or radiant damage whenever you unleash it.</description>
+        </sheet>
+        <rules>
+            <stat name="Charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+    <element name="Sapphire" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_MOHSNIAN_SAPPHIRE">
+        <supports>birthstone</supports>
+        <description>
+            <p>You can unleash your brilliant radiance as a 5-foot-wide, 30-foot-long line.</p>
+            <p class="indent">You Intelligence increases by 1.</p>
+        </description>
+        <sheet>
+            <description>You can unleash your brilliant radiance as a 5-foot-wide, 30-foot-long line.</description>
+        </sheet>
+        <rules>
+            <stat name="Intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        </rules>
+    </element>
+</elements>
