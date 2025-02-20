@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="rogue-shadowlurker.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/rogue-shadowlurker.xml" />
+		</update>
+	</info>
+    <element name="Cryodon Guide" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_ROGUE_LURKER">
+        <supports>Roguish Archetype</supports>
+        <description>
+            <p class="indent"></p>
+            <div element="ID__" />
+            <div element="ID___" />
+            <div element="ID____" />
+            <div element="ID_____" />
+            <div element="ID______" />
+            <div element="ID_______" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID__" level="1" />
+            <grant type="Archetype Feature" id="ID___" level="1" />
+            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID_____" level="1" />
+            <grant type="Archetype Feature" id="ID______" level="1" />
+            <grant type="Archetype Feature" id="ID_______" level="1" />
+        </rules>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID__">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID___">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID____">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_____">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID______">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_______">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+</elements>
