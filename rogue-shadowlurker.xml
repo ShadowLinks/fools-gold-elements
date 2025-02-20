@@ -5,81 +5,85 @@
 			<file name="rogue-shadowlurker.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/rogue-shadowlurker.xml" />
 		</update>
 	</info>
-    <element name="Cryodon Guide" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_ROGUE_LURKER">
+    <element name="Shadowlurker" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_ROGUE_LURKER">
         <supports>Roguish Archetype</supports>
         <description>
-            <p class="indent"></p>
-            <div element="ID__" />
-            <div element="ID___" />
-            <div element="ID____" />
-            <div element="ID_____" />
-            <div element="ID______" />
-            <div element="ID_______" />
+            <p>The mysterious shadowlurker rogues prefer to spend their lives shrouded in darkness. They work best at night or underground to easily overpower those less adapted to dark environments.</p>            
+            <p class="indent">Becoming a shadowlurker is no simple feat. Dedicated rogues may find themselves contacted by a representative from the Plane of Shadow, who reaches out to them in the form of their own shadow. They always offer the same accord: If the rogue is able to defeat them in a duel, known as the Umbra Trial, they will bestow powers of darkness upon the rogue. Those who win the duel and defeat their now-conscious shadow counterpart gain its support from that moment on. While it can pretend to be a normal shadow, a shadowlurker’s shadow has the ability to separate itself from the rogue and interact with the world. Though such shadows respect their rogue, they have personalities of their own, and a mischievous shadow that moves or twitches during the day is a sure sign that someone is a shadowlurker.</p>
+
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SELF" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_IMPROVED_DARKVISION" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SLIP" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_LETHAL_SHADE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOWGATE" />
         </description>
         <sheet display="false">
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID__" level="1" />
-            <grant type="Archetype Feature" id="ID___" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID_____" level="1" />
-            <grant type="Archetype Feature" id="ID______" level="1" />
-            <grant type="Archetype Feature" id="ID_______" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SELF" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_IMPROVED_DARKVISION" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SLIP" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_LETHAL_SHADE" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOWGATE" level="1" />
         </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID__">
+    <element name="Shadow Self" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SELF">
         <description>
-            <p></p>
-            <p class="indent"></p>
+            <p>When you choose this archetype at 3rd level, your shadow becomes sentient. As a bonus action, you can separate your shadow from your body, manifesting as a dark copy of you in an unoccupied space adjacent to you.</p>
+            <p class="indent">Your shadow has 1 hp, is immune to all damage except radiant damage, and it shares your movement speed, AC, bonuses to saving throws, and senses. It understands the languages you know but can’t speak.</p>
+            <p class="indent">While your shadow is manifested in this way, you gain the following benefits:</p>
+            <ul>
+                <li>When your shadow is within 5 feet of your target, you can use your Sneak Attack against that target even if you don’t have advantage on the attack roll as long as you don’t have disadvantage on the attack roll</li>
+                <li>As a bonus action, you can mentally command your shadow to take the Use an Object action, make a Dexterity (Sleight of Hand) check, or use thieves’ tools to disarm a trap or open a lock. Your shadow has shadowy duplicates of your thieves’ tools and uses your bonuses to skills when making Dexterity checks with thieves’ tools or Sleight of Hand.</li>
+                <li>As a free action on your turn, you can mentally command your shadow to move up to its speed.</li>
+            </ul>
+            <p class="indent">Your shadow lasts until it vanishes or until you dismiss it (no action required). Your shadow must remain within 30 feet of you, or it vanishes.</p>
+            <p class="indent">If your shadow takes radiant damage or if it is ever more than its maximum distance of 30 feet away from you, it vanishes. When you reach certain levels in this class, this distance increases; 60 feet at 5th level, 90 feet at 11th level, and 120 feet at 17th level. If your shadow takes any radiant damage, it vanishes. When your shadow vanishes, you can’t manifest it again until you finish a short or long rest. During this time you don’t appear to have a shadow at all.</p>
         </description>
         <sheet>
-            <description></description>
+            <description>As a bonus action, you can separate your shadow from your body, manifesting as a dark copy of you in an unoccupied space adjacent to you. Your shadow has 1 hp, is immune to all damage except radiant damage, and it shares your movement speed, AC, bonuses to saving throws, and senses. It understands the languages you know but can’t speak. While your shadow is manifested in this way, you gain the following benefits: 9 When your shadow is within 5 feet of your target, you can use your Sneak Attack against that target even if you don’t have advantage on the attack roll as long as you don’t have disadvantage on the attack roll. 9 As a bonus action, you can mentally command your shadow to take the Use an Object action, make a Dexterity (Sleight of Hand) check, or use thieves’ tools to disarm a trap or open a lock. Your shadow has shadowy duplicates of your thieves’ tools and uses your bonuses to skills when making Dexterity checks with thieves’ tools or Sleight of Hand. 9 As a free action on your turn, you can mentally command your shadow to move up to its speed. 
+Your shadow lasts until it vanishes or until you dismiss it (no ction required). Your shadow must remain within 30 feet of you, or it vanishes. If your shadow takes radiant damage or if it is ever more than its maximum distance of 30 feet away from you, it vanishes. When you reach certain levels in this class, this distance increases; 60 feet at 5th level, 90 feet at 11th level, and 120 feet at 17th level. If your shadow takes any radiant damage, it vanishes. When your shadow vanishes, you can’t manifest it again until you finish a short or long rest. During this time you don’t appear to have a shadow at all.</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID___">
+    <element name="Improved Darkvision" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_IMPROVED_DARKVISION">
         <description>
-            <p></p>
+            <p>Starting at 3rd level, your eyes become accustomed to the dark. You gain darkvision out to a range of 120 feet. If you already have darkvision, its range increases by 60 feet.</p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>You gain darkvision out to a range of 120 feet or 180 feet if you already have darkvision.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Shadow Slip" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOW_SLIP">
+        <description>
+            <p>At 9th level, you gain the ability to briefly slip into the plane of shadows to magically teleport from one shadow into another. When you are in dim light or darkness, as a bonus action, you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. Immediately after you use your Shadow Slip, darkness clings to you and you can attempt to Hide as a free action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>When you are in dim light or darkness, as a bonus action, you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. Immediately after you use your Shadow Slip, darkness clings to you and you can attempt to Hide as a free action.</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID____">
+    <element name="Lethal Shade" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_LETHAL_SHADE">
         <description>
-            <p></p>
-            <p class="indent"></p>
+            <p>Starting at 13th level, your manifested shadow can aid you in your attacks. When you hit a target that is within 5 feet of your shadow and use your Sneak Attack, your shadow mirrors your attack, doubling your Sneak Attack dice. Once you use this feature, you can’t do so again until you finish a short rest.</p>
+            <p class="indent">When you reach 17th level in this class, your shadow attacks with greater vigor. Your Sneak Attack dice are tripled when you use this feature.</p>
         </description>
-        <sheet>
-            <description></description>
+        <sheet action="Bonus Action" usage="1/Short Rest">
+            <description>When you hit a target that is within 5 feet of your shadow and use your Sneak Attack, your shadow mirrors your attack, doubling your Sneak Attack dice. Once you use this feature, you can’t do so again until you finish a short rest.</description>
+            <description level="17">When you hit a target that is within 5 feet of your shadow and use your Sneak Attack, your shadow mirrors your attack, tripling your Sneak Attack dice. Once you use this feature, you can’t do so again until you finish a short rest.</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_____">
+    <element name="Shadowgate" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_ROGUE_LURKER_SHADOWGATE">
         <description>
-            <p></p>
+            <p>At 17th level, you have mastered your connection with shadows and gain the ability to travel to and from the Plane of Shadow. When in an area of dim light or darkness, you can cast the gate spell without the need for material components and using Constitution as your spellcasting ability. When cast in this way, you can only open portals between the Plane of Shadow and the Material Plane and you can’t draw a creature through your portal by name. You can use this feature a number of times per day equal to your Constitution modifier (minimum of 1). You regain any expended uses when you finish a long rest.</p>
             <p class="indent"></p>
         </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID______">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_______">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
+        <sheet usage="{{constitution:modifier}}/day">
+            <description>When in an area of dim light or darkness, you can cast the gate spell without the need for material components and using Constitution as your spellcasting ability. When cast in this way, you can only open portals between the Plane of Shadow and the Material Plane and you can’t draw a creature through your portal by name. </description>
         </sheet>
     </element>
 </elements>
