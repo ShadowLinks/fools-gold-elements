@@ -18,6 +18,8 @@
 		<file name="race-mohsnian.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-mohsnian.xml" />
 		<file name="race-weaver.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-weaver.xml" />
 		<file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-foreclaimer.xml" />
+
 		<file name="barbarian-soaringsoul.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/barbarian-soaringsoul.xml" />
+		<file name="druid-swiftness.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/druid-swiftness.xml" />
 	</files>
 </index>

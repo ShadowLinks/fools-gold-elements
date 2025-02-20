@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="druid-swiftness.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/druid-swiftness.xml" />
+		</update>
+	</info>
+    <element name="Circle of Swiftness" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_DRUID_SWIFTNESS">
+        <supports>Druid Circle</supports>
+        <description>
+            <p>The Circle of Swiftness was an ancient order of druids that was thought to be lost to time until a powerful druid named Gothi, the last surviving member of this circle, shared its teachings with other druids of Ambria and slowly revived the circle’s popularity.</p>
+            <p class="indent">The circle’s teachings aim to deepen a druid’s bond with an animal companion by fighting together as one to protect the balance of nature.</p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_MOUNT" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_TWIN_BEAST_SHAPE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_CASTING" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_ENTWINED_EVOLUTION" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_BEAST_STRIDE" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_MOUNT" level="2" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_TWIN_BEAST_SHAPE" level="2" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_CASTING" level="6" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_ENTWINED_EVOLUTION" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_BEAST_STRIDE" level="14" />
+        </rules>
+    </element>
+    <element name="Companion Mount" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_MOUNT">
+        <description>
+            <p>Starting at 2nd level, you form a bond with a wild beast that becomes your companion mount. Your mount can take the form of any beast, but it uses the companion mount stat block, possibly altering its physical characteristics beyond the norms for a creature of its kind. You choose how your mount attacks and what kind of damage this attack deals when you bond with it. For example, if your mount is a sharkhound, its attack could be a bite that does piercing damage, but if you decide it is a massive fluffy rabbit, its attack could instead be a kick that does bludgeoning damage.</p>
+            <p class="indent">Your mount is friendly to you and your companions, and it has its own distinct personality.</p>
+            <p class="indent">In combat, your mount shares your initiative count and takes its turn directly after yours, though it can only take the Dodge action and move unless you use your bonus action to command it to take a different action, such as attacking, hiding, or interacting with an object. If you are incapacitated, your mount can take any action of its choice, not just Dodge.</p>
+            <p class="indent">As part of your movement each turn, you can spend half your movement speed to either mount or dismount your mount. While you are mounted, your companion mount acts on the same turn in initiative as you and can only move unless you direct it to take another action. You fall off your mount if you are incapacitated or knocked prone.</p>
+            <p class="indent">While you are mounted on your companion mount, you can redirect any attacks made against your mount to target you instead, and you can use your reaction to grant your mount advantage on Strength and Dexterity saving throws.</p>
+            <p class="indent">Your mount can make death saving throws. If your mount dies, you can bond with a new companion mount by performing an eight-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or resurrection.</p>
+            <p class="indent">You can’t have more than one companion mount at one time. If you form a bond with a new companion mount, your bond with your current companion mount is broken.</p>
+        </description>
+        <sheet>
+            <description>Your mount is friendly to you and your companions, and it has its own distinct personality. In combat, your mount shares your initiative count and takes its turn directly after yours, though it can only take the Dodge action and move unless you use your bonus action to command it to take a different action, such as attacking, hiding, or interacting with an object. If you are incapacitated, your mount can take any action of its choice, not just Dodge. As part of your movement each turn, you can spend half your movement speed to either mount or dismount your mount. While you are mounted, your companion mount acts on the same turn in initiative as you and can only move unless you direct it to take another action. You fall off your mount if you are incapacitated or knocked prone. While you are mounted on your companion mount, you can redirect any attacks made against your mount to target you instead, and you can use your reaction to grant your mount advantage on Strength and Dexterity saving throws. Your mount can make death saving throws. If your mount dies, you can bond with a new companion mount by performing an eight-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or resurrection. You can’t have more than one companion mount at one time. If you form a bond with a new companion mount, your bond with your current companion mount is broken.</description>
+        </sheet>
+        <rules>
+            <select type="Companion" supports="companion-mount" />
+        </rules>
+    </element>
+    <element name="Companion Mount" type="Companion" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_COMPANION_MOUNT">
+        <supports>companion-mount</supports>
+        <description>
+            <p>Companion Mount</p>
+        </description>
+        <setters>
+            <set name="strength">15</set>
+            <set name="dexterity">15</set>
+            <set name="constitution">16</set>
+            <set name="intelligence">7</set>
+            <set name="wisdom">13</set>
+            <set name="charisma">5</set>
+            <set name="ac">12 + PB</set>
+            <set name="hp">5 + five times your druid level</set>
+            <set name="speed">40 ft.</set>
+            <set name="saves">Dex modifier + PB, Wis +1 + PB</set>
+            <set name="senses">blindsight 30 ft., passive Perception 11 + PB</set>
+            <set name="languages">understands 1 language you know but cant speak</set>
+            <set name="skills">Perception +1 + PB</set>
+            <set name="type">Beast</set>
+            <set name="size">Large</set>
+            <set name="alignment">Any alignment</set>
+            <set name="challenge">1</set>
+            <set name="actions">ID_HPP_FOOLS_COMPANION_ACTION_MULTIATTACK,ID_HPP_FOOLS_COMPANION_ACTION_ATTACK</set>
+            <set name="traits">ID_HPP_FOOLS_COMPANION_TRAITS_BLESSING_OF_SWIFTNESS,ID_HPP_FOOLS_COMPANION_TRAITS_BLOOMING_BOND,ID_HPP_FOOLS_COMPANION_TRAITS_KEEN_SENSES</set>
+            <set name="proficiency">0</set>
+        </setters>
+        <rules>
+            <stat name="companion:ac" value="14"/>
+            <stat name="companion:ac" value="proficiency"/>
+            <stat name="companion:hp:max" value="5" bonus="base"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:speed" value="40" bonus="base"/>
+            <stat name="companion:speed" value="10" level="6"/>
+            <stat name="companion:speed" value="10" level="10"/>
+            <stat name="companion:proficiency" value="proficiency" bonus="proficiency"/>
+
+        </rules>
+    </element>
+    <element name="Multiattack" type="Companion Action" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_ACTION_MULTIATTACK">
+        <description>
+            <p>The mount can make additional attacks when it takes the attack action as your druid level increases. When you reach 6th level in this class, it makes two attacks, and when you reach 14th level, it makes three attacks</p>
+        </description>
+        <sheet>
+            <description>
+                <p>The mount can make additional attacks when it takes the attack action as your druid level increases. It makes 2 at level 6 and 3 at level 14.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Attack" type="Companion Action" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_ACTION_ATTACK">
+        <description>
+            <p>Melee Weapon Attack: + Str or Dex modifier + PB to hit, reach 5 ft., one target. Hit: 1d6 + Str or Dex modifier bludgeoning, slashing, or piercing damage (chosen when you bond with your companion mount). This damage increases to 2d6 when you reach 10th level in this class and 3d6 when you reach 17th level.</p>
+        </description>
+        <sheet>
+            <description>Melee Weapon Attack: + Str or Dex modifier + PB to hit, reach 5 ft., one target. Hit: 1d6 + Str or Dex modifier bludgeoning, slashing, or piercing damage (chosen when you bond with your companion mount). This damage increases to 2d6 when you reach 10th level in this class and 3d6 when you reach 17th level.</description>
+        </sheet>
+    </element>
+    <element name="Blessing of Swiftness" type="Companion Trait" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_TRAITS_BLESSING_OF_SWIFTNESS">
+        <description>
+            <p>The mount moves with greater swiftness as your druid level increases. When you reach 6th level in this class its speed increases to 50 feet, and when you reach 10th level its speed increases to 60 feet.</p>
+        </description>
+        <sheet>
+            <description>When you gain an Ability Score Improvement as a druid, the mount also increases its Str or Dex score by 2 or both scores by 1. The mount can’t increase an ability score above 20 using this feature</description>
+        </sheet>
+    </element>
+    <element name="Blooming Bond" type="Companion Trait" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_TRAITS_BLOOMING_BOND">
+        <description>
+            <p>When you gain an Ability Score Improvement as a druid, the mount also increases its Str or Dex score by 2 or both scores by 1. The mount can’t increase an ability score above 20 using this feature</p>
+        </description>
+        <sheet>
+            <description>When you gain an Ability Score Improvement as a druid, the mount also increases its Str or Dex score by 2 or both scores by 1. The mount can’t increase an ability score above 20 using this feature</description>
+        </sheet>
+    </element>
+    <element name="Keen Senses" type="Companion Trait" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_TRAITS_KEEN_SENSES">
+        <description>
+            <p>The mount has advantage on Wisdom (Perception) checks that rely on either sight, hearing, or smell (chosen when you bond with your companion mount).</p>
+        </description>
+        <sheet>
+            <description>The mount has advantage on Wisdom (Perception) checks that rely on either sight, hearing, or smell (chosen when you bond with your companion mount).</description>
+        </sheet>
+    </element>
+    <element name="Twin Beast Shape" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_TWIN_BEAST_SHAPE">
+        <description>
+            <p>At 2nd level, your bond with your companion mount allows you to wild shape into a form that matches it, using the same statistics as your companion mount. When you wild shape in this way, you ignore the CR restrictions of the Beast Shapes table.</p>
+        </description>
+        <sheet>
+            <description>Your bond with your companion mount allows you to wild shape into a form that matches it, using the same statistics as your companion mount. When you wild shape in this way, you ignore the CR restrictions of the Beast Shapes table.</description>
+        </sheet>
+    </element>
+    <element name="Companion Casting" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_COMPANION_CASTING">
+        <description>
+            <p>When you reach 6th level, your magic flows through your companion like a raging river. Your companion mount’s attacks become magical for the purpose of overcoming resistance or immunity to nonmagical attacks and damage.</p>
+            <p class="indent">Additionally, while you are within 100 feet of your companion mount, you gain the ability to channel any spells you cast through them, treating your mount as the point of origin for purposes of determining your spell’s range. When you are affected by a spell with a range of self, as long as you are mounted on your companion mount, you are both targeted by the spell.</p>
+        </description>
+        <sheet>
+            <description>Your companion mount’s attacks become magical for the purpose of overcoming resistance or immunity to nonmagical attacks and damage. Additionally, while you are within 100 feet of your companion mount, you gain the ability to channel any spells you cast through them, treating your mount as the point of origin for purposes of determining your spell’s range. When you are affected by a spell with a range of self, as long as you are mounted on your companion mount, you are both targeted by the spell.</description>
+        </sheet>
+    </element>
+    <element name="Entwined Evolution" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_ENTWINED_EVOLUTION">
+        <description>
+            <p>At 10th level, you and your companion mount learn new secrets from nature. Choose one of the following traits to add to your companion mount’s stat block.</p>
+            <p class="indent"><strong>Bond of Brambles.</strong> While the mount is within 5 feet of you and you are mounted on it or have assumed its form using Twin Beast Shape, terrain within 10 feet of your mount grows thick grasping brambles. Creatures hostile to you and your companions treat the brambles as difficult terrain and take 1d4 piercing damage for every 5 feet they travel within the brambles.</p>
+            <p class="indent"><strong>Swift Skies,</strong> Swift Seas. Your mount gains either a flying or swimming speed of 50 feet. You also gain this fly or swim speed when using your Twin Beast Shape.</p>
+            <p class="indent"><strong>Twin Tactics.</strong> Your mount has advantage on attacks against creatures within 5 feet of you while you are mounted on it or have assumed its form using Twin Beast Shape. You have advantage on attacks made against creatures within 5 feet of your mount while you have assumed its form using Twin Beast Shape. Neither you nor your mount can use this feature if the other is incapacitated.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+    </element>
+    <element name="Beast Stride" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_DRUID_SWIFTNESS_BEAST_STRIDE">
+        <description>
+            <p>At 14th level, the bond between you and your mount is exceptionally strong, intertwining your souls. While you are within 1 mile of each other, you can communicate telepathically with each other. Additionally, while your mount is within 600 feet of you, you can teleport onto its back or have it teleport to your side as a bonus action. Once you’ve used this ability, you can’t use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>While you are within 1 mile of each other, you can communicate telepathically with each other. Additionally, while your mount is within 600 feet of you, you can teleport onto its back or have it teleport to your side as a bonus action. Once you’ve used this ability, you can’t use it again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+</elements>
