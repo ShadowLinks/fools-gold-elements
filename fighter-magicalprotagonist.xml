@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="fighter-magicalprotagonist.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/fighter-magicalprotagonist.xml" />
+		</update>
+	</info>
+    <element name="Magical Protagonist" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FIGHTER_PROTAGONIST">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>The magical protagonist is a highly specialized fighter with the rare ability to wield the powers of hope, friendship, or love in battle. The truth of such powers has long been disputed in Ambria, but the lethal, sparkly results these glamorous warriors can produce are difficult to argue with.</p>
+            <p class="indent"></p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_SECRET_POWER" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_TRANSFORMATION" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HERO_POWERS" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_ULTRA_PERSONALITY" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_POWER_OF_FRIENDSHIP" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BEAM_ATTACK" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_WINGS_OF_HOPE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BELIEVE_IN_YOURSELF" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_SECRET_POWER" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_TRANSFORMATION" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HERO_POWERS" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_ULTRA_PERSONALITY" level="7" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_POWER_OF_FRIENDSHIP" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BEAM_ATTACK" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_WINGS_OF_HOPE" level="15" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BELIEVE_IN_YOURSELF" level="18" />
+        </rules>
+    </element>
+    <element name="Secret Power" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_SECRET_POWER">
+        <description>
+            <p>At 3rd level, choose the origin of your powers from one of the following options:</p>
+            <p class="indent"><strong>Magical Companion.</strong> A mysterious magical animal—that may or may not make wisecracks or be morally dubious—gave you your powers. You learn the find familiar spell and can cast it once a day without expending a spell slot or components. When summoned using this feature, your familiar can speak one language that you know and does not have to follow your instructions if it doesn’t want to.</p>
+            <p class="indent"><strong>Magical Destiny.</strong> You’re just so QUACKing special. You gain proficiency in the Performance skill and either the Intimidation or Persuasion skills. Whenever you make a Charisma skill check, you can add your Constitution modifier to the roll.</p>
+            <p class="indent"><strong>Magical Trinket.</strong> Your powers are linked to a mystic object that you might have inherited or found by accident. You have a Tiny object that you use as part of your transformation sequence. When you transform, you can choose any number of creatures to automatically succeed on their saving throw against your transformation’s effects.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <select name="Secret Power Origin" type="Archetype Feature" supports="secret-power" />
+        </rules>
+    </element>
+    <element name="Magical Companion" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_COMPANION">
+        <supports>secret-power</supports>
+        <description>
+            <p>A mysterious magical animal—that may or may not make wisecracks or be morally dubious—gave you your powers. You learn the find familiar spell and can cast it once a day without expending a spell slot or components. When summoned using this feature, your familiar can speak one language that you know and does not have to follow your instructions if it doesn’t want to.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description> You learn the find familiar spell and can cast it once a day without expending a spell slot or components. When summoned using this feature, your familiar can speak one language that you know and does not have to follow your instructions if it doesn’t want to</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
+        </rules>
+    </element>
+    <element name="Magical Destiny" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_DESTINY">
+        <supports>secret-power</supports>
+        <description>
+            <p>You’re just so QUACKing special. You gain proficiency in the Performance skill and either the Intimidation or Persuasion skills. Whenever you make a Charisma skill check, you can add your Constitution modifier to the roll.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>Whenever you make a Charisma skill check, you can add your Constitution modifier to the roll.</description>
+        </sheet>
+        <rules>
+            <select type="Proficiency" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+        </rules>
+    </element>
+    <element name="Magical Trinket" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_TRINKET">
+        <supports>secret-power</supports>
+        <description>
+            <p>Your powers are linked to a mystic object that you might have inherited or found by accident. You have a Tiny object that you use as part of your transformation sequence. When you transform, you can choose any number of creatures to automatically succeed on their saving throw against your transformation’s effects.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You have a Tiny object that you use as part of your transformation sequence. When you transform, you can choose any number of creatures to automatically succeed on their saving throw against your transformation’s effects.</description>
+        </sheet>
+    </element>
+    <element name="Magical Transformation" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MAGICAL_TRANSFORMATION">
+        <description>
+            <p>Beginning when you choose this archetype at 3rd level, you are able to magically transform to prepare yourself for battle. By uttering a key phrase of your choice and drawing upon the powers of hope and friendship, you magically alter your outfit, makeup, and hairstyle to strengthen yourself for battle and gain the ability to use style points. The transformation lasts for 1 hour or until you are knocked unconscious. You can choose to end your transformation early as a bonus action, returning to your normal form. Once you transform, you can’t do so again until you finish a short or long rest.</p>
+            <p class="indent">How fast you transform causes an additional effect:</p>
+            <p class="indent"><strong>Transform Dramatically Using an Action.</strong> You perform an elaborate dance or strike a powerful pose as your transformation takes place and alters your appearance. As your transformation sequence ends, shiny sparkles explode from your body to dazzle those looking at you. Each creature within 20 feet that can see you must succeed on a Charisma saving throw equal to 8 + your Charisma Modifier + your proficiency bonus, or become blinded until the end of your next turn.</p>
+            <p class="indent"><strong>Transform Quickly Using a Bonus Action.</strong> You skip the elaborate ritual and transform without dazzling those around you.</p>
+        </description>
+        <sheet>
+            <description>Transform Dramatically Using an Action. You perform an elaborate dance or strike a powerful pose as your transformation takes place and alters your appearance. As your transformation sequence ends, shiny sparkles explode from your body to dazzle those looking at you. Each creature within 20 feet that can see you must succeed on a Charisma saving throw equal to 8 + your Charisma Modifier + your proficiency bonus, or become blinded until the end of your next turn. Transform Quickly Using a Bonus Action. You skip the elaborate ritual and transform without dazzling those around you.</description>
+        </sheet>
+    </element>
+    <element name="Hero Powers and Style Points" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HERO_POWERS">
+        <description>
+            <p>Starting from 3rd level, while transformed using your magical transformation feature, you can use style points to perform heroic acts</p>
+            <p class="indent"><strong>Style Points.</strong> At 3rd level, you have 3 style points that you can spend to use your hero powers. You regain any expended style points when you finish a short or long rest. You also regain 1 style point when you roll a critical hit on an attack or roll a 20 on a Charisma check. You gain 1 additional style point when you reach 7th, 10th, and 15th level in this class.</p>
+            <p class="indent"><strong>Hero Powers.</strong> At 3rd level, you learn three hero powers of your choice, which are detailed in the Hero Power options below. You can only use one hero power per turn unless otherwise specified.</p>
+            <p class="indent"><strong>Saving Throws. </strong>When using your Hero Powers, your spell save or effect DC equals 8 + your Charisma modifier + your proficiency bonus.</p>
+            <p class="indent">You learn one additional hero power of your choice when you reach 7th, 10th, and 15th level in this class</p>
+        </description>
+        <sheet>
+            <description>You have {{Style Points}} style points. You regain any expended style points when you finish a short or long rest. You also regain 1 style point when you roll a critical hit on an attack or roll a 20 on a Charisma check. When using your Hero Powers, your spell save or effect DC equals {{heropower-dc}}.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" supports="hero-powers" number="3" />
+            <select type="Archetype Feature" supports="hero-powers" level="7" />
+            <select type="Archetype Feature" supports="hero-powers" level="10" />
+            <select type="Archetype Feature" supports="hero-powers" level="15" />
+            <stat name="Style Points" value="3" />
+            <stat name="Style Points" value="1" level="7" />
+            <stat name="Style Points" value="1" level="10" />
+            <stat name="Style Points" value="1" level="15" />
+            <stat name="Heropower-dc" value="8" bonus="base"/>
+            <stat name="Heropower-dc" value="charisma:modifier" />
+            <stat name="Heropower-dc" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Anonymous Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_ANONOMOUS_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 1 style point to cast disguise self as an action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 1 style point to cast disguise self as an action.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF"/>
+        </rules>
+    </element>
+    <element name="Awesome Hero Attack" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_AWESOME_ATTACK_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>When you make a weapon attack roll against a creature, you can spend 2 style points and shout the super cool name of your attack to gain advantage on the attack roll. If the attack hits and you are within 5 feet of the target, it is considered a critical hit.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>When you make a weapon attack roll against a creature, you can spend 2 style points and shout the super cool name of your attack to gain advantage on the attack roll. If the attack hits and you are within 5 feet of the target, it is considered a critical hit.</description>
+        </sheet>
+    </element>
+    <element name="Beautiful Hero Blast" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BEAUTIFUL_HERO_BLAST">
+        <supports>hero-powers</supports>
+        <description>
+            <p>When you take the attack action on your turn, you can forgo one of your attacks and use a bonus action to unleash a magical attack of devastating beauty. When you do so, spend any number of style points and choose a point you can see within 90 feet of you. Each creature within 20 feet of that point must make a Dexterity saving throw, taking 2d6 + your Charisma modifier radiant damage on a failure, or half as much damage on a success. For every style point above the first that you spend on this attack, the effect deals an extra 1d6 radiant damage.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>When you take the attack action on your turn, you can forgo one of your attacks and use a bonus action to unleash a magical attack of devastating beauty. When you do so, spend any number of style points and choose a point you can see within 90 feet of you. Each creature within 20 feet of that point must make a Dexterity saving throw, taking 2d6 + your Charisma modifier radiant damage on a failure, or half as much damage on a success. For every style point above the first that you spend on this attack, the effect deals an extra 1d6 radiant damage.</description>
+        </sheet>
+    </element>
+    <element name="Exter Sparkly Hero Attack" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_EXTRA_SPARKLY_HERO_ATTACK">
+        <supports>hero-powers</supports>
+        <description>
+            <p>When you hit a creature with a weapon attack, you can spend any number of style points. For each style point spent, you add extra radiant damage equal to your Charisma modifier to the attack’s damage roll, and the target must succeed on a Constitution saving throw or become blinded until the start of your next turn.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>When you hit a creature with a weapon attack, you can spend any number of style points. For each style point spent, you add extra radiant damage equal to your Charisma modifier to the attack’s damage roll, and the target must succeed on a Constitution saving throw or become blinded until the start of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Healing Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HEALING_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend any number of style points as an action to relieve the suffering of an ally you can see within 30 feet of you who can see or hear you. For each style point spent, you end one of the following conditions affecting the target: charmed, frightened, paralyzed, or poisoned.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend any number of style points as an action to relieve the suffering of an ally you can see within 30 feet of you who can see or hear you. For each style point spent, you end one of the following conditions affecting the target: charmed, frightened, paralyzed, or poisoned.</description>
+        </sheet>
+    </element>
+    <element name="Helpful Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HELPFUL_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 1 style point to take the Help action as a bonus action and can target a creature you can see within 30 feet of you when you do so. Additionally, before your next turn, if that creature rolls a 1 on an attack roll, ability check, or damage die, it can re-roll the die and use the new result.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 1 style point to take the Help action as a bonus action and can target a creature you can see within 30 feet of you when you do so. Additionally, before your next turn, if that creature rolls a 1 on an attack roll, ability check, or damage die, it can re-roll the die and use the new result.</description>
+        </sheet>
+    </element>
+    <element name="Hero Senses" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HERO_SENSES">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 1 style point to cast detect evil and good as an action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 1 style point to cast detect evil and good as an action.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" />
+        </rules>
+    </element>
+    <element name="Hopeful Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HOPEFUL_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>hen you fail a saving throw to resist an effect that would charm, frighten, or paralyze you, you can spend 1 style point to re-roll the saving throw and add your Charisma modifier as a bonus to the roll. You must use the new result.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>hen you fail a saving throw to resist an effect that would charm, frighten, or paralyze you, you can spend 1 style point to re-roll the saving throw and add your Charisma modifier as a bonus to the roll. You must use the new result.</description>
+        </sheet>
+    </element>
+    <element name="Hot-Headed Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HOTHEADED_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 2 style points to cast heat metal as an action. You have resistance to fire damage while maintaining concentration on this spell.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 2 style points to cast heat metal as an action. You have resistance to fire damage while maintaining concentration on this spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" />
+        </rules>
+    </element>
+    <element name="Hyper Heroic Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_HYER_HEROIC_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 1 style point to cast heroism as an action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 1 style point to cast heroism as an action.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEROISM" />
+        </rules>
+    </element>
+    <element name="Lovely Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_LOVELY_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 2 style points to cast charm person as an action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can spend 2 style points to cast charm person as an action.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
+        </rules>
+    </element>
+    <element name="Mobile Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MOBILE_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>You can spend 1 style point to cast the jump spell on yourself as a bonus action.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>You can spend 1 style point to cast the jump spell on yourself as a bonus action.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+        </rules>
+    </element>
+    <element name="Motivational Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_MOTIVATIONAL_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p> When you make an attack roll against a creature, you can spend 1 style point to motivate your allies in battle using a bonus action. Until the start of your next turn, your allies gain advantage on attacks made against that creature. This effect ends when one of your allies hits the creature with an attack.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description> When you make an attack roll against a creature, you can spend 1 style point to motivate your allies in battle using a bonus action. Until the start of your next turn, your allies gain advantage on attacks made against that creature. This effect ends when one of your allies hits the creature with an attack.</description>
+        </sheet>
+    </element>
+    <element name="Sturdy Hero" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_STURDY_HERO">
+        <supports>hero-powers</supports>
+        <description>
+            <p>As part of your magical transformation, you can spend 1 style point to gain temporary hit points equal to your fighter level. These temporary hit points last until your magical transformation ends.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>As part of your magical transformation, you can spend 1 style point to gain temporary hit points equal to your fighter level. These temporary hit points last until your magical transformation ends.</description>
+        </sheet>
+    </element>
+    <element name="Ultra Personality" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_ULTRA_PERSONALITY">
+        <description>
+            <p>By 7th level, your magical personality has grown so much stronger that it enables you to draw more energy from the powers of hope and friendship. While transformed, you can add either your Strength or Dexterity bonus to your Charisma skill checks. Additionally, you can grant yourself advantage on one Charisma check as long as you can see at least one of your allies. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>While transformed, you can add either your Strength or Dexterity bonus to your Charisma skill checks. Additionally, you can grant yourself advantage on one Charisma check as long as you can see at least one of your allies. Once you use this feature, you can’t use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Power of Friendship" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_POWER_OF_FRIENDSHIP">
+        <description>
+            <p>At 10th level, you can draw inspiration from your friends. As a free action, you can call out to any allies within 30 feet of you who can both see and hear you. Each creature can immediately use its reaction to grant you one style point. Style points obtained in this way can exceed your maximum number of style points up to a maximum total style points equal to your fighter level. Style points obtained in this way are lost at the end of your next turn. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description> As a free action, you can call out to any allies within 30 feet of you who can both see and hear you. Each creature can immediately use its reaction to grant you one style point. Style points obtained in this way can exceed your maximum number of style points up to a maximum total style points equal to your fighter level. Style points obtained in this way are lost at the end of your next turn. Once you use this feature, you can’t use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Beam Attack" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BEAM_ATTACK">
+        <description>
+            <p>Starting at 10th level, you can unleash sparkly beams from your weapon while you are transformed. This attack forms a line of bright light 5 feet wide and 60 feet long, originating from you. Each creature within the line must succeed on a Dexterity saving throw or take magical damage as if you had hit with the weapon you used to make the attack plus 2d6 force damage. Your beam attack deals double damage to objects and structures. When you take the attack action, you can replace one of your weapon attacks with this beam attack. When you reach 18th level in this class, your beam attack’s damage increases to 2d12.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>You can unleash sparkly beams from your weapon while you are transformed. This attack forms a line of bright light 5 feet wide and 60 feet long, originating from you. Each creature within the line must succeed on a Dexterity saving throw or take magical damage as if you had hit with the weapon you used to make the attack plus 2d6 force damage. Your beam attack deals double damage to objects and structures. When you take the attack action, you can replace one of your weapon attacks with this beam attack. When you reach 18th level in this class, your beam attack’s damage increases to 2d12.</description>
+        </sheet>
+    </element>
+    <element name="Wings of Hope" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_WINGS_OF_HOPE">
+        <description>
+            <p>Starting at 15th level, you are able to manifest the power of hope in the form of magical wings of light or dark energy that become part of your transformation. While transformed, you gain a flying speed equal to your movement speed.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>While transformed, you gain a flying speed equal to your movement speed.</description>
+        </sheet>
+    </element>
+    <element name="Believe in Yourself" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_FIGHTER_PROTAGONIST_BELIEVE_IN_YOURSELF">
+        <description>
+            <p>Starting at 18th level, when you roll initiative and are not transformed, you can choose to instantly transform as if you had used your bonus action to do so. Additionally, when you roll initiative and have no style points, you gain 2 style points.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>Starting at 18th level, when you roll initiative and are not transformed, you can choose to instantly transform as if you had used your bonus action to do so. Additionally, when you roll initiative and have no style points, you gain 2 style points.</description>
+        </sheet>
+    </element>
+</elements>
