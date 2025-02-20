@@ -60,7 +60,7 @@
             <set name="hp">5 + five times your druid level</set>
             <set name="speed">40 ft.</set>
             <set name="saves">Dex modifier + PB, Wis +1 + PB</set>
-            <set name="senses">blindsight 30 ft., passive Perception 11 + PB</set>
+            <set name="senses">darkvison 30 ft., passive Perception 11 + PB</set>
             <set name="languages">understands 1 language you know but cant speak</set>
             <set name="skills">Perception +1 + PB</set>
             <set name="type">Beast</set>
@@ -72,7 +72,7 @@
             <set name="proficiency">0</set>
         </setters>
         <rules>
-            <stat name="companion:ac" value="14"/>
+            <stat name="companion:ac" value="12"/>
             <stat name="companion:ac" value="proficiency"/>
             <stat name="companion:hp:max" value="5" bonus="base"/>
             <stat name="companion:hp:max" value="level"/>
