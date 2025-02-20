@@ -5,7 +5,7 @@
 			<file name="sorcerer-concentratedchaos.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/sorcerer-concentratedchaos.xml" />
 		</update>
 	</info>
-    <element name="Cryodon Guide" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_SORCERER_CHAOS">
+    <element name="Concentrated Chaos" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_SORCERER_CHAOS">
         <supports>Sorcerous Origin</supports>
         <description>
             <p class="indent"></p>
@@ -15,6 +15,8 @@
             <div element="ID_____" />
             <div element="ID______" />
             <div element="ID_______" />
+            <div element="ID________" />
+            <div element="ID_________" />
         </description>
         <sheet display="false">
             <description></description>
@@ -26,6 +28,8 @@
             <grant type="Archetype Feature" id="ID_____" level="1" />
             <grant type="Archetype Feature" id="ID______" level="1" />
             <grant type="Archetype Feature" id="ID_______" level="1" />
+            <grant type="Archetype Feature" id="ID________" level="1" />
+            <grant type="Archetype Feature" id="ID_________" level="1" />
         </rules>
     </element>
     <element name="name" type="Archetype Feature" source="Fools Gold" id="ID__">
@@ -74,6 +78,24 @@
         </sheet>
     </element>
     <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_______">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID________">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_________">
         <description>
             <p></p>
             <p class="indent"></p>
