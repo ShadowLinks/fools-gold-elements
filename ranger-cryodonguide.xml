@@ -4,82 +4,289 @@
 		<update version="0.0.1">
 			<file name="ranger-cryodonguide.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/ranger-cryodonguide.xml" />
 		</update>
-	</info>
-    <element name="Cryodon Guide" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_RANGER_CRYODON">
+	</info>    
+    <element name="Cryodon Guide" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_SORCERER_CHAOS">
         <supports>Ranger Archetype</supports>
         <description>
-            <p class="indent"></p>
-            <div element="ID__" />
-            <div element="ID___" />
-            <div element="ID____" />
-            <div element="ID_____" />
-            <div element="ID______" />
-            <div element="ID_______" />
+            <p>The frosty iguana-like cryodons grow in an unusual way, developing from babies to adults only as they learn. Young cryodons remain infants until they gain enough knowledge to grow to adulthood. As a cryodon guide, you have been entrusted with the care and protection of a young cryodon, guiding its growth. In exchange, you become infused with the cryodon’s magic, becoming a hardy protector capable of defending both your young companion and your allies. Cryodon guides have roles both as scholars and rugged defenders of their precious companions.</p>
+            <p class="indent">You may have been entrusted with your cryodon companion by the Cryodon Council of Breckart, come into possession of a cryodon egg by chance or a scheme, or perhaps rescued a baby cryodon. However you and your companion met, the cryodon has decided that you are a good person to help them learn and grow. Once a cryodon guide and their companion have set out on their journey, they are not expected to return to Breckart until they have discovered something entirely unknown to the Cryodon Council.</p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COMPAINION" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_MAGIC" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COLD_COVER" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_STUDENT_OF_THE_WORLD" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_AGING" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_GLARE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_PERMAFROST_PROTECTOR" />
         </description>
         <sheet display="false">
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID__" level="1" />
-            <grant type="Archetype Feature" id="ID___" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID_____" level="1" />
-            <grant type="Archetype Feature" id="ID______" level="1" />
-            <grant type="Archetype Feature" id="ID_______" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COMPAINION" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_MAGIC" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COLD_COVER" level="7" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_STUDENT_OF_THE_WORLD" level="7" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_AGING" level="11" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_GLARE" level="11" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_PERMAFROST_PROTECTOR" level="15" />
         </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID__">
+    <element name="Cryodon Companion" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COMPAINION">
+        <description>
+            <p>At 3rd level, you form a mystical bond with an immature cryodon who becomes your companion. This companion uses the cryodon companion stat block.</p>
+            <p class="indent">The cryodon is friendly to you and your companions. The cryodon shares your initiative count. In combat, the cryodon can only take the Dodge action and move unless you use a bonus action on your turn to command it to take another action. If you are incapacitated, the cryodon can take any action of its choice. Generally, young cryodons prefer not to engage in combat but support their guide in other ways and flee, hide, and protect themselves without their guide to defend them.</p>
+            <p class="indent">Cryodon companions can make death saving throws. If your cryodon companion dies, it can recrystallize and be restored to life. Over the course of 1d4 days, the cryodon guide must spend at least two hours each day meditating with the seed crystal and adding water to it to allow a new ice body to form so the deceased cryodon is restored to life.</p>
+            <p class="indent">Not all cryodon guides can achieve this recrystallization for their fallen companions. Those whose companions die permanently find the magic granted by their bond waning over the next 1d10 + 5 days. Such guides often renounce their former training and learn new skills or redouble their efforts to protect other cryodons.</p>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Quirk</td></tr>
+                </thead>
+                <tr><td>1</td><td>I refuse to ride anywhere but on your head.</td></tr>
+                <tr><td>2</td><td>I collect shiny stones and get sad if you won’t carry them.</td></tr>
+                <tr><td>3</td><td>I get grumpy in warm weather</td></tr>
+                <tr><td>4</td><td>I spin around in circles when I am happy</td></tr>
+                <tr><td>5</td><td>I chew on my tail when I’m nervous.</td></tr>
+                <tr><td>6</td><td>I want you to read to me every night</td></tr>
+                <tr><td>7</td><td>I like to sit on your shoulder and sniff the breeze.</td></tr>
+                <tr><td>8</td><td>I love music and whistle any song I hear.</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>The cryodon is friendly to you and your companions. The cryodon shares your initiative count. In combat, the cryodon can only take the Dodge action and move unless you use a bonus action on your turn to command it to take another action. If you are incapacitated, the cryodon can take any action of its choice. Generally, young cryodons prefer not to engage in combat but support their guide in other ways and flee, hide, and protect themselves without their guide to defend them.</description>
+        </sheet>
+        <rules>
+            <select type="Companion" supports="cryodon"/>
+        </rules>
+    </element>
+    <element name="Cryodon's Gifts" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS">
+        <description>
+            <p>From 3rd level, your companion shares some of its icy intelligence and chilling power with you</p>
+            <p class="indent"><strong>Ice Guard.</strong> You have resistance to cold damage and automatically succeed on checks made against exhaustion due to extremes of both hot and cold temperatures.</p>
+            <p class="indent"><strong>Ice Skating.</strong> You ignore difficult terrain caused by ice and snow. While moving on ice, your speed is doubled.</p>
+            <p class="indent"><strong>Ice Student.</strong> You gain proficiency in the Investigation skill, and when you make an Intelligence skill check, you can add your Wisdom modifier to the roll. You also learn to understand and speak the Cryodon language.</p>
+            <p class="indent"><strong>Ice Strikes.</strong> When you hit a target with a weapon attack, you can deal an extra 1d4 cold damage once per target on a turn. This extra damage increases to 2d4 when you reach 11th level in this class.</p>
+            <p class="indent">You lose all these gifts if you and your cryodon companion or its seed crystal are separated by more than 1 mile for 24 hours, and you regain them immediately when you are reunited.</p>
+        </description>
+        <sheet>
+            <description>You lose all these gifts if you and your cryodon companion or its seed crystal are separated by more than 1 mile for 24 hours, and you regain them immediately when you are reunited.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_GUARD" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_SKATING" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_STUDENT" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_STRIKES" />
+        </rules>
+    </element>
+    <element name="Ice Guard" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_GUARD">
         <description>
             <p></p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>You have resistance to cold damage and automatically succeed on checks made against exhaustion due to extremes of both hot and cold temperatures.</description>
         </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+        </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID___">
+    <element name="Ice Skating" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_SKATING">
         <description>
             <p></p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>You ignore difficult terrain caused by ice and snow. While moving on ice, your speed is doubled.</description>
         </sheet>
+        
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID____">
+    <element name="Ice Student" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_STUDENT">
         <description>
             <p></p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>You gain proficiency in the Investigation skill, and when you make an Intelligence skill check, you can add your Wisdom modifier to the roll. You also learn to understand and speak the Cryodon language.</description>
         </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+            <grant type="Language" id="ID_LANGUAGE_CRYODON"/>
+        </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_____">
+    <element name="Ice Strikes" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GIFTS_STRIKES">
         <description>
             <p></p>
             <p class="indent"></p>
         </description>
         <sheet>
+            <description>When you hit a target with a weapon attack, you can deal an extra 1d4 cold damage once per target on a turn.</description>
+            <description level="11">When you hit a target with a weapon attack, you can deal an extra 2d4 cold damage once per target on a turn.</description>
+        </sheet>
+        
+    </element>
+    <element name="Cryodon Guide Magic" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_MAGIC">
+        <description>
+            <p>Your connection with your cryodon grants you access to some of your companion’s innate magic. Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Cryodon Guide Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>
+            <p class="indent"></p>
+            <table>
+                <thead>
+                    <tr><td>Ranger Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>3</td><td>identify</td></tr>
+                <tr><td>5</td><td>warding bond</td></tr>
+                <tr><td>9</td><td>polar fog*</td></tr>
+                <tr><td>13</td><td>fire shield</td></tr>
+                <tr><td>17</td><td>legend lore</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
             <description></description>
         </sheet>
+        <rules>
+            <grant type="Spell" level="3" id="ID_PHB_SPELL_IDENTIFY"/>
+            <grant type="Spell" level="5" id="ID_PHB_SPELL_WARDING_BOND"/>
+            <grant type="Spell" level="9" id="ID_HPP_FOOLS_SPELL_POLAR_FOG"/>
+            <grant type="Spell" level="13" id="ID_PHB_SPELL_FIRE_SHIELD"/>
+            <grant type="Spell" level="17" id="ID_PHB_SPELL_LEGEND_LORE"/>
+        </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID______">
+    <element name="Cold Cover" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_COLD_COVER">
         <description>
-            <p></p>
+            <p>At 7th level, you gain the ability to summon blocks of magical ice to provide cover for yourself and your allies. As a bonus action, you can create a 5-foot high, 1-foot thick, and 10-foot long barrier of magical ice in an unoccupied space you can see within 30 feet of you. This barrier provides three-quarters cover for up to two Medium-sized creatures. The barrier lasts until the end of your next turn. If you create a second barrier, any existing barrier melts. You can use this feature a number of times per day equal to your proficiency bonus, regaining all expended uses on a long rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long rest">
+            <description> As a bonus action, you can create a 5-foot high, 1-foot thick, and 10-foot long barrier of magical ice in an unoccupied space you can see within 30 feet of you. This barrier provides three-quarters cover for up to two Medium-sized creatures. The barrier lasts until the end of your next turn. If you create a second barrier, any existing barrier melts.</description>
+        </sheet>
+    </element>
+    <element name="Student of the World" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_STUDENT_OF_THE_WORLD">
+        <description>
+            <p>When you reach 7th level, you gain proficiency in two of the following skills of your choice: Arcana, History, Nature, or Religion. Additionally, whenever you make an Intelligence check, your cryodon companion can magically assist you, giving you advantage on the roll while it is within 30 feet of you.</p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>Whenever you make an Intelligence check, your             cryodon companion can magically assist you, giving you advantage on the roll while it is within 30 feet of you.</description>
         </sheet>
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Student of the World)" number="2" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" /> 
+        </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_______">
+    <element name="Glacial Aging" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_AGING">
         <description>
-            <p></p>
+            <p>At 11th level, your aging slows so that you can spend more time with your immortal cryodon companion. Your natural lifespan is tripled.</p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>Your natural lifespan is tripled.</description>
         </sheet>
     </element>
+    <element name="Glacial Glare" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_GLACIAL_GLARE">
+        <description>
+            <p>At 11th level, you can freeze foes in their tracks. As a reaction, when a creature within 60 feet that you can see makes a melee attack against a creature other than you, you can attempt to stop it with an icy stare. The attacking creature must succeed on a Constitution saving throw against your spellcasting DC or become incapacitated until the start of your next turn. You can use this feature a number of times per day equal to your Wisdom modifier (minimum of 1) and regain all expended uses when you finish a long rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet action="Reaction" usage="{{wisdom:modifier}}/Long Rest">
+            <description>As a reaction, when a creature within 60 feet that you can see makes a melee attack against a creature other than you, you can attempt to stop it with an icy stare. The attacking creature must succeed on a Constitution saving throw against your spellcasting DC or become incapacitated until the start of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Permafrost Protector" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_RANGER_CRYODON_PERMAFROST_PROTECTOR">
+        <description>
+            <p>When you reach 15th level, you and your companion can draw on the power of your bond to unleash the untapped potential dormant in each of you. As a bonus action on your turn, you can transform your cryodon companion into an advanced form resembling a permafrost cryodon for 1 minute. This transformation ends early if either you or your companion are reduced to 0 hit points</p>
+            <p class="indent">While your companion is transformed, it uses the statistics of a permafrost cryodon* without the Freezing Gaze trait and Icy Blast action. If a cryodon companion dies and uses its Recrystallize trait while transformed, it is restored to life as a cryodon companion, not an adult cryodon. Additionally, while your cryodon companion is transformed, you gain the following benefits:</p>
+            <ul>
+                <li>You gain temporary hit points equal to 2d10 + your ranger level, which last until your companion’s transformation ends.</li>
+                <li>You make Constitution saving throws with advantage.</li>
+                <li>The extra cold damage you deal with your Ice Strikes feature increases to 2d8.</li>
+            </ul>
+            <p>Once you use this feature, you can’t use it again until both you and your cryodon companion finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description>As a bonus action on your turn, you can transform your cryodon companion into an advanced form resembling a permafrost cryodon for 1 minute. This transformation ends early if either you or your companion are reduced to 0 hit points. While your companion is transformed, it uses the statistics of a permafrost cryodon* without the Freezing Gaze trait and Icy Blast action. If a cryodon companion dies and uses its Recrystallize trait while transformed, it is restored to life as a cryodon companion, not an adult cryodon. Additionally, while your cryodon companion is transformed, you gain the following benefits: 9 You gain temporary hit points equal to 2d10 + your ranger level, which last until your companion’s transformation ends. 9 You make Constitution saving throws with advantage. 9 The extra cold damage you deal with your Ice Strikes feature increases to 2d8.</description>
+        </sheet>
+    </element>
+    <element name="Cryodon" type="Language" source="Fools Gold" id="ID_LANGUAGE_CRYODON">
+        <supports>Exotic</supports>
+        <description>
+            <p>Typically spoken by Cryodons.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Cryodons</set>
+            <set name="script">-</set>
+        </setters>
+    </element>
+    <element name="Cryodon Companion" type="Companion" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_CRYODON">
+        <supports>cryodon</supports>
+        <description>
+            <p>Cryodon</p>
+        </description>
+        <setters>
+            <set name="strength">4</set>
+            <set name="dexterity">15</set>
+            <set name="constitution">14</set>
+            <set name="intelligence">15</set>
+            <set name="wisdom">10</set>
+            <set name="charisma">6</set>
+            <set name="ac">15</set>
+            <set name="hp">5 + five times your ranger level</set>
+            <set name="speed">30 ft., climb 20 ft.</set>
+            <set name="saves">Dex +2 + PB, Int +2 + PB</set>
+            <set name="senses">darkvision 30 ft., passive Perception 11 + PB</set>
+            <set name="languages">understands 1 language you know but cant speak</set>
+            <set name="skills">Perception +1 + PB</set>
+            <set name="type">Beast</set>
+            <set name="size">Large</set>
+            <set name="alignment">Any alignment</set>
+            <set name="challenge">1</set>
+            <set name="actions">ID_HPP_FOOLS_COMPANION_ACTION_BITE,ID_HPP_FOOLS_COMPANION_ACTION_ICE_SHIELD</set>
+            <set name="traits">ID_HPP_FOOLS_COMPANION_TRAITS_ICE_WALK,ID_HPP_FOOLS_COMPANION_TRAITS_RECRYSTALLIZE</set>
+            <set name="proficiency">0</set>
+        </setters>
+        <rules>
+            <stat name="companion:ac" value="15"/>
+            <stat name="companion:hp:max" value="5" bonus="base"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:hp:max" value="level"/>
+            <stat name="companion:speed" value="30" bonus="base"/>
+            <stat name="companion:speed:climb" value="20" bonus="base"/>
+            <stat name="companion:proficiency" value="proficiency" bonus="proficiency"/>
+        </rules>
+    </element>
+    <element name="Bite" type="Companion Action" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_ACTION_BITE" >
+        <description>
+            <p>Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) cold damage. When you reach 7th level in this class, the attack’s cold damage increases to 5 (2d4).</p>
+        </description>
+        <sheet>
+            <description>Bite. Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) cold damage. When you reach 7th level in this class, the attack’s cold damage increases to 5 (2d4).</description>
+        </sheet>
+    </element>
+    <element name="Ice Shield (Recharges after a Short or Long Rest)" source="Fools Gold" type="Companion Action" id="ID_HPP_FOOLS_COMPANION_ACTION_ICE_SHIELD" >
+        <description>
+            <p>When it or another creature it can see would take damage, the cryodon fully encases itself or another willing creature of your choice that it can see within 30 feet in a ball of ice. The encased creature gains temporary hit points equal to 2d8 + your ranger level and has resistance to all damage. While encased in ice, the creature’s speed is 0, and it can’t take actions, bonus action, or reactions. The ball of ice lasts for 1 minute or for as long as the temporary hit points remain. The cryodon can also end the effect on its turn as a free action, and the creature loses the temporary hit points as the shield melts away.</p>
+        </description>
+        <sheet>
+            <description>When it or another creature it can see would take damage, the cryodon fully encases itself or another willing creature of your choice that it can see within 30 feet in a ball of ice. The encased creature gains temporary hit points equal to 2d8 + your ranger level and has resistance to all damage. While encased in ice, the creature’s speed is 0, and it can’t take actions, bonus action, or reactions. The ball of ice lasts for 1 minute or for as long as the temporary hit points remain. The cryodon can also end the effect on its turn as a free action, and the creature loses the temporary hit points as the shield melts away.</description>
+        </sheet>
+    </element>
+    <element name="Ice Walk" type="Companion Trait" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_TRAITS_ICE_WALK" >
+        <description>
+            <p>The cryodon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement.</p>
+        </description>
+        <sheet>
+            <description>The cryodon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement.</description>
+        </sheet>
+    </element>
+    <element name="Recrystallize" type="Companion Trait" source="Fools Gold" id="ID_HPP_FOOLS_COMPANION_TRAITS_RECRYSTALLIZE" >
+        <description>
+            <p>When the cryodon dies, its body melts leaving a tiny, indestructible seed crystal. When the seed crystal is placed in at least 2 gallons of fresh water, the cryodon’s body grows back over the course of 1d4 days, returning to life with full hit points, provided another creature tends to it for at least 2 hours each day until its recrystallization is complete.</p>
+        </description>
+        <sheet>
+            <description>When the cryodon dies, its body melts leaving a tiny, indestructible seed crystal. When the seed crystal is placed in at least 2 gallons of fresh water, the cryodon’s body grows back over the course of 1d4 days, returning to life with full hit points, provided another creature tends to it for at least 2 hours each day until its recrystallization is complete.</description>
+        </sheet>
+    </element>
+    
 </elements>

@@ -44,13 +44,36 @@
             <set name="level">1</set>
             <set name="school">Conjuration</set>
             <set name="time">1 action</set>
-            <set name="range">5 fee (10-foot square)</set>
+            <set name="range">5 feet (10-foot square)</set>
             <set name="duration">8 hours</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a small wooden stake</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Polar Fog" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_POLAR_FOG">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>A beam of freezing air shoots from your hands, creating a 20-foot-radius sphere of fog centered on a point within range that you can see. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+            <p class="indent">The icy fog is extremely cold, and its area is difficult terrain. A creature that starts its turn in the sphere must make a Constitution saving throw, taking 4d6 cold damage on a failed saving throw, or half as much damage on a successful one.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the radius increases by 5 feet for each slot level above 3rd.</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">120 feet</set>
+            <set name="duration">Concentration up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
