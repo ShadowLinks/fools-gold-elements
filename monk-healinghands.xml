@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="monk-healinghands.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/monk-healinghands.xml" />
+		</update>
+	</info>
+    <element name="Way of Healing Hands" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_MONK_HEALING_HANDS">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Monks trained in the Way of Healing Hands possess the ability to help their allies as well as severely incapacitate their enemies. You have studied every bone, joint, and muscle in most humanoid and monstrous bodies, allowing you to strike with precision. Whether those strikes hurt or heal is up to you.</p>
+            <p class="indent"></p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_ANATOMY_TRAINING" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_MARVELOUS_MASSAGE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_GRABBY_HANDS" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_GOOD_PAIN" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_BAD_PAIN" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_RIP_AND_TEAR" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_UNRIP_AND_UNTEAR" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_ANATOMY_TRAINING" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_MARVELOUS_MASSAGE" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_GRABBY_HANDS" level="3" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_GOOD_PAIN" level="6" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_BAD_PAIN" level="11" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_RIP_AND_TEAR" level="17" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_UNRIP_AND_UNTEAR" level="17" />
+        </rules>
+    </element>
+    <element name="Anatomy Training" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_ANATOMY_TRAINING">
+        <description>
+            <p>When you choose this tradition at 3rd level, you gain proficiency in the Medicine and Nature skills. Additionally, when you spend at least 1 minute studying a creature, you can make a Wisdom (Medicine) check to discover if it has any healed or current injuries and the nature of those injuries.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>When you spend at least 1 minute studying a creature, you can make a Wisdom (Medicine) check to discover if it has any healed or current injuries and the nature of those injuries.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
+    </element>
+    <element name="Marvelous Massage" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_MARVELOUS_MASSAGE">
+        <description>
+            <p>From 3rd level, your training allows you to prepare your allies for coming challenges. If you spend 10 minutes giving a willing creature a massage, the creature gains temporary hit points equal to your Martial Arts Die + your Wisdom modifier.</p>
+            <p class="indent">You can also grant the creature an additional benefit based on the type of massage you give them, which lasts for 8 hours after your massage. A creature can only benefit from one type of massage at a time. When you give the massage, choose one of the following benefits:</p>
+            <p class="indent"><strong>Focusing Massage.</strong> The creature gains advantage on Wisdom (Insight) and (Perception) checks and can add your martial arts die to one attack roll made while benefiting from this effect. This die must be rolled after the attack is made but before success has been determined.</p>
+            <p class="indent"><strong>Fortifying Massage.</strong> The creature gains advantage on Strength and Constitution checks.</p>
+            <p class="indent">Limbering Massage.<strong></strong> The creature’s movement speed increases by 10 feet, and it has advantage on Dexterity (Acrobatics) checks.</p>
+            <p class="indent">You can use this feature a number of times per day equal to your Wisdom modifier (minimum of once).</p>
+        </description>
+        <sheet usage="{{wisdom:modifier}}/day">
+            <description>If you spend 10 minutes giving a willing creature a massage, the creature gains temporary hit points equal to your Martial Arts Die + your Wisdom modifier. You can also grant the creature an additional benefit based on the type of massage you give them, which lasts for 8 hours after your massage. A creature can only benefit from one type of massage at a time. When you give the massage, choose one of the following benefits:</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_FOCUSING_MASSAGE" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_FORTIFYING_MASSAGE" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_LIMBERING_MASSAGE" />
+        </rules>
+    </element>
+    <element name="Focusing Massage" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_FOCUSING_MASSAGE">
+        <sheet>
+            <description>The creature gains advantage on Wisdom (Insight) and (Perception) checks and can add your martial arts die to one attack roll made while benefiting from this effect. This die must be rolled after the attack is made but before success has been determined</description>
+        </sheet>
+    </element>
+    <element name="Fortifying Massage" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_FORTIFYING_MASSAGE">
+        <sheet>
+            <description>The creature gains advantage on Strength and Constitution checks.</description>
+        </sheet>
+    </element>
+    <element name="Limbering Massage" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_LIMBERING_MASSAGE">
+        <sheet>
+            <description>The creature’s movement speed increases by 10 feet, and it has advantage on Dexterity (Acrobatics) checks.</description>
+        </sheet>
+    </element>
+    <element name="Grabby Hands" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_GRABBY_HANDS">
+        <description>
+            <p>At 3rd level, your skill at manipulating pressure points allows you to subdue even massive creatures with practiced ease. When attempting to grapple a creature, you can use either Strength (Athletics) or Dexterity (Acrobatics) to make the grapple check. You are considered Large for the purposes of determining the size of creatures you can grapple or move while grappling them. Additionally, while you are grappling a creature, you make unarmed strikes against it with advantage.</p>
+            <p class="indent">When you reach 11th level in this class, you are considered Huge for the purposes of determining the size of creatures you can grapple or move while grappling them.</p>
+        </description>
+        <sheet>
+            <description>When attempting to grapple a creature, you can use either Strength (Athletics) or Dexterity (Acrobatics) to make the grapple check. You are considered Large for the purposes of determining the size of creatures you can grapple or move while grappling them. Additionally, while you are grappling a creature, you make unarmed strikes against it with advantage.</description>
+            <description level="11">When attempting to grapple a creature, you can use either Strength (Athletics) or Dexterity (Acrobatics) to make the grapple check. You are considered Large for the purposes of determining the size of creatures you can grapple or move while grappling them. Additionally, while you are grappling a creature, you make unarmed strikes against it with advantage. When you reach 11th level in this class, you are considered Huge for the purposes of determining the size of creatures you can grapple or move while grappling them.</description>
+        </sheet>
+    </element>
+    <element name="The Good Pain" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_GOOD_PAIN">
+        <description>
+            <p>At 6th level, you have become adept at making it hurt so good when massaging allies or grappling foes. As an action, you can spend 1 ki point to instantly apply the effect of one of your Marvelous Massages to a willing creature you can both see and touch. When you do so, you can choose to end one of the following conditions affecting the creature: charmed, frightened, paralyzed, poisoned, or stunned.</p>
+            <p class="indent">Additionally, you have learned how to bring the good hurt to your enemies. When you hit a creature you are currently grappling with an unarmed strike, you can spend 1 ki point to force that creature to make a Wisdom saving throw against your Ki save DC. On a failure, the target becomes charmed by you for as long as you maintain the grapple. Creatures charmed in this way can repeat their saving throw each time they take damage from you or your allies.</p>
+        </description>
+        <sheet>
+            <description>As an action, you can spend 1 ki point to instantly apply the effect of one of your Marvelous Massages to a willing creature you can both see and touch. When you do so, you can choose to end one of the following conditions affecting the creature: charmed, frightened, paralyzed, poisoned, or stunned. When you hit a creature you are currently grappling with an unarmed strike, you can spend 1 ki point to force that creature to make a Wisdom saving throw against your Ki save DC. On a failure, the target becomes charmed by you for as long as you maintain the grapple. Creatures charmed in this way can repeat their saving throw each time they take damage from you or your allies.</description>
+        </sheet>
+    </element>
+    <element name="The Bad Pain" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_THE_BAD_PAIN">
+        <description>
+            <p>At 11th level, your studies into anatomy allow you to deliver deep tissue relief or a nasty cramp. As an action, you can use 2 ki points to touch a willing creature you can see. If made against a willing creature, the strike deals no damage and causes the target to regain a number of hit points equal to a roll of your martial arts die at the start of each of its turns for 1 minute. This effect ends if the target drops to 0 hit points or becomes incapacitated.</p>
+            <p class="indent">When you hit a creature you are currently grappling with an unarmed strike, you can spend 2 ki points to deliver a painfully precise muscle twist. The afflicted creature must succeed on a Constitution saving throw or take necrotic damage equal to a roll of your martial arts die at the start of each of its turns for 1 minute. An afflicted creature can repeat this Constitution saving throw at the end of each of its turns, ending the effect for itself on a success.</p>
+        </description>
+        <sheet>
+            <description>As an action, you can use 2 ki points to touch a willing creature you can see. If made against a willing creature, the strike deals no damage and causes the target to regain a number of hit points equal to a roll of your martial arts die at the start of each of its turns for 1 minute. This effect ends if the target drops to 0 hit points or becomes incapacitated. When you hit a creature you are currently grappling with an unarmed strike, you can spend 2 ki points to deliver a painfully precise muscle twist. The afflicted creature must succeed on a Constitution saving throw or take necrotic damage equal to a roll of your martial arts die at the start of each of its turns for 1 minute. An afflicted creature can repeat this Constitution saving throw at the end of each of its turns, ending the effect for itself on a success.</description>
+        </sheet>
+    </element>
+    <element name="Rip and Tear" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_RIP_AND_TEAR">
+        <description>
+            <p>At 17th level, you have mastered the subtle art of dislocating and removing limbs. You can attempt to dislocate the limb of a creature you are currently grappling as a bonus action by spending 3 ki points. The target must succeed on its choice of either a Strength saving throw or a Constitution saving throw against your Ki save DC, or take 4d6 bludgeoning damage and suffer one of its limbs being dislocated until it is healed. Each time you use Rip and Tear, choose from one of these four options:</p>
+            <p class="indent"><strong>Arm.</strong> The dislocated arm cannot be used to wield a weapon, hold a shield, or perform the somatic components of spells. If the creature has the ability to make multiple attacks with a natural weapon, such as with claws or tentacles, it loses the ability to make one of these attacks for each dislocated arm, and it can’t make these attacks if all its arms that could make them are dislocated.</p>
+            <p class="indent"><strong>Leg.</strong> The creature’s speed is halved, and it makes Strength and Dexterity saving throws with disadvantage. If all of a creature’s legs are dislocated, its walking and climbing speed becomes 0.</p>
+            <p class="indent"><strong>Wing.</strong> The creature’s fly speed becomes 0, and it begins to fall if it is flying unless it has the hover trait.</p>
+            <p class="indent"><strong>Tail.</strong> The creature can’t make attacks with its tail and has disadvantage on Dexterity (Acrobatics) checks. The creature’s swim speed is halved.</p>
+            <p class="indent">When you successfully dislocate a creature’s limb, it is freed from your grapple. A dislocated limb remains dislocated until the creature regains at least one hit point from healing magic or a creature makes a successful Wisdom (Medicine) check against your Ki save DC to pop the limb back into place.</p>
+            <p class="indent">If you successfully grapple the same creature again, you can spend 3 more ki points to completely tear off the same limb that you previously dislocated as a bonus action. If you do, you deal 4d6 slashing damage to the creature, and they are freed from your grapple. You can either toss the torn-off limb aside or wield it as an improvised weapon, which you are proficient with and counts as a monk weapon for you.</p>
+            <p class="indent">You can’t use this ability on creatures that lack limbs entirely, such as gelatinous cubes or giant constrictor snakes.</p>
+        </description>
+        <sheet>
+            <description> You can attempt to dislocate the limb of a creature you are currently grappling as a bonus action by spending 3 ki points. The target must succeed on its choice of either a Strength saving throw or a Constitution saving throw against your Ki save DC, or take 4d6 bludgeoning damage and suffer one of its limbs being dislocated until it is healed. Each time you use Rip and Tear, choose from one of these four options: Arm. The dislocated arm cannot be used to wield a weapon, hold a shield, or perform the somatic components of spells. If the creature has the ability to make multiple attacks with a natural weapon, such as with claws or tentacles, it loses the ability to make one of these attacks for each dislocated arm, and it can’t make these attacks if all its arms that could make them are dislocated. Leg. The creature’s speed is halved, and it makes Strength and Dexterity saving throws with disadvantage. If all of a creature’s legs are dislocated, its walking and climbing speed becomes 0. Wing. The creature’s fly speed becomes 0, and it begins to fall if it is flying unless it has the hover trait. Tail. The creature can’t make attacks with its tail and has disadvantage on Dexterity (Acrobatics) checks. The creature’s swim speed is halved. When you successfully dislocate a creature’s limb, it is freed from your grapple. A dislocated limb remains dislocated until the creature regains at least one hit point from healing magic or a creature makes a successful Wisdom (Medicine) check against your Ki save DC to pop the limb back into place. If you successfully grapple the same creature again, you can spend 3 more ki points to completely tear off the same limb that you previously dislocated as a bonus action. If you do, you deal 4d6 slashing damage to the creature, and they are freed from your grapple. You can either toss the torn-off limb aside or wield it as an improvised weapon, which you are proficient with and counts as a monk weapon for you. You can’t use this ability on creatures that lack limbs entirely, such as gelatinous cubes or giant constrictor snakes.</description>
+        </sheet>
+    </element>
+    <element name="Unrip and Untear" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_MONK_HEALINGHANDS_UNRIP_AND_UNTEAR">
+        <description>
+            <p>At 17th level, your healing becomes so strong that you can reattach severed limbs (so what if you were responsible for the limb ripping in the first place?) As an action, you can spend 3 ki points to reattach a limb that has been severed, which fuses perfectly back into place as though it had never been removed. If the limb has been severed for more than 24 hours, you must make a Wisdom (Medicine) check with a DC equal to 5 plus the number of hours above 24 since the limb was severed in order to successfully reattach it.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description> As an action, you can spend 3 ki points to reattach a limb that has been severed, which fuses perfectly back into place as though it had never been removed. If the limb has been severed for more than 24 hours, you must make a Wisdom (Medicine) check with a DC equal to 5 plus the number of hours above 24 since the limb was severed in order to successfully reattach it.</description>
+        </sheet>
+    </element>
+</elements>
