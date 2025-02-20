@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="paladin-survival.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/paladin-survival.xml" />
+		</update>
+	</info>
+    <element name="Oath of Survival" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_PALADIN_SURVIVAL">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>The Oath of Survival has been sworn by countless brave souls seeking to overcome the world’s challenges and emerge as an inspiring force even in the darkest days. The oath was first sworn by paladins opposing the forces of the goddess Generisa during her war on humanoids. Legends claim these warriors played a vital role in saving humanoids from extinction. Thanks to their many mighty deeds throughout history, these paladins have sometimes become known as Primordial Knights or the Blades of Endurance.</p>
+            <p class="indent">This oath calls paladins to take a firm stance as they prepare themselves against any dangers the world throws at them. They are charged with ensuring not only their own survival but the survival of all sentient life. For better or worse, their alignments vary greatly, reflecting the needs of the moment. This oath places the necessity of survival above any concerns about what is good or evil and lawful or chaotic. Paladins of this oath will use these concepts as tools to keep people alive but discard them just as easily if a situation demands it. This has led to them gaining conflicting reputations as both selfless saviors and ruthless bullies.</p>
+            <h5 class="caption">TENETS OF SURVIVAL</h5>
+            <p>The tenets of the Oath of Survival emphasize adaptation and cultivating relationships to overcome the world’s fierce challenges.</p>
+            <p class="indent">
+                <b><i>Survive At Any Cost.</i></b>
+                The survival of your allies and yourself stands above all. You must do whatever is necessary to ensure it.
+            </p>
+            <p class="indent">
+                <b><i>Never Stop Evolving.</i></b>
+                As the dangers of the world grow ever stronger, you must grow to face the threat. Stagnation is death. Train. Heal. Learn. Overcome.
+            </p>
+            <p class="indent">
+                <b><i>Strength in Numbers. </i></b>
+                True power comes from your allies. Help the weak become strong. Strengthen their bodies and spirits so you can face challenges as a united force.
+            </p>
+            <p class="indent"></p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_OATH_SPELLS" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CD" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_SURVIVAL_SPECIALIST" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_AURA_OF_ADAPTABILITY" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_PRIMORDIAL_ENDRUANCE" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_ASPECT_OF_THE_APEX_PREDATOR" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_OATH_SPELLS" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CD" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_SURVIVAL_SPECIALIST" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_AURA_OF_ADAPTABILITY" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_PRIMORDIAL_ENDRUANCE" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_ASPECT_OF_THE_APEX_PREDATOR" level="1" />
+        </rules>
+    </element>
+    <element name="Oath Spells" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_OATH_SPELLS">
+        <description>
+            <p>You gain the following oath spells at the paladin levels listed. See the Sacred Oath class feature in the main paladin class for how oath spells work.</p>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>hunter’s mark, instant trap*</td></tr>
+                <tr><td>5th</td><td>barkskin, warding bond</td></tr>
+                <tr><td>9th</td><td>gift spell*, protection from energy</td></tr>
+                <tr><td>13th</td><td>dominate beast, freedom of movement</td></tr>
+                <tr><td>17th</td><td>greater restoration, hold monster</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Spell" level="3" id="ID_PHB_SPELL_HUNTERS_MARK" />
+            <grant type="Spell" level="3" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" />
+            <grant type="Spell" level="5" id="ID_PHB_SPELL_BARKSKIN" />
+            <grant type="Spell" level="5" id="ID_PHB_SPELL_WARDING_BOND" />
+            <grant type="Spell" level="9" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL" />
+            <grant type="Spell" level="9" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" />
+            <grant type="Spell" level="13" id="ID_PHB_SPELL_DOMINATE_BEAST" />
+            <grant type="Spell" level="13" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" />
+            <grant type="Spell" level="17" id="ID_PHB_SPELL_GREATER_RESTORATION" />
+            <grant type="Spell" level="17" id="ID_PHB_SPELL_HOLD_MONSTER" />
+        </rules>
+    </element>
+    <element name="Channel Divinity" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><i><strong>Never Surrender.</strong></i> When a creature you can see drops to 0 hit points, as a reaction, you can share your life force with it. The creature regains 1 hit point and gains temporary hit points equal to your current hit point total. When you lose hit points, the creature loses an equal number of its temporary hit points, and when the creature loses temporary hit points, you also lose an equal number of hit points. Hit point and temporary hit point losses from this feature do not trigger this effect; only direct damage to you or the target does. This effect lasts for 1 minute or until you are incapacitated or fall unconscious.</p>
+            <p class="indent"><i><strong>Strike Together.</strong></i> You can use your Channel Divinity to harmonize your attacks with your allies. As an action, you can choose a number of creatures you can see within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, you and the chosen creatures have advantage on attack rolls against a target if at least one of your allies is within 5 feet of the target and the ally isn’t incapacitated.</p>
+        </description>
+        <sheet display="flase">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CHANNEL_DIVINITY_NEVER_SURRENDER"/>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CHANNEL_DIVINITY_STRIKE_TOGETHER"/>
+        </rules>
+    </element>
+    <element name="Channel Divinity: Never Surrender" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CHANNEL_DIVINITY_NEVER_SURRENDER">
+        <sheet alt="Never Surrender" action="Reaction" usage="Channel Divinity">
+            <description>When a creature you can see drops to 0 hit points, as a reaction, you can share your life force with it. The creature regains 1 hit point and gains temporary hit points equal to your current hit point total. When you lose hit points, the creature loses an equal number of its temporary hit points, and when the creature loses temporary hit points, you also lose an equal number of hit points. Hit point and temporary hit point losses from this feature do not trigger this effect; only direct damage to you or the target does. This effect lasts for 1 minute or until you are incapacitated or fall unconscious.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Strike Together" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CHANNEL_DIVINITY_STRIKE_TOGETHER">
+        <sheet alt="Strike Together" action="Action" usage="Channel Divinity">
+            <description> As an action, you can choose a number of creatures you can see within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, you and the chosen creatures have advantage on attack rolls against a target if at least one of your allies is within 5 feet of the target and the ally isn’t incapacitated.</description>
+        </sheet>
+    </element>
+    <element name="Survival Specialist" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_SURVIVAL_SPECIALIST">
+        <description>
+            <p>At 3rd level, you gain proficiency in the Survival skill. When you make Wisdom (Survival) checks, you can add your Charisma modifier to the check.</p>
+            <p class="indent">Additionally, when you roll initiative, roll twice and choose which result to use.</p>
+        </description>
+        <sheet>
+            <description> When you make Wisdom (Survival) checks, you can add your Charisma modifier to the check. Additionally, when you roll initiative, roll twice and choose which result to use.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+        </rules>
+    </element>
+    <element name="Aura of Adaptability" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_AURA_OF_ADAPTABILITY">
+        <description>
+            <p>Starting at 7th level, you are surrounded by an aura of primordial perseverance while you aren’t incapacitated. As adaptation is the heart of survival, you can change the effect of your aura as a bonus action once a day, choosing one from the following three options. The aura you choose remains active until you choose to change it to another option.</p>
+            <p class="indent"><strong>Raptor’s Cunning.</strong> You and any creatures of your choice within 10 feet of you have advantage on opportunity attacks and Intelligence saving throws.</p>
+            <p class="indent"><strong>Triceratops’ Toughness.</strong> You and any creatures of your choice within 10 feet of you have advantage on Constitution saving throws and death saving throws.</p>
+            <p class="indent"><strong>Tyrannosaurus Rex’s Might.</strong> You and any creatures of your choice within 10 feet of you have advantage on saving throws against being frightened and can add bonus radiant damage equal to your Charisma modifier (minimum of 1) on a critical hit.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description>You are surrounded by an aura of primordial perseverance while you aren’t incapacitated. As adaptation is the heart of survival, you can change the effect of your aura as a bonus action once a day, choosing one from the following three options. The aura you choose remains active until you choose to change it to another option.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_RAPTORS_CUNNING"/>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_TRICERATOPS_TOUGHNESS"/>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_TREX_MIGHT"/>
+        </rules>
+    </element>
+    <element name="Raptor's Cunning" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_RAPTORS_CUNNING">
+        <sheet>
+            <description>You and any creatures of your choice within 10 feet of you have advantage on opportunity attacks and Intelligence saving throws.</description>
+            <description level="18">You and any creatures of your choice within 30 feet of you have advantage on opportunity attacks and Intelligence saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Triceratop's Toughness" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_TRICERATOPS_TOUGHNESS">
+        <sheet>
+            <description>You and any creatures of your choice within 10 feet of you have advantage on Constitution saving throws and death saving throws.</description>
+            <description level="18">You and any creatures of your choice within 30 feet of you have advantage on Constitution saving throws and death saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Tyrannosaurus Rex's Might" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_TREX_MIGHT">
+        <sheet>
+            <description>You and any creatures of your choice within 10 feet of you have advantage on saving throws against being frightened and can add bonus radiant damage equal to your Charisma modifier (minimum of 1) on a critical hit.</description>
+            <description level="18">You and any creatures of your choice within 30 feet of you have advantage on saving throws against being frightened and can add bonus radiant damage equal to your Charisma modifier (minimum of 1) on a critical hit.</description>
+        </sheet>
+    </element>
+    <element name="Primordial Endurance" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_PRIMORDIAL_ENDRUANCE">
+        <description>
+            <p>At 15th level, if you drop to 0 hit points, you can immediately regain hit points equal to your paladin level. Once you have used this feature, you can’t use it again until you finish a long rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="1/Long rest">
+            <description>If you drop to 0 hit points, you can immediately regain hit points equal to your paladin level. Once you have used this feature, you can’t use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Aspect of the Apex Predator" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_ASPECT_OF_THE_APEX_PREDATOR">
+        <description>
+            <p>At 20th level, you can wield the primordial abilities you have honed throughout your journey to an extremely deadly degree. You can use a bonus action to assume the Aspect of the Apex Predator, sprouting beast-like features such as scales or fangs, and gaining the following benefits for 1 minute:</p>
+            <ul>
+                <li>Your weapon attacks score a critical hit on a roll of 18–20.</li>
+                <li>You have resistance to all nonmagical damage.</li>
+                <li>Each time you cause a creature to drop to 0 hit points, each of your allies within 60 feet of you gains 2d6 temporary hit points.</li>
+            </ul>
+            <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description> You can use a bonus action to assume the Aspect of the Apex Predator, sprouting beast-like features such as scales or fangs, and gaining the following benefits for 1 minute: 9 Your weapon attacks score a critical hit on a roll of 18–20. 9 You have resistance to all nonmagical damage. 9 Each time you cause a creature to drop to 0 hit points, each of your allies within 60 feet of you gains 2d6 temporary hit points.</description>
+        </sheet>
+    </element>
+</elements>

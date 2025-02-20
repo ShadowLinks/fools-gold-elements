@@ -13,6 +13,8 @@
 		
 		<file name="backgrounds.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/backgrounds.xml" />
 		<file name="curses.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/curses.xml" />
+
+		<file name="spells.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/spells.xml" />
 	
 		<file name="race-beastfolk.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-beastfolk.xml" />
 		<file name="race-mohsnian.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-mohsnian.xml" />
@@ -23,5 +25,6 @@
 		<file name="druid-swiftness.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/druid-swiftness.xml" />
 		<file name="fighter-magicalprotagonist.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/fighter-magicalprotagonist.xml" />
 		<file name="monk-healinghands.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/monk-healinghands.xml" />
+		<file name="paladin-survival.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/paladin-survival.xml" />
 	</files>
 </index>

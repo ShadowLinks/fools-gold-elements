@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="spells.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/spells.xml" />
+		</update>
+    </info>
+    <element name="Gift Spell" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL">
+        <supports>Cleric, Sorcerer</supports>
+        <description>
+            <p>You touch another willing creature and replenish its magical energy. The creature gains a spell slot of 2nd level or lower that it can use to cast spells as though it were one of its own spell slots. Additionally, the target gains an effect of your choice chosen from the following options.</p>
+            <ul>
+                <li>The target has advantage on the next spell attack it makes before the end of its next turn.</li>
+                <li>One target of a spell cast by the target before the end of its next turn has disadvantage on its saving throw to resist the effect.</li>
+            </ul>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you increase the level of the spell slot you grant the target by 1 for every level above 3rd.</p>
+            <p class="indent">This spell has no effect on creatures that can’t cast spells using spell slots.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Instant Trap" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>With a swift stab into the ground, you instantly create a spiked pit trap centered on a point you can see. The trap can be created on any horizontal surface that is at least 10 feet wide. The trap is 10 feet wide and 10 feet deep, and it has sharp wooden stakes on the bottom.</p>
+            <p class="indent">The spiked pit trap is concealed with an illusion that matches the surface the trap is on, and it remains there until triggered. A creature must succeed on an Intelligence (Investigation) or Wisdom (Perception) check against your spell save DC to notice the trap.</p>
+            <p class="indent">When a creature steps onto the trap, the illusion vanishes and the creature falls into the pit, taking 2d10 piercing damage from the spikes plus 1d6 bludgeoning damage from its fall. Once all creatures caught in the trap leave its area or the spell ends, the trap disappears, and the ground returns to its previous state. Any corpses, objects, or creatures in the trap when the spell ends are moved up onto the surface where the spell was cast.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you increase the depth of the trap by 10 feet, and the fall damage increases by 1d6 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">5 fee (10-foot square)</set>
+            <set name="duration">8 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small wooden stake</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+</elements>
