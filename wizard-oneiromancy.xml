@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="wizard-oneiromancy.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/wizard-oneiromancy.xml" />
+		</update>
+	</info>
+    <element name="School of Oneiromancy" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY">
+        <supports>Arcane Tradition</supports>
+        <description>
+            <p class="indent">As a member of the School of Oneiromancy, your studies let you blur the boundary between dreams and the real world for yourself and other creatures. The art of manipulating dreams is a delicate one and is often pursued by those who have patient tempers. Overlapping with the study of enchantment and divination, oneiromancy rewards those with creative imaginations and an instinct for subtlety. Some oneiromancers focus on helping those plagued by mysterious nightmares, while others use their powers nefariously to harm victims within their dreams. The School of Oneiromancy is still one of the newest schools of arcane research. How will you shape its reputation amongst scholars?</p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_CONJURE_FIGMENT" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_TRAINING" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEPWALKER" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_EXPERT_ONEIROMANCY" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_DREAM_SUMMONER" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEP_IT_OFF" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_CONJURE_FIGMENT" level="2" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_TRAINING" level="2" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEPWALKER" level="2" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_EXPERT_ONEIROMANCY" level="6" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_DREAM_SUMMONER" level="10" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEP_IT_OFF" level="14" />
+        </rules>
+    </element>
+    <element name="Conjure Figment" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_CONJURE_FIGMENT">
+        <description>
+            <p>Starting at 2nd level when you choose this school, you gain the ability to summon objects from your dreams into reality. By channeling your powers for 1 minute, you can pull forth an object from your daydream into your hands, conjuring a nonmagical object that weighs no more than 20 lbs, and whose total dimensions fit within a 5-foot cube. The item lasts for 1 hour before it vanishes back into the world of dreams. Once you use this feature, you can’t use it again until you complete a short rest.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>By channeling your powers for 1 minute, you can pull forth an object from your daydream into your hands, conjuring a nonmagical object that weighs no more than 20 lbs, and whose total dimensions fit within a 5-foot cube. The item lasts for 1 hour before it vanishes back into the world of dreams.</description>
+        </sheet>
+    </element>
+    <element name="Oneiromancy Training" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_TRAINING">
+        <description>
+            <p>At 2nd level, your study of the magic of dreams has widened your understanding of the arcane, giving you access to new power. The spells from the Oneiromancy Spells table are added to the wizard spell list for you and count as oneiromancy spells in addition to their original school of magic.</p>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Spells</td></tr>
+                </thead>                
+                <tr><td>Cantrip</td><td>dream peek, minor illusion, nightmare visage</td></tr>
+                <tr><td>1</td><td>false life, silent image, sleep,</td></tr>
+                <tr><td>2</td><td>augury, darkness, mirror image, silence</td></tr>
+                <tr><td>3</td><td>clairvoyance, dream delivery, fly, hypnotic pattern, major image, sleeper’s vision1, sleepwalk</td></tr>
+                <tr><td>4</td><td>divination, dreamscape, hallucinatory terrain</td></tr>
+                <tr><td>5</td><td>waken, dream, modify memory, seeming</td></tr>
+                <tr><td>6</td><td>conjure fey, inflict insomnia</td></tr>
+                <tr><td>7</td><td>fairytale’s curse1, mirage arcane, symbol (only when choosing the sleep option)</td></tr>
+                <tr><td>8</td><td>antipathy/sympathy, maze</td></tr>
+                <tr><td>9</td><td>astral projection, foresight, weird</td></tr>
+            </table>
+            <p class="indent"></p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            
+        </rules>
+    </element>
+    <element name="Sleepwalker" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEPWALKER">
+        <description>
+            <p>From 2nd level, you have uncanny control over your own sleep and dreams. While sleeping, you retain full control of your body and awareness of your surroundings. When sleeping in this way, you can carry out light activities and cast oneiromancy spells as normal. Doing so doesn’t prevent you from gaining the benefits of a long rest. If you are a member of a race such as elves or mohsnians who do not sleep, you can choose to sleep and allow yourself to be affected by magic that relies on sleeping.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>While sleeping, you retain full control of your body and awareness of your surroundings. When sleeping in this way, you can carry out light activities and cast oneiromancy spells as normal. Doing so doesn’t prevent you from gaining the benefits of a long rest. If you are a member of a race such as elves or mohsnians who do not sleep, you can choose to sleep and allow yourself to be affected by magic that relies on sleeping.</description>
+        </sheet>
+    </element>
+    <element name="Expert Oneiromancy" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_EXPERT_ONEIROMANCY">
+        <description>
+            <p>Beginning at 6th level, casting oneiromancy spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast an oneiromancy spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be at least one level lower than the spell you cast and can’t be higher than 5th level.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description>When you cast an oneiromancy spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be at least one level lower than the spell you cast and can’t be higher than 5th level.</description>
+        </sheet>
+    </element>
+    <element name="Dream Summoner" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_DREAM_SUMMONER">
+        <description>
+            <p>Starting at 10th level, you can manifest a creature of dreams in physical reality to aid you and your allies. By reaching into your own subconscious or that of another creature, you pull forth a creature from the realm of dreams and summon it into an unoccupied space you can see within 30 feet of you. The summoned creature uses the statistics of an aberration, celestial, fey, or undead of your choice that is CR 5 or lower. The GM has the creature’s statistics. It can have any appearance, but dark, starry wisps of magic always surround it. The creature is not hostile to you and your companions but depending on its role in the dream it originates from, it may not be friendly. In combat, the creature takes its turn immediately after yours and obeys your verbal commands. If you don’t issue a command, it takes the Dodge action and moves to avoid danger. The creature vanishes back into dreams after 10 minutes, or if it is reduced to 0 hit points.</p>
+            <p class="indent">Once you use this feature, you can’t use it again until you’ve finished a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>By reaching into your own subconscious or that of another creature, you pull forth a creature from the realm of dreams and summon it into an unoccupied space you can see within 30 feet of you. The summoned creature uses the statistics of an aberration, celestial, fey, or undead of your choice that is CR 5 or lower. The GM has the creature’s statistics. It can have any appearance, but dark, starry wisps of magic always surround it. The creature is not hostile to you and your companions but depending on its role in the dream it originates from, it may not be friendly. In combat, the creature takes its turn immediately after yours and obeys your verbal commands. If you don’t issue a command, it takes the Dodge action and moves to avoid danger. The creature vanishes back into dreams after 10 minutes, or if it is reduced to 0 hit points.</description>
+        </sheet>
+    </element>
+    <element name="Sleep It Off" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATUURE_WIZARD_ONEIROMANCY_SLEEP_IT_OFF">
+        <description>
+            <p>At 14th level, you gain the ability to control your body by sleepwalking even while unconscious. You are immune to the unconscious condition unless you choose to become unconscious. If you drop to 0 hit points, you remain conscious but can’t take reactions and can take only an action or a bonus action on your turn. Until you regain at least 1 hit point, you must continue to make death saving throws as normal. After using this feature, when you next take a long rest, you fall into a sleep that lasts for 16 hours. During this sleep, you can’t use your Sleepwalker feature or cast any oneiromancy spells while you rest as your body and mind recuperate.</p>
+            <p class="indent"></p>
+        </description>
+        <sheet>
+            <description> You are immune to the unconscious condition unless you choose to become unconscious. If you drop to 0 hit points, you remain conscious but can’t take reactions and can take only an action or a bonus action on your turn. Until you regain at least 1 hit point, you must continue to make death saving throws as normal. After using this feature, when you next take a long rest, you fall into a sleep that lasts for 16 hours. During this sleep, you can’t use your Sleepwalker feature or cast any oneiromancy spells while you rest as your body and mind recuperate.</description>
+        </sheet>
+    </element>
+</elements>
