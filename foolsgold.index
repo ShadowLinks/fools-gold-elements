@@ -29,5 +29,6 @@
 		<file name="ranger-cryodonguide.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/ranger-cryodonguide.xml" />
 		<file name="rogue-shadowlurker.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/rogue-shadowlurker.xml" />
 		<file name="sorcerer-concentratedchaos.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/sorcerer-concentratedchaos.xml" />
+		<file name="warlock-splice.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/warlock-splice.xml" />
 	</files>
 </index>

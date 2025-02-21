@@ -27,7 +27,8 @@
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
-        <element name="Dream Delivery=" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY">
+    </element>
+    <element name="Dream Delivery=" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY">
         <supports>Bard, Wizard</supports>
         <description>
             <p>You transport a Tiny nonmagical object through the realm of dreams to a creature known to you. The target must be on the same plane of existence as you. When you finish casting the spell, the object disappears from your grasp. The next time the target goes to sleep, it dreams of you handing it the object. If the creature accepts the object in the dream, it awakens holding the object, and you are aware that the spell has been successful. If the target chooses not to accept the object, the object reappears in your hand when the target awakens.</p>
@@ -149,7 +150,29 @@
             <p>You draw a magical rune with the power to unleash burning agony. You inscribe the rune on an object no larger than a 10-foot cube (such as a chair, door, or treasure chest). The rune must be between 6 and 12 inches in diameter. If the object is moved more than 15 feet from where you cast this spell or the rune is damaged, the rune is broken, and the spell ends without being triggered.</p>
             <p class="indent">While one or more creatures you can see are touching an object inscribed with the rune, you can use your bonus action to trigger the rune. A creature touching the object when the rune is triggered must make a Constitution saving throw, taking 7d6 fire damage on a failed saving throw, or half as much damage on a successful one.</p>
             <p class="indent">After the rune is triggered, you can concentrate on the spell to extend its effects. While you concentrate on the spell, a creature that fails its initial saving throw can’t let go or move away from the item inscribed with the rune. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause 4d6 fire damage to the creature. Each time the creature takes this damage, it can repeat its saving throw, ending the spell on a success. The spell also ends if you can no longer see the creature.</p>
-            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can inscribe an additional rune for each spell slot above 4th on another object within 15 feet of the original target./p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can inscribe an additional rune for each spell slot above 4th on another object within 15 feet of the original target.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Abjuration</set>
+            <set name="time">10 minutes</set>
+            <set name="range">Touch</set>
+            <set name="duration">until dispelled or triggerd</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a ruby worth at least 150 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Wizardly's Arcane Override" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_WIZARDLYS_ARCANE_OVERRIDE">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You attempt to gain control of another creature’s spell through sheer magical force. If the creature is casting a spell of 4th level or lower, make a contested ability check using your spellcasting ability against the creature casting the spell. If you win the contest, you can choose the targets for the spell as if you had cast it, though you still treat the spell as originating from the original caster to determine its range. The overridden spell uses the caster’s spellcasting ability to determine attack rolls and saving throw DCs, but if it requires concentration, you must maintain concentration on it for the duration.</p>
+            <p class="indent">If you succeed in overriding the spell, you can only cast cantrips until the end of your next turn.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can attempt to override a spell of a level that is less than or equal to the level of the spell slot you used.</p>
         </description>
         <setters>
             <set name="keywords"></set>
