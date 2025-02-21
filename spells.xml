@@ -5,6 +5,49 @@
 			<file name="spells.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/spells.xml" />
 		</update>
     </info>
+    <element name="Chain of Pain" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CHAIN_OF_PAIN">
+        <supports>Paladin, Warlock</supports>
+        <description>
+            <p>An ethereal chain shoots forth from your chest at a creature you can see within range. The target must make a Charisma saving throw. On a failure, the spectral chain attaches to the target’s body, linking you both together. The chain can stretch to any distance and pass through objects, and you and the target can move away from each other beyond the casting range of the spell without ending the spell. While you are connected in this way, you and the target know each other’s location, even if you can’t see or hear one another</p>
+            <p class="indent">When you take damage, the target takes the same type of damage equal to the amount of damage you take. If damage reduces you to 0 hit points, the target takes the full amount of damage that you would have taken beyond 0 hit points.</p>
+            <p class="indent">If you regain hit points while under the effect of this spell, the target gains a number of temporary hit points equal to the number of hit points you regained.</p>
+            <p class="indent">Each time a target takes damage from this spell, the target can repeat the saving throw, ending the spell on a success. If you or the target moves to a different plane of existence, the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">Concentration up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a gold bracelet</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+        <element name="Dream Delivery=" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>You transport a Tiny nonmagical object through the realm of dreams to a creature known to you. The target must be on the same plane of existence as you. When you finish casting the spell, the object disappears from your grasp. The next time the target goes to sleep, it dreams of you handing it the object. If the creature accepts the object in the dream, it awakens holding the object, and you are aware that the spell has been successful. If the target chooses not to accept the object, the object reappears in your hand when the target awakens.</p>
+            <p class="indent">The object can be no larger than 1 foot in any dimension, can’t weigh more than 20 pounds, can’t contain any living matter, and can’t be magical. If you target a creature that doesn’t sleep, such as an elf or mohsnian, the spell fails and the object does not disappear.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 minute</set>
+            <set name="range">unlimited</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a tiny object</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Gift Spell" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL">
         <supports>Cleric, Sorcerer</supports>
         <description>
@@ -54,6 +97,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Overpowered Aura" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_OVERPOWERED_AURA">
+        <supports>Bard, Paladin</supports>
+        <description>
+            <p>You emanate an aura of confidence, convincing onlookers of your awesome power. Up to ten creatures of your choice within range that can see you must succeed on an Intelligence saving throw or become frightened of you until the end of your next turn. As a bonus action on your turn, you can make a Charisma (Intimidation) check against each affected target’s Wisdom (Insight) or Intelligence (Investigation) to maintain the frightened condition until the end of your next turn. A target that wins this contested check is no longer frightened and becomes immune to this spell for 1 hour.</p>
+            <p class="indent">The spell ends for a target if it can no longer see you.</p>
+            
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (30-foot radius)</set>
+            <set name="duration">Concentration up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a silver medal worth at least 15gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
     <element name="Polar Fog" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_POLAR_FOG">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -77,4 +143,32 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Red Death Rune" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_RED_DEATH_RUNE">
+        <supports>Cleric, Wizard</supports>
+        <description>
+            <p>You draw a magical rune with the power to unleash burning agony. You inscribe the rune on an object no larger than a 10-foot cube (such as a chair, door, or treasure chest). The rune must be between 6 and 12 inches in diameter. If the object is moved more than 15 feet from where you cast this spell or the rune is damaged, the rune is broken, and the spell ends without being triggered.</p>
+            <p class="indent">While one or more creatures you can see are touching an object inscribed with the rune, you can use your bonus action to trigger the rune. A creature touching the object when the rune is triggered must make a Constitution saving throw, taking 7d6 fire damage on a failed saving throw, or half as much damage on a successful one.</p>
+            <p class="indent">After the rune is triggered, you can concentrate on the spell to extend its effects. While you concentrate on the spell, a creature that fails its initial saving throw can’t let go or move away from the item inscribed with the rune. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause 4d6 fire damage to the creature. Each time the creature takes this damage, it can repeat its saving throw, ending the spell on a success. The spell also ends if you can no longer see the creature.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can inscribe an additional rune for each spell slot above 4th on another object within 15 feet of the original target./p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Abjuration</set>
+            <set name="time">10 minutes</set>
+            <set name="range">Touch</set>
+            <set name="duration">until dispelled or triggerd</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a ruby worth at least 150 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 </elements>
+<!-- 
+ID_HPP_FOOLS_SPELL_CHAIN_OF_PAIN
+ID_HPP_FOOLS_SPELL_RED_DEATH_RUNE
+ID_HPP_FOOLS_SPELL_OVERPOWERED_AURA
+-->

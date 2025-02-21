@@ -8,100 +8,121 @@
     <element name="Concentrated Chaos" type="Archetype" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_SORCERER_CHAOS">
         <supports>Sorcerous Origin</supports>
         <description>
-            <p class="indent"></p>
-            <div element="ID__" />
-            <div element="ID___" />
-            <div element="ID____" />
-            <div element="ID_____" />
-            <div element="ID______" />
-            <div element="ID_______" />
-            <div element="ID________" />
-            <div element="ID_________" />
+            <p>The destruction of the god now only known as The Shattered scattered their immense power across the world of Ambria. Some of this magic has collected in small concentrations of pure chaos, which you may have stumbled into, accidentally consumed, or otherwise had the misfortune to encounter. Such power was never meant to touch mortals, and as a result, it has twisted your magical insides into an unpredictable but potent tangle. Many magic colleges across Ambria have banned Concentrated Chaos Sorcerers from their halls due to all the unscheduled explosions.</p>
+            <p class="indent">As a Concentrated Chaos Sorcerer, you may embrace your turbulent nature by causing mayhem on the battlefield, keeping opponents—or, less helpfully, your allies—confused and distracted. You may attempt to control the chaos that rages within you, channeling it as best you can. Every spell you cast is a gamble of life and death. Will you suddenly obliterate your opponents in a blaze of glory or grant them glorious beards? Only chaos will tell.</p>
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_MAGIC" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_SURGES" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOTIC_COUNTER" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_FAVORABLE_CHAOS" />
+            <div element="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_BUBBLE" />
         </description>
         <sheet display="false">
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID__" level="1" />
-            <grant type="Archetype Feature" id="ID___" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID_____" level="1" />
-            <grant type="Archetype Feature" id="ID______" level="1" />
-            <grant type="Archetype Feature" id="ID_______" level="1" />
-            <grant type="Archetype Feature" id="ID________" level="1" />
-            <grant type="Archetype Feature" id="ID_________" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_MAGIC" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_SURGES" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOTIC_COUNTER" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_FAVORABLE_CHAOS" level="1" />
+            <grant type="Archetype Feature" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_BUBBLE" level="1" />
         </rules>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID__">
+    <element name="Concentrated Chaos Magic" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_MAGIC">
         <description>
-            <p></p>
-            <p class="indent"></p>
+            <p>At 1st level, the chaotic magic that writhes within you gives you unpredictable access to spells.</p>
+            <p class="indent">At the end of a long rest, roll a d4 to determine which additional 1st-level spell you know for that day. You forget all spells learned in this way when you finish a long rest though—fate being what it is—you might immediately remember them again when you roll for the new day’s spells.</p>
+            <p class="indent">When you reach higher levels in this class, you gain additional spells in this way. Roll an additional d4 for a 2nd level spell at 3rd level, for a 3rd-level spell at 5th level, for a 4th level spell at 7th level, and for 5th level spell at 9th level.</p>
+            <p class="indent">While you know them, each of these spells counts as a sorcerer spell for you, but don’t count against the number of sorcerer spells you know. Additionally, you can cast them without material components.</p>
+            <table>
+                <thead>
+                    <tr><td></td><td></td><td>d4</td><td>d4</td><td>d4</td><td>d4</td></tr>
+                    <tr><td>Sorcerer Level</td><td>Spell Level</td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+                </thead>
+                <tr><td>1st</td><td>1st</td><td>instant trap*</td><td>hellish rebuke</td><td>floating disk</td><td>hideous laughter</td></tr>
+                <tr><td>3rd</td><td>2nd</td><td>silence</td><td>rope trick</td><td>overpowered aura*</td><td>acid arrow</td></tr>
+                <tr><td>5th</td><td>3rd</td><td>dream delivery*</td><td>mass healing word</td><td>phantom steed</td><td>call lightning</td></tr>
+                <tr><td>7th</td><td>4th</td><td>divination</td><td>red death rune*</td><td>fabricate</td><td>black tentacles</td></tr>
+                <tr><td>9th</td><td>5th</td><td>telepathic bond</td><td>awaken</td><td>flame strike</td><td>chain of pain*</td></tr>
+            </table>
         </description>
         <sheet>
-            <description></description>
+            <description>At the end of a long rest, roll a d4 to determine which additional 1st-level spell you know for that day. You forget all spells learned in this way when you finish a long rest though—fate being what it is—you might immediately remember them again when you roll for the new day’s spells. When you reach higher levels in this class, you gain additional spells in this way. Roll an additional d4 for a 2nd level spell at 3rd level, for a 3rd-level spell at 5th level, for a 4th level spell at 7th level, and for 5th level spell at 9th level. While you know them, each of these spells counts as a sorcerer spell for you, but don’t count against the number of sorcerer spells you know. Additionally, you can cast them without material components.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" level="1"/>
+            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1"/>
+            <grant type="Spell" id="ID_PHB_SPELL_TENSERS_FLOATING_DISK" level="1"/>
+            <grant type="Spell" id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" level="1"/>
+            <grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="3"/>
+            <grant type="Spell" id="ID_PHB_SPELL_ROPE_TRICK" level="3"/>
+            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_OVERPOWERED_AURA" level="3"/>
+            <grant type="Spell" id="ID_PHB_SPELL_MELFS_ACID_ARROW" level="3"/>
+            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY" level="5"/>
+            <grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="5"/>
+            <grant type="Spell" id="ID_PHB_SPELL_PHANTOM_STEED" level="5"/>
+            <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="5"/>
+            <grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7"/>
+            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_RED_DEATH_RUNE" level="7"/>
+            <grant type="Spell" id="ID_PHB_SPELL_FABRICATE" level="7"/>
+            <grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7"/>
+            <grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9"/>
+            <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="9"/>
+            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9"/>
+            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_CHAIN_OF_PAIN" level="9"/>
+        </rules>
+    </element>
+    <element name="Chaos Surges" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_SURGES">
+        <description>
+            <p>Starting when you choose this origin at 1st level, your spellcasting has the potential to unleash devastating chaotic effects. Every time you cast a spell using a spell slot, roll a d100 to determine if you trigger a Chaos Surge. If you roll equal to or less than your Chaos Surge Threshold, roll on the Chaos Surge tables in Appendix E: Chaos Surges to determine a random magical effect that occurs instead of or in addition to your intended spell. When this occurs, you expend the spell slot of the spell you were trying to cast, but you gain sorcery points equal to that spell’s level.</p>
+            <p class="indent">Your Chaos Surge Threshold is a number between 1 and 100. The higher your Chaos Surge Threshold, the higher the likelihood of triggering Chaos Surges. When you choose this origin, your Chaos Surge Threshold starts at 10. It can increase or decrease based on your character’s actions or events that happen to them. Your GM has the final say in what your Chaos Surge Threshold is at any given time, but this decision should come out of a conversation between both of you.</p>
+            <p class="indent">Some things that could raise your Chaos Surge Threshold include spending time in areas of chaotic magic, a curse you are under getting worse, or you leaning into the chaos. Examples of things that could lower your Chaos Surge Threshold include meditation, guidance from an expert or friend, healing magic, or practicing to control your gifts.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>The creature makes its attack at disadvantage.</td></tr>
+                <tr><td>2</td><td>Until the end of your next turn, the creature perceives its allies as enemies and its enemies as friends and redirects its attack accordingly.</td></tr>
+                <tr><td>3</td><td>The creature becomes frightened of you until the end of your next turn.</td></tr>
+                <tr><td>4</td><td>The creature attacks as normal, but at the end of its turn, it must use all of its remaining movement to move directly away from you.</td></tr>
+                <tr><td>5</td><td>The creature attacks as normal, but if this attack hits, the creature takes force damage equal to the damage it deals to its target.</td></tr>
+                <tr><td>6</td><td>The creature is stunned until the end of your next turn.</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Every time you cast a spell using a spell slot, roll a d100 to determine if you trigger a Chaos Surge. If you roll equal to or less than your Chaos Surge Threshold, roll on the Chaos Surge tables in Appendix E: Chaos Surges to determine a random magical effect that occurs instead of or in addition to your intended spell. When this occurs, you expend the spell slot of the spell you were trying to cast, but you gain sorcery points equal to that spell’s level. When you choose this origin, your Chaos Surge Threshold starts at 10. It can increase or decrease based on your character’s actions or events that happen to them. Your GM has the final say in what your Chaos Surge Threshold is at any given time.</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID___">
+    <element name="Chaotic Counter" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOTIC_COUNTER">
         <description>
-            <p></p>
+            <p>At 6th level, you can let your chaos leap from your body to bewilder other creatures. When a creature that you can see within 60 feet of you makes an attack, you can use your reaction and spend 2 sorcery points to force it to make a Charisma saving throw against your spell save DC. If the creature fails, roll on the following table to determine the effect of your chaotic counter. You can use this feature after the GM declares the attack but must do so before the GM declares if the attack hits or misses.</p>
             <p class="indent"></p>
         </description>
-        <sheet>
-            <description></description>
+        <sheet action="Reaction">
+            <description>When a creature that you can see within 60 feet of you makes an attack, you can use your reaction and spend 2 sorcery points to force it to make a Charisma saving throw against your spell save DC. If the creature fails, roll on the following table to determine the effect of your chaotic counter. You can use this feature after the GM declares the attack but must do so before the GM declares if the attack hits or misses.
+            1 The creature makes its attack at disadvantage. 
+            2 Until the end of your next turn, the creature perceives its allies as enemies and its enemies as friends and redirects its attack accordingly. 
+            3 The creature becomes frightened of you until the end of your next turn. 
+            4 The creature attacks as normal, but at the end of its turn, it must use all of its remaining movement to move directly away from you. 
+            5 The creature attacks as normal, but if this attack hits, the creature takes force damage equal to the damage it deals to its target. 
+            6 The creature is stunned until the end of your next turn.</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID____">
+    <element name="Favorable Chaos" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_FAVORABLE_CHAOS">
         <description>
-            <p></p>
+            <p>By 14th level, you and your chaos have grown accustomed to one another—a terrifying thought—granting you the ability to influence it to your benefit. You can choose to trigger a Chaos Surge at will when casting a spell of 1st level or higher. You can only intentionally trigger one Chaos Surge on your turn. Additionally, whenever you roll on the Chaos Surge Table, you can choose to roll twice and either have both effects occur simultaneously or have them cancel each other out so that neither occurs and your spell works as intended. If you choose to cancel out the chaos surges, you don’t gain sorcery points from the expended spell slot.</p>
             <p class="indent"></p>
         </description>
         <sheet>
-            <description></description>
+            <description>You can choose to trigger a Chaos Surge at will when casting a spell of 1st level or higher. You can only intentionally trigger one Chaos Surge on your turn. Additionally, whenever you roll on the Chaos Surge Table, you can choose to roll twice and either have both effects occur simultaneously or have them cancel each other out so that neither occurs and your spell works as intended. If you choose to cancel out the chaos surges, you don’t gain sorcery points from the expended spell slot</description>
         </sheet>
     </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_____">
+    <element name="Chaos Bubble" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_SORCERER_CHAOS_CHAOS_BUBBLE">
         <description>
-            <p></p>
+            <p>At 18th level, you gain the ability to unleash your chaos into the surrounding area and temporarily remove it from yourself. As an action, you can create a Chaos Zone with a 60-foot radius centered on yourself that lasts for 1 minute or until you are incapacitated. The zone does not move with you. Any creature within the Chaos Zone that casts a spell or cantrip or otherwise triggers a magical effect must roll a d100. If they roll equal to or less than your current Chaos Surge Threshold, they trigger a Chaos Surge, and you get to choose which Chaos Surge table they roll on. For as long as your Chaos Zone is active, whenever you roll a result on the Chaos Surge Table, you can choose to expend 1 sorcery point to roll on the table again, replacing the old result with the new one. Once you use this feature, you can’t use it again until you finish a long rest.</p>
             <p class="indent"></p>
         </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID______">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_______">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID________">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
-        </sheet>
-    </element>
-    <element name="name" type="Archetype Feature" source="Fools Gold" id="ID_________">
-        <description>
-            <p></p>
-            <p class="indent"></p>
-        </description>
-        <sheet>
-            <description></description>
+        <sheet usage="1/Long Rest">
+            <description>As an action, you can create a Chaos Zone with a 60-foot radius centered on yourself that lasts for 1 minute or until you are incapacitated. The zone does not move with you. Any creature within the Chaos Zone that casts a spell or cantrip or otherwise triggers a magical effect must roll a d100. If they roll equal to or less than your current Chaos Surge Threshold, they trigger a Chaos Surge, and you get to choose which Chaos Surge table they roll on. For as long as your Chaos Zone is active, whenever you roll a result on the Chaos Surge Table, you can choose to expend 1 sorcery point to roll on the table again, replacing the old result with the new one. Once you use this feature, you can’t use it again until you finish a long rest.</description>
         </sheet>
     </element>
 </elements>
