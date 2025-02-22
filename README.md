@@ -11,9 +11,9 @@ Planning to include:
   -   Curse Sould
   -   Gold Shaper
   -   Outback Cook
-- Subclasses
-  -   Barbarian Path of the Soaring Soul COMPLETE
-  -   Druid Circle of Swiftness COMPLETE
+- Subclasses COMPLETE
+  -   Barbarian Path of the Soaring Soul 
+  -   Druid Circle of Swiftness 
   -   Fighter Magical Protagonist
   -   Ranger Cryodon Guide
   -   Monk Way of Healing Hands
