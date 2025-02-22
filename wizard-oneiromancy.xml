@@ -47,11 +47,11 @@
                 <tr><td>Cantrip</td><td>dream peek, minor illusion, nightmare visage</td></tr>
                 <tr><td>1</td><td>false life, silent image, sleep,</td></tr>
                 <tr><td>2</td><td>augury, darkness, mirror image, silence</td></tr>
-                <tr><td>3</td><td>clairvoyance, dream delivery, fly, hypnotic pattern, major image, sleeper’s vision1, sleepwalk</td></tr>
+                <tr><td>3</td><td>clairvoyance, dream delivery, fly, hypnotic pattern, major image, sleeper’s vision, sleepwalk</td></tr>
                 <tr><td>4</td><td>divination, dreamscape, hallucinatory terrain</td></tr>
                 <tr><td>5</td><td>waken, dream, modify memory, seeming</td></tr>
                 <tr><td>6</td><td>conjure fey, inflict insomnia</td></tr>
-                <tr><td>7</td><td>fairytale’s curse1, mirage arcane, symbol (only when choosing the sleep option)</td></tr>
+                <tr><td>7</td><td>fairytale’s curse, mirage arcane, symbol (only when choosing the sleep option)</td></tr>
                 <tr><td>8</td><td>antipathy/sympathy, maze</td></tr>
                 <tr><td>9</td><td>astral projection, foresight, weird</td></tr>
             </table>
