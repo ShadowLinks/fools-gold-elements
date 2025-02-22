@@ -5,7 +5,7 @@
 		<description>Supplements from Fools Gold: Into the Bellowing Wilds to expand your core gaming elements.</description>
 		<author url="https://foolsgold.fun/">Dingo Doodles</author>
 		<update version="0.0.1">
-			<file name="foolsgold.index" url="https://raw.githubusercontent.com/ShadowLinks/tanares/refs/heads/main/foolsgold.index" />
+			<file name="foolsgold.index" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/foolsgold.index" />
 		</update>
 	</info>
 	<files>
