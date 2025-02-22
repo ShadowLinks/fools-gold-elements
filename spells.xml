@@ -5,6 +5,28 @@
 			<file name="spells.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/spells.xml" />
 		</update>
     </info>
+    <element name="Back Ackwards" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_BACK_ACKWARDS">
+        <supports>Bard, Sorcerer, Wizard</supports>
+        <description>
+            <p>Choose any number of willing creatures within range. For the duration, as long as the targets remain within the spell’s area, their words sound scrambled and nonsensical to any listener who isn’t under the effect of the spell. The chosen creatures can understand each other as normal.</p>
+            <p class="indent">A creature attempting to eavesdrop on the targets of this spell with a divination spell or effect, such as scrying or clairvoyance, must make a Wisdom saving throw, taking 3d8 psychic damage on a failure and half as much on a success.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the duration is concentration, up to 8 hours. Using a spell slot of 7th level or higher grants a duration of 24 hours that doesn’t require concentration.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (30-foot radius)</set>
+            <set name="duration">Concentration up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small rubber ball</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Chain of Pain" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CHAIN_OF_PAIN">
         <supports>Paladin, Warlock</supports>
         <description>
@@ -28,7 +50,49 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Dream Delivery=" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY">
+    <element name="Chaos Shield" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CHAOS_SHIELD">
+        <supports>Bard, Sorcerer, Warlock</supports>
+        <description>
+            <p>You infuse the spells of those who dare attack you with the randomness of pure chaos. The caster of the spell that triggers your reaction must make a Constitution saving throw. On a failure, the spell goes wild, and the caster must roll on the Chaos Surge table to determine the effect. Additionally, the caster becomes glitched for one minute. While glitched, each time the caster casts a spell using a spell slot, there is a 50% chance the spell goes wild. An affected caster can repeat its saving throw at the end of each of its turns, ending the effect on a success.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 reaction, which you take when you are targeted by a spell</set>
+            <set name="range">Self</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of a gemstone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Conjure Potion Blooper" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CONJURE_POTION_BLOOPER">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You inject arcane lifeforce into a potion of your choice, which becomes a potion blooper under the control of the GM. As part of your action, you can throw the potion bottle to an unoccupied space you can see within 20 feet of you, where it shatters and releases the conjured creature. The type of potion blooper you summon matches the potion you used to summon it. The GM has the potion blooper’s statistics.</p>
+            <p class="indent">The potion blooper is friendly to you and your companions. It obeys your verbal commands. In combat, it takes its turn immediately after yours and can attack. If you give it no commands, it takes the Dodge action.</p>
+            <p class="indent">After 10 minutes or if it drops to 0 hit points, the potion blooper is destroyed.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">20 feet</set>
+            <set name="duration">10 minutes</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a magic potion, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dream Delivery" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_DELIVERY">
         <supports>Bard, Wizard</supports>
         <description>
             <p>You transport a Tiny nonmagical object through the realm of dreams to a creature known to you. The target must be on the same plane of existence as you. When you finish casting the spell, the object disappears from your grasp. The next time the target goes to sleep, it dreams of you handing it the object. If the creature accepts the object in the dream, it awakens holding the object, and you are aware that the spell has been successful. If the target chooses not to accept the object, the object reappears in your hand when the target awakens.</p>
@@ -37,7 +101,7 @@
         <setters>
             <set name="keywords"></set>
             <set name="level">3</set>
-            <set name="school">Conjuration</set>
+            <set name="school">Conjuration, Oneiromancy</set>
             <set name="time">1 minute</set>
             <set name="range">unlimited</set>
             <set name="duration">Instantaneous</set>
@@ -45,6 +109,73 @@
             <set name="hasSomaticComponent">false</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a tiny object</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dream Peek" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM_PEEK">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>You gently lay your hand on the head of a sleeping creature to glimpse its dreams or nightmares. The target must make a Wisdom saving throw. On a successful save, you are unable to see into the target’s dreams. On a failed saving throw, the target remains asleep and you experience the dream as the target is experiencing it. A willing creature who knows you will cast this spell on it while it sleeps can choose to fail its saving throw.</p>
+            <p class="indent">You can’t change the events in the dream, but you feel any emotions that the target feels while it is dreaming. The GM determines the content and coherence of the dream.</p>
+            <p class="indent">After the creature wakes, it knows that you were peering into its dreams if it failed its saving throw.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Divination, Oneiromancy</set>
+            <set name="time">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="duration">10 minutes</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a ball made from dried twigs</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dreamscape" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAMSCAPE">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>You bring up to eight willing creatures within range into a dreamscape you create. Targets fall asleep and benefit from a long rest if they spend at least 6 hours in the dreamscape. Creatures that don’t sleep are unaffected by this spell.</p>
+            <p class="indent">You choose the appearance of the dreamscape and can alter it using an action. Creatures inside the dreamscape can interact with it as though it were real and retain their statistics and abilities. Creatures can’t sleep or rest within the dreamscape. When you wake, the dreamscape ceases to exist, and all other creatures within it wake too.</p>
+            <p class="indent">Another creature can enter your dreamscape using the dream spell and can attempt to take control of it. You can resist the attempt by succeeding on a spellcasting ability check contested by the caster of the dream spell. The winner of the check has control of the dreamscape until the spell ends.</p>
+            <p class="indent">All damage dealt to creatures within the dreamscape is psychic damage and doesn’t carry over to a creature’s sleeping body. If a creature within the dreamscape drops to 0 hit points, it is forced out of the dreamscape and remains unconscious for 2d6 hours as its mind heals.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Enchantment, Oneiromancy</set>
+            <set name="time">10 minutes</set>
+            <set name="range">Self (30-foot radius)</set>
+            <set name="duration">8 hours</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Fairytale's Curse" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_FAIRYTALES_CURSE">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a humanoid and attempt to trap it within a near-eternal dream state. The target must succeed on a Wisdom saving throw, or it falls unconscious and remains asleep until the spell ends. While the target is unconscious, it doesn’t dream, and its body doesn’t age. It doesn’t require sustenance as long as it remains unconscious, and it has resistance to all damage.</p>
+            <p class="indent">Awakening Condition. When you cast this spell, you must specify a reasonable condition that must be met for the target to awaken, such as “Awaken with a kiss of true love” or “Awaken when the scale of a red dragon is placed upon your body.” If the awakening condition is impossible or harmful to the target, the spell fails. The target can only be woken if the awakening condition is fulfilled or with a wish spell. Once the awakening condition is met, the target wakes up, remembering the dream it experienced while it was unconscious.</p>
+            <p class="indent">Identification. To discern that a creature is under the effect of this spell and what the awakening condition is, a creature can cast identify on the target or must succeed on an Intelligence (Arcana) check against your spell save DC.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="school">Enchantment, Oneiromancy</set>
+            <set name="time">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="duration">Until dispelled</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a rotten apple</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
@@ -75,6 +206,83 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Gothi's Floral Deluge" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_GOTHIS_FLORAL_DELUGE">
+        <supports>Bard, Druid, Ranger</supports>
+        <description>
+            <p>You conjure a rain of beautiful jungle flowers heavy with hallucinogenic pollen in a 10-foot cube centered on a point you can see within range. The area is lightly obscured, and when a creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Constitution saving throw or be affected by the pollen. Creatures immune to being poisoned have advantage on this saving throw.</p>
+            <table>
+                <thead>
+                    <tr><td>d4</td><td>Pollen Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>The target becomes drowsy. If it takes no damage before the end of its next turn, it falls asleep for 1 minute. A sleeping target wakes if it takes damage or if another creature uses its action to shake the target awake.</td></tr>
+                <tr><td>2</td><td>The target takes 2d6 psychic damage.</td></tr>
+                <tr><td>3</td><td>The target becomes sluggish. Its speed is reduced by half, and it can’t take reactions until the end of its next turn.</td></tr>
+                <tr><td>4</td><td>The target becomes incapacitated until the end of its next turn and must move up to its speed in a random direction away from the affected area.</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet (10-foot cube)</set>
+            <set name="duration">Concentration up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">petals from 4 different jungle flowers</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Grinding Glacier" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_GRINDING_GLACIER">
+        <supports>Druid, Wizard</supports>
+        <description>
+            <p>You create a glacier on a solid surface within range. It must fit within a 150-foot cube and can’t be smaller than a 50-foot cube. The spell fails if you attempt to cast a glacier in an area that can’t physically accommodate it.</p>
+            <p class="indent">Statistics. The glacier can be attacked and damaged. It has AC 15, 300 hit points, vulnerability to fire damage, and immunity to cold, poison, and psychic damage. The spell ends if the glacier is destroyed. Climbing the slippery glacier requires a successful DC 18 Strength (Athletics) or Dexterity (Acrobatics) check. Creatures with a climb speed or appropriate equipment have advantage on this check.</p>
+            <p class="indent">Movement. As a bonus action on each of your turns, you can move the glacier up to 30 feet in any direction. Ground the glacier travels over becomes difficult terrain.</p>
+            <p class="indent">Pushing Creatures. When the glacier appears, each creature within its area is pushed out to the edge of the glacier and must make a Constitution saving throw. On a failed save, a creature takes 10d10 cold damage, or half as much damage on a successful save.</p>
+            <p class="indent">When the glacier moves into a creature’s space, the creature is pushed out of the space by the glacier and must make a Constitution saving throw. On a failure, a creature takes 5d10 cold damage and 5d10 bludgeoning damage. On a success, a creature takes half as much damage and isn’t knocked prone. A Gargantuan creature can make a Strength saving throw to resist the glacier. On a success, it is not moved and does not have to make the Constitution saving throw.</p>
+            <p class="indent">Pushing Structures and Objects. If you move the glacier into a space occupied by a structure or object, the glacier deals 50 bludgeoning damage to each structure in its area, but it can’t move further into the space occupied by the structure or object until the obstacle is destroyed.</p>
+        </description>
+        <setters>
+            <set name="keywords">cold</set>
+            <set name="level">8</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">120 feet</set>
+            <set name="duration">Concentration up to 10 minutes</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a sprig of mint</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Inflict Insomnia" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_INFLICT_INSOMNIA">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a creature and plant a disruptive seed within its mind that prevents it from having a restful sleep. The target becomes cursed with insomnia for the duration. Creatures that don’t sleep, such as elves and mohsnians, can’t be affected by this spell.</p>
+            <p class="indent">While under this curse, the target must make a Constitution saving throw the first time each day when it begins a long rest. On a failure, it doesn’t regain lost hit points or expended hit dice from long resting, and it gains one level of exhaustion. If it has the spellcasting feature, it can only regain spell slots of 5th level or lower.</p>
+            <p class="indent">A creature attempting to end this curse with the remove curse spell must succeed on an ability check using its spellcasting ability against your spell save DC or the attempt fails.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the duration is 30 days.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Enchantment, Oneiromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">10 days</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Instant Trap" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP">
         <supports>Druid, Ranger</supports>
         <description>
@@ -98,12 +306,55 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Invisiblessed" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_INVISIBLESSED">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>A creature you touch and everything it is wearing or carrying becomes invisible to creatures of a type you choose. Choose from: aberrations, celestials, fey, fiends, or undead.</p>
+            <p class="indent">The target has advantage on attack rolls against creatures of the chosen type and can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the effect.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Concentration up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Nightmare Visage" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_NIGHTMARE_VISAGE">
+        <supports>Bard, Wizard, Warlock</supports>
+        <description>
+            <p>You tap into the terrors of creatures of your choice within range that can see you, making them perceive your face as their greatest fears. Each target must succeed on a Wisdom saving throw or take 1d4 psychic damage and become blinded until the start of its next turn. If a target takes any more damage before its turn, the blinded condition ends.</p>
+            <p class="indent">This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">0</set>
+            <set name="school">Illusion, Oneiromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">5 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
     <element name="Overpowered Aura" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_OVERPOWERED_AURA">
         <supports>Bard, Paladin</supports>
         <description>
             <p>You emanate an aura of confidence, convincing onlookers of your awesome power. Up to ten creatures of your choice within range that can see you must succeed on an Intelligence saving throw or become frightened of you until the end of your next turn. As a bonus action on your turn, you can make a Charisma (Intimidation) check against each affected target’s Wisdom (Insight) or Intelligence (Investigation) to maintain the frightened condition until the end of your next turn. A target that wins this contested check is no longer frightened and becomes immune to this spell for 1 hour.</p>
-            <p class="indent">The spell ends for a target if it can no longer see you.</p>
-            
+            <p class="indent">The spell ends for a target if it can no longer see you.</p>          
         </description>
         <setters>
             <set name="keywords"></set>
@@ -120,7 +371,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-
+    <element name="Pain Tax" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_PAIN_TAX">
+        <supports>Bard, Warlock, Wizard</supports>
+        <description>
+            <p>You make yourself into a profitable punching bag. For the duration, each time you take damage from a melee attack, you gain gold pieces equal to the amount of damage you take. If the creature attacking you is carrying gold pieces, it loses the same number of gold pieces that you gain as its gold appears in your coin purse. If the creature attacking you has no gold pieces, the gold you gain comes from an unknown magical source.</p>
+            <p class="indent">A creature that is carrying gold and attacking you that succeeds on an Intelligence (Arcana) or Wisdom (Perception) check against your spell save DC realizes that you are stealing its gold each time it hits you.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an empty coin purse</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Polar Fog" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_POLAR_FOG">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -153,7 +424,7 @@
             <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can inscribe an additional rune for each spell slot above 4th on another object within 15 feet of the original target.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">fire</set>
             <set name="level">4</set>
             <set name="school">Abjuration</set>
             <set name="time">10 minutes</set>
@@ -164,6 +435,95 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a ruby worth at least 150 gp, which the spell consumes</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Shattered Mirror Image" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SHATTERED_MIRROR_IMAGE">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions. You can dismiss the illusory duplicates on your turn as a free action.</p>
+            <p class="indent">Each time a creature targets you with an attack during the spell’s duration, roll a d12 to determine whether the attack instead targets one of your duplicates. If you have three duplicates, you must roll a 3 or higher to redirect an attack to one of your duplicates; with two duplicates remaining, you must roll a 6 or higher; with only one duplicate remaining, you must roll a 9 or higher.</p>
+            <p class="indent">A duplicate’s AC equals 10 + your Dexterity modifier. When a duplicate takes damage from an attack or other source, it is destroyed. The spell ends when all three duplicates are destroyed.</p>
+            <p class="indent">When a duplicate is destroyed, it shatters, and all creatures other than you within 10 feet of you must make a Dexterity saving throw, taking 3d6 slashing damage and 3d6 psychic damage on a failure, or half as much damage on a success.</p>
+        </description>
+        <setters>
+            <set name="keywords">slashing</set>
+            <set name="level">4</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Sleeper's Vision" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SLEEPERS_VISION">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You send a silent vision lasting 30 seconds or less into the dreams of a creature with which you are familiar. What the vision contains is up to you, but it can’t contain information you don’t know or details with which you are unfamiliar. If the creature is awake when you cast this spell, it receives the vision when it goes to sleep. This spell has no effect on creatures that don’t sleep, such as elves and mohsnian.</p>
+            <p class="indent">The creature views the vision in its mind as a dream and remembers it upon waking. It recognizes you as the sender if it knows you. The spell enables creatures with Intelligence scores of at least 4 to understand the meaning of the vision.</p>
+            <p class="indent">You can send the vision across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 25 percent chance that the vision doesn’t arrive.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Illusion, Oneiromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">Unlimited</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Sleepwalk" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SLEEPWALK">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a creature and suggest a course of activity (limited to a sentence or two), which the target is compelled to carry out the next time it falls asleep. The target must be able to hear and understand you, and creatures that don’t sleep, such as elves and mohsnians, are immune to this effect. Suggesting anything that would be directly damaging to itself ends the spell.</p>
+            <p class="indent">The target must make a Wisdom saving throw. On a failed save, it instantly becomes unaware that you have given it any instructions or cast this spell on it. The next time it falls asleep, it begins to sleepwalk, pursuing the course of action you described to the best of its ability. While acting under the influence of this spell, a creature has no conscious awareness of its surroundings or the actions it is taking. It acts as it normally would to complete the activity and appears awake to observers, but any creature that interacts with the target can tell it is sleepwalking by succeeding on a Wisdom (Insight) check against your spell save DC.</p>
+            <p class="indent">The suggested course of action can continue until dawn, at which point the target returns to the location it went to sleep. If the suggested activity can be completed in a shorter time, when the subject finishes what it was asked to do and returns to its bed and the spell ends. If the target takes damage while sleepwalking, the spell ends.</p>
+            <p class="indent">When the spell ends, the target wakes up. If the target spends more than 4 hours sleepwalking, it receives no benefit from its rest.</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Enchantment, Oneiromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Concentration up to 24 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Sphere of Comfort" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SPHERE_OF_COMFORT">
+        <supports>Cleric, Druid, Paladin, Ranger</supports>
+        <description>
+            <p>You create a sphere of balmy magic that spreads out from you in a 10-foot radius and moves with you, remaining centered on you. The temperature inside the sphere is pleasantly warm, regardless of the temperature outside of it. Any creature entirely within the sphere has resistance to cold and fire damage.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (10-foot Sphere</set>
+            <set name="duration">Concentration up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a folding paper fan</set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -189,9 +549,866 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Wizardly's Spiker" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_WIZARDLYS_SPIKER">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>You fire a magical dart at a creature, attempting to pin it in place. Make a ranged spell attack against a creature. On a hit, the target takes 1d6 piercing damage. If the target is within 10 feet of an object, structure, or solid surface that is at least 5 feet wide, such as a tree, a wall, or a solid floor, the dart pulls the target toward it and pins the target there. A pinned creature’s speed is reduced to 0 until the end of its next turn.</p>
+            <p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        </description>
+        <setters>
+            <set name="keywords">piercing</set>
+            <set name="level">0</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">range</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a caltrop</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Wizardly's Forced Flatulence" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_WIZARDLYS_FORCED_FLATULENCE">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>Choose up to six creatures you can see within range. Each target must make a Constitution saving throw. On a failure, a target begins farting uncontrollably, creating a 5-foot-radius sphere centered on itself filled with a pungent green gas that moves with it for the spell’s duration. Additionally, the target becomes poisoned and can only take an action, a bonus action, or move on its turn. On a successful save, a target becomes sluggish, and can only move half its speed until the end of its next turn.</p>
+            <p class="indent">An affected target must repeat its Constitution saving throw at the end of each of its turns, taking 2d8 poison damage on a failure and ending the spell’s effect for it on a success.</p>
+            <p class="indent">All creatures within the fart gas have disadvantage on Charisma ability checks and on Wisdom (Perception) checks that rely on smell. Any creature that breathes the gas is poisoned until it leaves the space containing the gas.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the poison damage increases by 1d8 for each slot above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">120 feet</set>
+            <set name="duration">Concentration up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a dried bean</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Purge Soul" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_PURGE_SOUL">
+        <supports>soul-magi</supports>
+        <description>
+            <p>Your form spectral hands that push through the chest of a creature you can see within range, attempting to force its soul from its body. The target must make a Charisma saving throw. On a failure, the target’s soul is separated from its body and pushed into an unoccupied space adjacent to the target, where it can’t be interacted with for the spell’s duration. The soul is freed when the spell ends, and it can return to its body if its body has at least 1 hit point and has not been completely destroyed, petrified, or transformed into an object. If the soul can’t return to its body, it becomes a ghost.</p>
+            <p class="indent">While separated from its soul, the target’s body is unconscious, immune to psychic damage, and automatically fails Intelligence, Wisdom, and Charisma saving throws. The target’s body can take damage and be healed as normal.</p>
+            <p class="indent">If you maintain concentration on this spell for the full duration, the target’s body dies. Its body becomes a corpse, incapable of housing a soul until revived using raise dead or similar magic. You can decide whether to trap the creature’s soul in an object, destroy it, have it become a ghost, or let it pass to another plane. This spell has no effect on constructs not powered by soul crystals or on undead creatures that do not possess souls, such as zombies and skeletons.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Soul Magic (FG)</set>
+            <set name="time">1 action</set>
+            <set name="range">30 feet</set>
+            <set name="duration">Concentration up to 10 minutes</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Sense Souls" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SENSE_SOULS">
+        <supports>soul-magi</supports>
+        <description>
+            <p>You channel divine magic through your senses, allowing you to sense the presence of souls. You can immediately detect the presence of creatures with souls within 60 feet of you. For each creature you can sense, you know its approximate distance and direction from you, but you don’t learn the exact location of the creature. You have advantage on Wisdom (Perception) checks made to detect creatures you can sense in this way that are hiding. This spell can’t detect creatures without souls, such as constructs not powered by soul crystals and undead creatures that do not possess souls, such as zombies and skeletons.</p>
+            <p class="indent">Once per turn, you can grant yourself advantage on an attack made against a creature you can sense with this spell.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Soul Magic (FG)</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (60-foot radius)</set>
+            <set name="duration">Concentration up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Soul Bump" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SOUL_BUMP">
+        <supports>soul-magi</supports>
+        <description>
+            <p>With a shunt of divine magic, you push the soul of a creature out of its body for a moment. Make a melee spell attack against a creature you can reach. On a hit, the target takes 5d10 necrotic damage and has disadvantage on all attack rolls, saving throws, or ability checks it makes before the end of your next turn.</p>
+            <p class="indent">This spell has no effect on constructs not powered by soul crystals or on undead creatures that do not possess souls, such as zombies and skeletons.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">3</set>
+            <set name="school">Soul Magic (FG)</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Soulbound Oath" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SOULBOUND_OATH">
+        <supports>soul-magi</supports>
+        <description>
+            <p>You make a solemn promise with up to five creatures, including yourself, binding your souls to carry out a specified course of action, for example, seeking revenge against a specific individual or not harming a certain type of creature. The terms of the oath are yours to decide, and you must abide by them as well. If a target is unwilling, it can make a Charisma saving throw to resist the spell. If any target succeeds on its saving throw, the spell fails for all the targets.</p>
+            <p class="indent">A creature bound by this spell takes 5d10 necrotic damage each time it willingly acts in a manner that violates the terms of the oath. Once per day, when a creature bound by this spell acts in a way that meets the requirements of the oath, it gains advantage on one ability check, saving throw, or attack it makes before the next dawn.</p>
+            <p class="indent">The GM can rule that the spell fails if the terms of the oath can be observed without effort. This spell can be ended with remove curse, greater restoration, or similar magic. When the spell ends, it ends for all targets.</p>
+            <p class="indent">This spell has no effect on a creature that doesn’t share a language with you, doesn’t have a soul, such as a construct not powered by a soul crystal, or on an undead creature that does not possess a soul, such as a zombie or skeleton. A creature already affected by this spell is unaffected by a second casting.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell is permanent until it is ended.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">5</set>
+            <set name="school">Soul Magic (FG)</set>
+            <set name="time">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="duration">30 days</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <!--New schools of magic so you can filter them-->
+      <element name="Soul Magic (FG)" type="Magic School" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_SCHOOL_SOUL_MAGIC">
+        <description>
+            <p>Magic that can affect the very souls of beings was once exclusive to the gods. However, mortals have gained the power of soul magic on rare occasions. The foreclaimers’ experiments with soul magic led to the creation of Soul Gems and the artificial god Xanu. Others have been gifted with the ability to affect souls through divine boons or through the possession of rare artifacts.</p>
+            <p class="indent">Soul Magic spells dont appear on spell lists, instead characters of any class can gain them through Xanu shard magic item, or if a GM decides to.</p>
+        </description>
+    </element>
+    <element name="Oneiromancy" type="Magic School" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_SCHOOL_ONEIROMANCY">
+        <description>
+            <p>The art of manipulating dreams is a delicate one and is often pursued by those who have patient tempers. Overlapping with the study of enchantment and divination, oneiromancy rewards those with creative imaginations and an instinct for subtlety. Some oneiromancers focus on helping those plagued by mysterious nightmares, while others use their powers nefariously to harm victims within their dreams. The School of Oneiromancy is still one of the newest schools of arcane research.</p>
+        </description>
+    </element>
+    <!--Copied old spells and modified to add oneiromancy. Set so they only apper for Oneiromancy wizards-->
+    <element name="Minor Illusion" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MINOR_ILLUSION">
+        <supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+        <description>
+            <p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p>
+            <p class="indent">If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>
+            <p class="indent">If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p>
+            <p class="indent">If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
+        </description>
+        <setters>
+            <set name="keywords"/>
+            <set name="level">0</set>
+            <set name="school">Illusion, Oneiromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bit of fleece</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="False Life" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_FALSE_LIFE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">1</set>
+<set name="school">Necromancy</set>
+<set name="time">1 action</set>
+<set name="duration">1 hour</set>
+<set name="range">Self</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a small amount of alcohol or distilled spirits</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Silent Image" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SILENT_IMAGE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn’t accompanied by sound, smell, or other sensory effects.</p>
+<p class="indent">You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p>
+<p class="indent">Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">1</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minute</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a bit of fleece</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Sleep" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SLEEP">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>This spell sends creatures into a magical slumber. Roll 5d8, the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).</p>
+<p class="indent">Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected.</p>
+<p class="indent">Undead and creatures immune to being charmed aren’t affected by this spell.</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">1</set>
+<set name="school">Enchantment</set>
+<set name="time">1 action</set>
+<set name="duration">1 minute</set>
+<set name="range">90 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a pinch of fine sand, rose petals, or a cricket</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Augury" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_AUGURY">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:</p>
+<ul>
+<li>Weal, for good results</li>
+<li>Woe, for bad results</li>
+<li>Weal and woe, for both good and bad results</li>
+<li>Nothing, for results that aren’t especially good or bad</li>
+</ul>
+<p>The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.</p>
+<p class="indent">If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">2</set>
+<set name="school">Divination</set>
+<set name="time">1 minute</set>
+<set name="duration">Instantaneous</set>
+<set name="range">Self</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">specially marked sticks, bones, or similar tokens worth at least 25 gp</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">true</set>
+</setters>
+</element>
+<element name="Darkness" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DARKNESS">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it.</p>
+<p class="indent">If the point you choose is on an object you are holding or one that isn’t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p>
+<p class="indent">If any of this spell’s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">2</set>
+<set name="school">Evocation</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">false</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">bat fur and a drop of pitch or piece of coal</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Mirror Image" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MIRROR_IMAGE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p>
+<p class="indent">Each time a creature targets you with an attack during the spell’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.</p>
+<p class="indent">If you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p>
+<p class="indent">A duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p>
+<p class="indent">A creature is unaffected by this spell if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">2</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">1 minute</set>
+<set name="range">Self</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Silence" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SILENCE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">2</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">120 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">true</set>
+</setters>
+</element>
+<element name="Clairvoyance" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CLAIRVOYANCE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with</p>
+<p class="indent">When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.</p>
+<p class="indent">A creature that can see the sensor (such as a creature benefitting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">3</set>
+<set name="school">Divination</set>
+<set name="time">10 minutes</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">1 mile</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for scrying</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Fly" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_FLY">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">3</set>
+<set name="school">Transmutation</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">Touch</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a wing feather from any bird</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Hypnotic Pattern" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_HYPNOTIC_PATTERN">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.</p>
+<p class="indent">The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">3</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 1 minute</set>
+<set name="range">120 feet</set>
+<set name="hasVerbalComponent">false</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a glowing stick of incense or a crystal vial filled with phosphorescent material</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Major Image" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MAJOR_IMAGE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can’t create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte’s stench).</p>
+<p class="indent">As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p>
+<p class="indent">Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">3</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">120 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a bit of fleece</set>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Divination" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DIVINATION">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.</p>
+<p class="indent">The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.</p>
+<p class="indent">If you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">4</set>
+<set name="school">Divination</set>
+<set name="time">1 action</set>
+<set name="duration">Instantaneous</set>
+<set name="range">Self</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">true</set>
+</setters>
+</element>
+<element name="Hallucinatory Terrain" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_HALLUCINATORY_TERRAIN">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance.</p>
+<p class="indent">The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn’t obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">4</set>
+<set name="school">Illusion</set>
+<set name="time">10 minutes</set>
+<set name="duration">24 hours</set>
+<set name="range">300 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a stone, a twig, and a bit of green plant</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Awaken" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_AWAKEN">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>After spending the casting time tracing magical pathways within a precious gemstone, you touch a huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.</p>
+<p class="indent">The awakened beast or plant is charmed by you for 30 days or until you and your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.</p>
+</description>
+<setters>
+<set name="keywords">charm</set>
+<set name="level">5</set>
+<set name="school">Transmutation</set>
+<set name="time">8 hours</set>
+<set name="duration">Instantaneous</set>
+<set name="range">Touch</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">an agate worth at least 1,000 gp, which the spell consumes</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Dream" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_DREAM">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>This spell shapes a creature’s dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don’t sleep, such as elves, can’t be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can’t take actions or move.</p>
+<p class="indent">If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target’s dreams.</p>
+<p class="indent">You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target’s sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.</p>
+<p class="indent">If you have a body part, lock of hair, clipping from a nail, or similar portion of the target’s body, the target makes its saving throw with disadvantage.</p>
+</description>
+<setters>
+<set name="keywords">psychic</set>
+<set name="level">5</set>
+<set name="school">Illusion</set>
+<set name="time">1 minute</set>
+<set name="duration">8 hours</set>
+<set name="range">Special</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Modify Memory" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MODIFY_MEMORY">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You attempt to reshape another creature’s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target’s memories are modified.</p>
+<p class="indent">While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.</p>
+<p class="indent">You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends.</p>
+<p class="indent">A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.</p>
+<p class="indent">
+A
+<i>remove curse</i>
+or
+<i>greater restoration</i>
+spell cast on the target restores the creature’s true memory.
+</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level).
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">5</set>
+<set name="school">Enchantment</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 1 minute</set>
+<set name="range">30 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+
+<element name="Seeming" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SEEMING">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>This spell allows you to change the appearance of any number of creatures that you can see within range. You give each target you choose a new, illusory appearance. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.</p>
+<p class="indent">The spell disguises physical appearances as well as clothing, armor, weapons, and equipment. You can make each creature seem 1 foot shorter or taller and appear thin, fat, or in between. You can’t change a target’s body type, so you must choose a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. The spell lasts for the duration, unless you use your action to dismiss it sooner.</p>
+<p class="indent">The changes wrought by this spell fail to hold up to physical inspections. For example, if you use this spell to add a hat to a creature’s outfit objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature’s head and hair. If you use this spell to appear thinner then you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>
+<p class="indent">A creature can use its action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">5</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">8 hours</set>
+<set name="range">30 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Conjure Fey" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_CONJURE_FEY">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.</p>
+<p class="indent">The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions.</p>
+<p class="indent">If your concentration is broken, the fey creature doesn’t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can’t be dismissed by you, and it disappears 1 hour after you summoned it.</p>
+<p class="indent">The DM has the fey creature’s statistics.</p>
+<p class="indent">
+<b>
+<i>At Higher Levels.</i>
+</b>
+When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">6</set>
+<set name="school">Conjuration</set>
+<set name="time">1 minute</set>
+<set name="duration">Concentration, up to 1 hour</set>
+<set name="range">90 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Mirage Arcane" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MIRAGE_ARCANE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. The terrain’s general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.</p>
+<p class="indent">Similarly, you can alter the appearance of structures, or add them where none are present. The spell doesn’t disguise, conceal, or add creatures.</p>
+<p class="indent">The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell’s area disappears immediately.</p>
+<p class="indent">Creatures with truesight can see through the illusion to the terrain’s true form</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">7</set>
+<set name="school">Illusion</set>
+<set name="time">10 minutes</set>
+<set name="duration">10 days</set>
+<set name="range">Sight</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Symbol" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_SYMBOL">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.</p>
+<p class="indent">The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.</p>
+<p class="indent">You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.</p>
+<p class="indent">You can further refine the trigger so the spell is activated only under certain circumstances or according to a creature's physical characteristics (such as height or weight), or physical kind (for example, the ward could be set to affect hags or shapechangers). You can also specify creatures that don't trigger the glyph, such as those who say a certain password.</p>
+<p class="indent">When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot-radius sphere with dim light for 10 minutes, after which time the spell ends. Each creature in the sphere when the glyph activates is targeted by its effect, as is a creature that enters the sphere for the first time on a turn or ends its turn there.</p>
+<p class="indent">
+<strong>
+<i>Death. </i>
+</strong>
+Each target must make a Constitution saving throw, taking 10d10 necrotic damage on a failed save, or half as much damage on a successful save.
+</p>
+<p class="indent">
+<strong>
+<i>Discord. </i>
+</strong>
+Each target must make a Constitution saving throw. On a failed save, a target bickers and argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has disadvantage on attack rolls and ability checks.
+</p>
+<p class="indent">
+<strong>
+<i>Fear. </i>
+</strong>
+Each target must make a Wisdom saving throw and becomes frightened for 1 minute on a failed save. While frightened, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able.
+</p>
+<p class="indent">
+<strong>
+<i>Hopelessness. </i>
+</strong>
+Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful abilities, spells, or other magical effects.
+</p>
+<p class="indent">
+<strong>
+<i>Insanity. </i>
+</strong>
+Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 minute. An insane creature can't take actions, can't understand what other creatures say, can't read, and speaks only in gibberish. The GM controls its movement, which is erratic.
+</p>
+<p class="indent">
+<strong>
+<i>Pain. </i>
+</strong>
+Each target must make a Constitution saving throw and becomes incapacitated with excruciating pain for 1 minute on a failed save.
+</p>
+<p class="indent">
+<strong>
+<i>Sleep. (Oneiromancy) </i>
+</strong>
+Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
+</p>
+<p class="indent">
+<strong>
+<i>Stunning. </i>
+</strong>
+Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
+</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">7</set>
+<set name="school">Abjuration</set>
+<set name="time">1 minute</set>
+<set name="duration">Until dispelled or triggered</set>
+<set name="range">Touch</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Antipathy/Sympathy" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_ANTIPATHY_SYMPATHY">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura’s effect.</p>
+<p class="indent">
+<strong>
+<em>Antipathy.</em>
+</strong>
+The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can’t see the target. If the creature moves more than 60 feet from the target and can’t see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.
+</p>
+<p class="indent">
+<strong>
+<em>Sympathy.</em>
+</strong>
+The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can’t willingly move away from the target.
+</p>
+<p class="indent">If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.</p>
+<p class="indent">
+<strong>
+<em>Ending the Effect.</em>
+</strong>
+If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists.
+</p>
+<p class="indent">creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">8</set>
+<set name="school">Enchantment</set>
+<set name="time">1 hour</set>
+<set name="duration">10 days</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Maze" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_MAZE">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.</p>
+<p class="indent">The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).</p>
+<p class="indent">When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">8</set>
+<set name="school">Conjuration</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 10 minutes</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Astral Projection" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_ASTRAL_PROJECTION">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation; it doesn’t need food or air and doesn’t age. </p>
+<p class="indent">Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut—something that can happen only when an effect specifically states that it does—your soul and body are separated, killing you instantly. </p>
+<p class="indent">Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it. </p>
+<p class="indent">The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.</p>
+<p class="indent">The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creature’s original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature’s astral form back to its body, ending its state of suspended animation.</p>
+<p class="indent">If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">9</set>
+<set name="school">Necromancy</set>
+<set name="time">1 hour</set>
+<set name="duration">Special</set>
+<set name="range">10 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Foresight" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_FORESIGHT">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.</p>
+<p class="indent">This spell immediately ends if you cast it again before its duration ends.</p>
+</description>
+<setters>
+<set name="keywords"/>
+<set name="level">9</set>
+<set name="school">Divination</set>
+<set name="time">1 minute</set>
+<set name="duration">8 hours</set>
+<set name="range">Touch</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">true</set>
+<set name="materialComponent">a hummingbird feather</set>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+<element name="Weird" type="Spell" source="Fools Gold" id="ID_HPP_FOOLS_SPELL_WEIRD">
+<supports>Wizard</supports>
+        <requirements>ID_HPP_FOOLS_ARCHETYPE_WIZARD_ONEIROMANCY</requirements>
+<description>
+<p>Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature’s deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature’s turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.</p>
+</description>
+<setters>
+<set name="keywords">psychic</set>
+<set name="level">9</set>
+<set name="school">Illusion</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 1 minute</set>
+<set name="range">120 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">true</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
 </elements>
 <!-- 
-ID_HPP_FOOLS_SPELL_CHAIN_OF_PAIN
-ID_HPP_FOOLS_SPELL_RED_DEATH_RUNE
-ID_HPP_FOOLS_SPELL_OVERPOWERED_AURA
 -->
