@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="magicitems.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/magicitems.xml" />
+		</update>
+	</info>
+    <element name="Banjo of Exmodeus" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_BANJO_OF_EXMODEUS">
+        <description>
+            <p>You have advantage on Performance skill checks made using this magic banjo.</p>
+            <p class="indent">The first time you use your action to play this banjo each day, it summons a horrible monster, Exmodeus The Dread Raccoon, which magically appears in an unoccupied space within 10 feet of you. Exmodeus is a Tiny beast that otherwise uses the stats of a troll. On each of its turns, Exmodeus attacks the nearest creature it can see. If no creature is near enough to move to and attack, Exmodeus attacks the nearest object instead. After 1 hour, or if it is killed, Exmodeus disappears with a discordant twanging sound.</p>
+            <p class="indent">The banjo regains the ability to summon Exmodeus each dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="12">12 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Bite B Gone" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_BITE_B_GONE">
+        <description>
+            <p>This syringe contains a shimmering silver liquid.</p>
+            <p class="indent"><strong><i>Shapechangers.</i></strong> As an action, you can inject a creature within your reach with the liquid. If the target is unwilling, make a melee attack against it, treating the syringe as an improvised weapon. On a hit, if the target is a shapechanger, such as a werewolf or a vampire, it takes 5d8 radiant damage and instantly reverts to its original form. Additionally, on a hit a shapechanger target must succeed on a DC 15 Charisma saving throw, or it can’t assume a different form for 1 hour.</p>
+            <p class="indent"><strong><i>Cure.</i></strong> If bite b gone is injected into a creature cursed with lycanthropy for less than 24 hours, the curse is removed. The target takes no damage from the dose if it hasn’t yet transformed into its animal or hybrid form.</p>
+            <p class="indent"><strong><i>Prevention.</i></strong> If bite b gone is used on a creature that is not a shapechanger, for 8 hours the target has advantage on all saving throws made to resist lycanthropy and against being charmed and can’t rise as a vampire spawn if slain by a vampire’s bite.</p>
+        </description>
+        <setters>
+            <set name="category">Potion</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Bloodmoon Berry" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_BLOODMOON_BERRY">
+        <description>
+            <p>This dark crimson berry has a tart flavor and transformative effects.</p>
+            <p class="indent"><strong><i>Inner Beast.</i></strong> If you consume a berry, you polymorph into a beast of the GM’s choice for 1 hour. The beast you transform into is always the same whenever you consume a berry and matches your personality. For example, a brave paladin might become a warhorse, while a scholarly wizard might become an owl.</p>
+            <p class="indent">While transformed, you maintain your alignment and personality, but all your statistics, including mental ability scores, are replaced by the statistics of the chosen beast. You are considered a beast for the purpose of spells and other effects. If you drop to 0 hit points while transformed, you revert to your original form, remaining at 0 hit points.</p>
+            <p class="indent"><strong><i>Lycanthropes.</i></strong> Bloodmoon berries are highly poisonous to lycanthropes. If a lycanthrope such as a werebear, werewolf, or wererat consumes a berry, it must make a DC 17 Constitution saving throw, taking 8d8 poison damage on a failure or half as much damage on a success. Additionally, it reverts to its humanoid form and can’t use its shapechanger ability until it has completed a long rest.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+</elements>
+
+<!-- 
+<element name="name" type="Item" source="Fools Gold" id="ID_HPP_FOOLS_ITEM_">
+    <description>
+        <p></p>
+    </description>
+    <setters>
+        <set name="category">Adventuring Gear</set>
+        <set name="cost" currency="gp">0</set>
+        <set name="weight" lb="0">0 lb.</set>
+    </setters>
+</element>
+
+<element name="name" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_">
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+    -->
