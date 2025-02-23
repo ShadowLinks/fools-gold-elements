@@ -4,7 +4,7 @@
 		<name>Fools Gold</name>
 		<description>Supplements from Fools Gold: Into the Bellowing Wilds to expand your core gaming elements.</description>
 		<author url="https://foolsgold.fun/">Dingo Doodles</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="foolsgold.index" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/foolsgold.index" />
 		</update>
 	</info>
@@ -31,5 +31,7 @@
 		<file name="sorcerer-concentratedchaos.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/sorcerer-concentratedchaos.xml" />
 		<file name="warlock-splice.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/warlock-splice.xml" />
 		<file name="wizard-oneiromancy.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/wizard-oneiromancy.xml" />
+
+		<file name="magicitems.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/magicitems.xml" />
 	</files>
 </index>

@@ -49,23 +49,321 @@
             <set name="rarity">Rare</set>
         </setters>
     </element>
-</elements>
-
-<!-- 
-<element name="name" type="Item" source="Fools Gold" id="ID_HPP_FOOLS_ITEM_">
-    <description>
-        <p></p>
-    </description>
-    <setters>
-        <set name="category">Adventuring Gear</set>
-        <set name="cost" currency="gp">0</set>
-        <set name="weight" lb="0">0 lb.</set>
-    </setters>
-</element>
-
-<element name="name" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_">
+    <element name="Cager Box" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CAGER_BOX_UNCOMMON">
+        <description>
+            <p>This small cube can comfortably house a creature that you can summon to aid you.</p>
+            <p class="indent"><strong><i>Catching Creatures.</i></strong> You can use an empty box to attempt to capture a beast, elemental, dragon, monstrosity, plant, or ooze inside it. The box has no effect on other creature types. As an action, you can throw the box at a creature within 20 feet of you that you can see. The target must make a Constitution saving throw against the box’s DC (10), which is based on its rarity. If the target has half or more of its hit points remaining, it makes this saving throw with advantage. If the target has one-quarter of its hit point maximum or less, it makes the saving throw with disadvantage.</p>
+            <p class="indent">On a failed saving throw, the target is sucked into the box, trapping the creature inside. While inside the box, the target is incapacitated, has total cover, and can’t be affected by spells or damaging areas of effect. The box can only hold one creature at a time.</p>
+            <p class="indent"><strong><i>Battling Creatures.</i></strong> While holding the box, you can use your action to summon the creature inside it for up to 10 minutes. The creature appears in an unoccupied space you can see within 20 feet of you. The creature acts immediately following your turn in the initiative order. If the creature is friendly to you, it follows your verbal commands to the best of its ability. If the creature is hostile to you, it can make a contested Wisdom check against your Wisdom (Animal Handling) skill. If the creature wins, it ignores your commands until the start of its next turn and takes the dodge action. The GM decides whether the creature is friendly or hostile to you.</p>
+            <p class="indent">While summoned, the creature cannot willingly harm you or move more than 100 feet from you.</p>
+            <p class="indent">Using your bonus action, you can recall the creature to its box. After summoning the creature, it can’t be summoned again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cager Box" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CAGER_BOX_RARE">
+        <description>
+            <p>This small cube can comfortably house a creature that you can summon to aid you.</p>
+            <p class="indent"><strong><i>Catching Creatures.</i></strong> You can use an empty box to attempt to capture a beast, elemental, dragon, monstrosity, plant, or ooze inside it. The box has no effect on other creature types. As an action, you can throw the box at a creature within 20 feet of you that you can see. The target must make a Constitution saving throw against the box’s DC (13), which is based on its rarity. If the target has half or more of its hit points remaining, it makes this saving throw with advantage. If the target has one-quarter of its hit point maximum or less, it makes the saving throw with disadvantage.</p>
+            <p class="indent">On a failed saving throw, the target is sucked into the box, trapping the creature inside. While inside the box, the target is incapacitated, has total cover, and can’t be affected by spells or damaging areas of effect. The box can only hold one creature at a time.</p>
+            <p class="indent"><strong><i>Battling Creatures.</i></strong> While holding the box, you can use your action to summon the creature inside it for up to 10 minutes. The creature appears in an unoccupied space you can see within 20 feet of you. The creature acts immediately following your turn in the initiative order. If the creature is friendly to you, it follows your verbal commands to the best of its ability. If the creature is hostile to you, it can make a contested Wisdom check against your Wisdom (Animal Handling) skill. If the creature wins, it ignores your commands until the start of its next turn and takes the dodge action. The GM decides whether the creature is friendly or hostile to you.</p>
+            <p class="indent">While summoned, the creature cannot willingly harm you or move more than 100 feet from you.</p>
+            <p class="indent">Using your bonus action, you can recall the creature to its box. After summoning the creature, it can’t be summoned again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cager Box" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CAGER_BOX_VERY_RARE">
+        <description>
+            <p>This small cube can comfortably house a creature that you can summon to aid you.</p>
+            <p class="indent"><strong><i>Catching Creatures.</i></strong> You can use an empty box to attempt to capture a beast, elemental, dragon, monstrosity, plant, or ooze inside it. The box has no effect on other creature types. As an action, you can throw the box at a creature within 20 feet of you that you can see. The target must make a Constitution saving throw against the box’s DC (15), which is based on its rarity. If the target has half or more of its hit points remaining, it makes this saving throw with advantage. If the target has one-quarter of its hit point maximum or less, it makes the saving throw with disadvantage.</p>
+            <p class="indent">On a failed saving throw, the target is sucked into the box, trapping the creature inside. While inside the box, the target is incapacitated, has total cover, and can’t be affected by spells or damaging areas of effect. The box can only hold one creature at a time.</p>
+            <p class="indent"><strong><i>Battling Creatures.</i></strong> While holding the box, you can use your action to summon the creature inside it for up to 10 minutes. The creature appears in an unoccupied space you can see within 20 feet of you. The creature acts immediately following your turn in the initiative order. If the creature is friendly to you, it follows your verbal commands to the best of its ability. If the creature is hostile to you, it can make a contested Wisdom check against your Wisdom (Animal Handling) skill. If the creature wins, it ignores your commands until the start of its next turn and takes the dodge action. The GM decides whether the creature is friendly or hostile to you.</p>
+            <p class="indent">While summoned, the creature cannot willingly harm you or move more than 100 feet from you.</p>
+            <p class="indent">Using your bonus action, you can recall the creature to its box. After summoning the creature, it can’t be summoned again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cager Box" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CAGER_BOX_LEGENDARY">
+        <description>
+            <p>This small cube can comfortably house a creature that you can summon to aid you.</p>
+            <p class="indent"><strong><i>Catching Creatures.</i></strong> You can use an empty box to attempt to capture a beast, elemental, dragon, monstrosity, plant, or ooze inside it. The box has no effect on other creature types. As an action, you can throw the box at a creature within 20 feet of you that you can see. The target must make a Constitution saving throw against the box’s DC (19), which is based on its rarity. If the target has half or more of its hit points remaining, it makes this saving throw with advantage. If the target has one-quarter of its hit point maximum or less, it makes the saving throw with disadvantage.</p>
+            <p class="indent">On a failed saving throw, the target is sucked into the box, trapping the creature inside. While inside the box, the target is incapacitated, has total cover, and can’t be affected by spells or damaging areas of effect. The box can only hold one creature at a time.</p>
+            <p class="indent"><strong><i>Battling Creatures.</i></strong> While holding the box, you can use your action to summon the creature inside it for up to 10 minutes. The creature appears in an unoccupied space you can see within 20 feet of you. The creature acts immediately following your turn in the initiative order. If the creature is friendly to you, it follows your verbal commands to the best of its ability. If the creature is hostile to you, it can make a contested Wisdom check against your Wisdom (Animal Handling) skill. If the creature wins, it ignores your commands until the start of its next turn and takes the dodge action. The GM decides whether the creature is friendly or hostile to you.</p>
+            <p class="indent">While summoned, the creature cannot willingly harm you or move more than 100 feet from you.</p>
+            <p class="indent">Using your bonus action, you can recall the creature to its box. After summoning the creature, it can’t be summoned again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+            </setters>
+    </element>
+    <element name="Carnivorous Flail" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CARNIVOROUS_FLAIL">
+        <description>
+            <p>This magic flail is made from a carnivorous plant with a bulbous head split by a row of crimson teeth attached to a wooden handle.</p>
+            <p class="indent">Each time you hit a living creature with the flail for the first time on your turn, the plant bites the target, dealing an extra 1d8 piercing damage.</p>
+            <p class="indent"><strong><i>Awakening.</i></strong> While holding the flail, you can use a bonus action to speak its command word, causing the flail to become awake for 1 minute or until you speak the fail’s command word again as a bonus action.</p>
+            <p class="indent">While it is awakened, the flail has a reach of 10 feet. On a hit, it deals 3d8 + 3 piercing damage or 4d8 + 3 piercing damage if the target is a living creature. If you roll a 1 on the attack roll, the flail hits you instead.</p>
+            <p class="indent"><strong><i>Planting.</i></strong> If the flail is dropped or placed on the ground while it is awake, the flail roots itself in the ground and makes attacks against a random creature within 10 feet of it at the end of your turn. The flail continues to make attacks in this way while it is awakened or until a creature other than you picks it up. A creature attempting to pick up the flail while the plant is awake must succeed on a DC 15 Strength (Athletics) check to uproot it.</p>
+            <p class="indent">Once the flail has been awakened, it can’t be awakened again until the following dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">flail</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="flail">Weapon</set>
+            <set name="rarity">Rare</set>            
+            <set name="weapon">Flail</set>          
+        </setters>
+    </element>
+    <element name="Charged Power Crystal" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CHARGED_POWER_CRYSTAL">
         <description>
             <p></p>
+            <p class="indent">This rod-shaped crystal glows faintly when it is charged. The color of the crystal depends on the color of the sun that was used to charge it.</p>
+            <p class="indent"><strong><i>Augmentation Power. </i></strong>Augmented foreclaimers can use <i>charged power crystals</i> to fuel their augmented traits and specializations.</p>
+            <p class="indent">Any creature can use charged power crystals in the following additional ways:</p>
+            <p class="indent"><strong><i>Calm Emotions.</i></strong> While holding this crystal, as an action, you can use it to cast calm emotions with a range of self. This property can’t be used again until the next dusk.</p>
+            <p class="indent"><strong><i>Empowered Fortitude.</i></strong> While holding this crystal, you can use an action to give yourself 1d4 + 2 temporary hit points. This property can’t be used again until the next dusk.</p>
+            <p class="indent"><strong><i>Curse. </i></strong>Any creature within 5 feet of the crystal has disadvantage on Deception, Insight, and Persuasion checks.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rate</set>
+        </setters>
+    </element>
+    <element name="Crab King's Claw" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CRAB_KINGS_CLAW">
+        <description>
+            <p>While wearing this large crab claw on your arm, you can use it to make unarmed strikes, which deal 2d8 piercing damage. These unarmed strikes are considered magical, and you gain a +2 bonus to attack and damage rolls made using them. Additionally, you have advantage on rolls made to grapple or maintain your hold on a creature you are grappling.</p>
+            <p class="indent"><strong><i>Spells.</i></strong> You can use the claw to cast the dominate beast spell, targeting an aquatic beast (save DC 16) or the water breathing spell. You can cast each spell once per day and must finish a long rest before casting the same spell again.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cryodon Fan" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CRYODON_FAN">
+        <description>
+            <p>This fan was crafted using scales from a cryodon and is always cold to the touch.</p>
+            <p class="indent">The fan has 4 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 15) from it : cone of cold (3 charges), polar fog* (2 charges), protection from energy (fire or cold only, 1 charge), sleet storm (2 charges).</p>
+            <p class="indent">The fan regains 1d3 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the fan shatters into a thousand tiny snowflakes.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">rare</set>            
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    
+    <element name="Erina's Steel Ball of Hope" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_ERINAS_STEEL_BALL_OF_HOPE">
+        <description>
+            <p>Multiple enchantments swirl within the shell of this heavy steel ball, which functions as a light hammer with the finesse property</p>
+            <p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. When thrown, the ball magically returns to your hand immediately after the attack, whether it hits or misses its target.</p>
+            <p class="indent">When you make your first ranged attack with the ball each turn, you can use your bonus action to impart a magical spin to it, causing it to ricochet toward an additional target. As part of this attack, make a second ranged attack with the ball against another creature that is within 5 feet of the original target and within the ball’s range. If both attacks hit, you deal an extra 1d4 bludgeoning damage to both targets.</p>
+        </description>
+        <setters>
+
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="rarity">Uncommon</set>
+            <set name="keywords">light hammer</set>
+            <set name="type" addition="light hammer">Weapon</set>
+            <set name="weapon">Light Hammer</set>  
+            <set name="attunement" addition="by a figher or monk">true</set>
+            <set name="enhancement">1</set> 
+        </setters>
+    </element>
+    <element name="Eviscerator Axe" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_EVISCERATOR_AXE">
+        <description>
+            <p>This axe is set with twin crystals, one located in its pommel and one in the center of the axehead. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent"><strong><i>Power Blade.</i></strong> You can use a bonus action to speak the axe’s command word, causing its blade to become charged with crackling energy that sheds bright blue light in a 30-foot radius and dim light for an additional 30 feet. While the blade is charged, the axe deals an extra 4d8 radiant damage to any target it hits. The blade remains charged until you use a bonus action to speak the command word again or until you drop or sheathe the axe.</p>
+            <p class="indent"><strong><i>Arc Lightning.</i></strong> You can use an action to cause an arc of pink lightning to streak forward toward a target you can see, casting the chain lightning spell (save DC 17). Once used, this property can’t be used again until you land a critical hit with the axe or until the next dawn.</p>
+            <p class="indent"><strong><i>Mech Demolisher. </i></strong>On a hit, you deal an extra 2d6 slashing damage against constructs.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="7">7 lb.</set>
+            <set name="rarity">Legendary</set>
+            <set name="keywords">greataxe</set>
+            <set name="type" addition="greataxe">Weapon</set>
+            <set name="weapon">Greataxe</set>  
+            <set name="attunement">true</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <element name="Foreclaimer Arrow" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_FORECLAIMER_ARROW">
+        <description>
+            <p>This magic arrow has a thin yet sturdy shaft and a fragment of yellow crystal embedded in its arrowhead. You can use an action to collapse the arrow’s telescopic shaft, reducing it to less than half its size. When collapsed, it can’t be fired, but you have advantage on Sleight of Hand checks made to conceal it. You can return the arrow to its normal size on your turn as part of your action to fire it.</p>
+            <p class="indent">When fired, the arrowhead becomes charged with radiant energy. On a hit, the arrow deals a bonus 1d6 radiant damage. Additionally, the target of the attack sheds bright light in a 10-foot radius until the start of your next turn and can’t benefit from being invisible.</p>
+            <p class="indent">If the arrow is retrieved after being used, its magical properties recharge after the arrow has spent at least 1 hour in direct sunlight.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Rare</set>
+            <set name="keywords">arrow</set>
+            <set name="type" addition="arrow">Weapon</set>
+            <set name="weapon">Arrow</set>
+        </setters>
+    </element>
+    <element name="Foreclaimer Sickle" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_FORECLAIMER_SICKLE">
+        <description>
+            <p>This sleek magical sickle is powered by a crystal on its pommel. It has the finesse property and the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, the weapon flies back to your hand immediately after the attack.</p>
+            <p class="indent">You can use a bonus action to speak the sickle’s command word, causing its blade to become charged with radiant energy, shedding bright light in a 20-foot radius and dim light for an additional 20 feet. While the blade is charged, it deals an extra 2d6 radiant damage to any target it hits. The blade remains charged until you use a bonus action to speak the command word again or until you drop or sheathe the sickle.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="rarity">Very Rare</set>
+            <set name="keywords">sickle</set>
+            <set name="type" addition="sickle">Weapon</set>
+            <set name="weapon">Sickle</set>  
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Garb of Gresh" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_GARB_OF_GRESH">
+        <description>
+            <p>This gaudy golden cape is the uniform of the dragon Gresh’s minions.</p>
+            <p class="indent">While wearing this cape, you have resistance to fire damage, advantage on saving throws against being frightened, and you gain a +2 bonus to AC.</p>
+            <p class="indent">Additionally, each time you take damage from a melee attack made by a creature carrying gold pieces while wearing this cape, that creature loses gold pieces equal to the damage you take. Half as many gold pieces (rounded down) appear in your coin purse. The other half of the gold appears in Gresh’s horde. If the creature  attacking you has no gold pieces, nothing happens.</p>
+            <p class="indent"><strong><i>Curse. </i></strong>This cape is cursed. Attuning to the cape curses you until you are targeted by the remove curse spell or similar magic; removing the cape fails to end the curse. While cursed, you have vulnerability to damage dealt by Gresh’s breath weapon and disadvantage on saving throws made to resist Gresh’s frightful presence and her Charisma (Intimidation) checks.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+            <stat name="ac:misc" value="2"/>
+        </rules>
+    </element>
+    <element name="Goldenweb Armor" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_GOLDENWEB_ARMOR">
+        <description>
+            <p>This shining armor was crafted by master smiths in Velgari. While wearing this armor, you gain a +2 bonus to AC, and have advantage on saving throws against being charmed or frightened.</p>
+            <p class="indent"><strong><i>Web of Protection.</i></strong> While wearing this armor, as an action you can weave a web of golden light that emanates from you in a 10-foot-radius sphere for 1 minute. When you activate this property, choose any number of creatures you can see other than you to be protected by the web. While these creatures are within your web of light, they gain a +1 bonus to their AC and saving throws and their movement doesn’t provoke opportunity attacks. All other creatures within the area have their speed halved. Once you use this property, you can’t use it again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">body</set>
+            <set name="type" addition="breastplate">Armor</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">2</set>
+            <set name="armor">Breastplate</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="ac:armored:enhancement" value="2" bonus="enhancement"/>
+        </rules>
+    </element>
+    <element name="Gorthan's Kilt" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_GORTHANS_KILT">
+        <description>
+            <p>While wearing this sturdy metal and leather kilt, you gain a +1 bonus to AC and you are immune to the grappled condition. Who wants to wrestle a barbarian wearing a kilt?</p>
+            <p class="indent">Wearing this kilt does not count as wearing armor when determining Unarmored Defense.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement" addition="by a barbarian">true</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="1"/>
+        </rules>
+    </element>
+    <element name="Gothi's Mask" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_GOTHIS_MASK">
+        <description>
+            <p>This plain wooden mask has two eye-slits carved into it. When you wild shape, you can choose to continue wearing the mask, which becomes an appropriate size and shape to fit the face of whatever creature you transform into.</p>
+            <p class="indent">While you wear this mask, you can still communicate using any languages you speak while transformed by your wild shape feature.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement" addition="by a druid">true</set>
+        </setters>
+    </element>
+    <element name="Gothi's Spear" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_GOTHIS_SPEAR">
+        <description>
+            <p>This spear is fitted with mechanisms to make both a deadly weapon and a useful tool. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent"><strong><i>Immovable Core.</i></strong> An immovable rod is integrated into the shaft of the spear. You can use an action to press a button on the butt-end of the shaft, which causes the spear to become magically fixed in place. Until you or another creature uses an action to push the button again, the spear doesn’t move, even if it is defying gravity. The spear can hold up to 8,000 pounds of weight. More weight causes the spear to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed spear up to 10 feet on a success.</p>
+            <p class="indent"><strong><i></i></strong>Poison Chamber. The spear has a hollow chamber at the base of the blade that you can place poison vials into. You can load a potion of poison or similar poison into the chamber as an action. While a poison is loaded into the chamber, as a bonus action, you can cause the blade of the spear to become coated with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. When you hit a creature with the poison-coated blade, it takes an extra 3d6 poison damage and becomes poisoned for 1 minute. Once you have used this property, you must load another potion into the chamber before you can use it again.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Rare</set>
+            <set name="keywords">spear</set>
+            <set name="type" addition="spear">Weapon</set>
+            <set name="weapon">Spear</set>
+            <set name="enhancement">1</set> 
+        </setters>
+    </element>
+    <element name="Helm of Thsklmxklmhtt" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HELM_OF_THSKLMXKLMHTT">
+        <description>
+            <p>This helm is part of a once-complete set of sentient armor belonging to an extra-dimensional creature called Thsklmxklmhtt. When worn, the helm can be used as a spellcasting focus.</p>
+            <p class="indent"><strong><i>Warbling Shriek.</i></strong> As a reaction, whenever a creature you can see within 60 feet of you makes a saving throw, you can subtract your proficiency bonus from the result, potentially causing the creature to fail the save. You must use this feature before the GM says whether the roll succeeds or fails. Once you use this property, you can’t use it again until the next dawn.</p>
+            <p class="indent"><strong><i>Sentience.</i></strong> The helm is a sentient item of neutral evil alignment, with an Intelligence of 5, a Wisdom of 14, and a Charisma of 18. It has hearing and darkvision out to a range of 60 feet. The helm can speak Common and Deep Speech and perfectly mimic and repeat anything it has heard. The helm can walk around using its tentacles at a speed of 30 feet. It also has climb and swim speeds of 30 feet.</p>
+            <p class="indent">The helm can speak Common and Deep Speech and perfectly mimic and repeat anything it has heard. The helm can walk around using its tentacles at a speed of 30 feet. It also has climb and swim speeds of 30 feet.</p>
+            <p class="indent"><strong><i>Personality. </i></strong>The helm contains a small fragment of the sentience Thsklmxklmhtt possessed when it was united with the other pieces of its set. It is driven by an unceasing desire to find a wearer capable of reuniting it with the other lost pieces of the armor of Thsklmxklmhtt. When the helm chooses to communicate, it is very dramatic, though it generally stays silent and motionless, playing the part of a nonliving object until a creature has attuned to it. It allows itself to be worn by anyone, but it only allows a spellcaster it considers worthy of its power to attune to it.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement" addition="by a spellcaster">true</set>
+        </setters>
+    </element>
+    <element name="Julian's Eternal Tea Cup" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_JULIANS_ETERNAL_TEA_CUP">
+        <description>
+            <p>This delicate china teacup and saucer are indestructible and function as a pair. While you hold the teacup, you can lightly tap it against the saucer to cause it to become filled with a hot tea of your choice. You can change the kind of tea within the cup at any time with a thought (no action required). If the teacup and saucer are ever separated, you can hold one of the pair and politely clear your throat to cause the other to instantly teleport into your hand.</p>
             <p class="indent"></p>
         </description>
         <setters>
@@ -76,4 +374,828 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
-    -->
+    <element name="Mark of Abrith" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MARK_OF_ABRITH_COMMON">
+        <description>
+            <p>Produced by a special needle, this magic tattoo appears on your body as a mark of contract with the demon god Abrith.</p>
+            <p class="indent"><strong><i>Tattoo Attunement.</i></strong> To attune to this item, a person who has made a pact with Abrith must hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on your body.</p>
+            <p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+            <p class="indent"><strong><i></i></strong>Demon Speech. While attuned to the tattoo, you can speak, read, and write Abyssal.</p>
+            <p class="indent"><strong><i></i></strong>Demonic Sacrifice. Within the confines of Brushwick, or anotherarea with magical ties to Abrith, your tattoo allows you to summon a demon by performing a 1-minute long ritual involving sacrificing a goat. The summoned demon obeys your commands and is friendly to you. The demon remains until it is reduced to 0 hit points or until midnight, at which point it disappears in a gout of flame and returns to its original plane. If your attunement to the tattoo ends, the demon remains until it chooses to return to its original plane and will no longer obey your commands. You can only summon one demon at a time using this tattoo, and once you have summoned a demon, you can’t summon another until the following midnight.</p>
+            <p class="indent">The maximum CR of a demon you can summon depends on the rarity of the tattoo. Max CR 1 (dretch, quasit)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Common</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Mark of Abrith" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MARK_OF_ABRITH_UNCOMMON">
+        <description>
+            <p>Produced by a special needle, this magic tattoo appears on your body as a mark of contract with the demon god Abrith.</p>
+            <p class="indent"><strong><i>Tattoo Attunement.</i></strong> To attune to this item, a person who has made a pact with Abrith must hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on your body.</p>
+            <p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+            <p class="indent"><strong><i></i></strong>Demon Speech. While attuned to the tattoo, you can speak, read, and write Abyssal.</p>
+            <p class="indent"><strong><i></i></strong>Demonic Sacrifice. Within the confines of Brushwick, or anotherarea with magical ties to Abrith, your tattoo allows you to summon a demon by performing a 1-minute long ritual involving sacrificing a goat. The summoned demon obeys your commands and is friendly to you. The demon remains until it is reduced to 0 hit points or until midnight, at which point it disappears in a gout of flame and returns to its original plane. If your attunement to the tattoo ends, the demon remains until it chooses to return to its original plane and will no longer obey your commands. You can only summon one demon at a time using this tattoo, and once you have summoned a demon, you can’t summon another until the following midnight.</p>
+            <p class="indent">The maximum CR of a demon you can summon depends on the rarity of the tattoo. Max CR 3 (cebranith)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Mark of Abrith" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MARK_OF_ABRITH_RARE">
+        <description>
+            <p>Produced by a special needle, this magic tattoo appears on your body as a mark of contract with the demon god Abrith.</p>
+            <p class="indent"><strong><i>Tattoo Attunement.</i></strong> To attune to this item, a person who has made a pact with Abrith must hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on your body.</p>
+            <p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+            <p class="indent"><strong><i></i></strong>Demon Speech. While attuned to the tattoo, you can speak, read, and write Abyssal.</p>
+            <p class="indent"><strong><i></i></strong>Demonic Sacrifice. Within the confines of Brushwick, or anotherarea with magical ties to Abrith, your tattoo allows you to summon a demon by performing a 1-minute long ritual involving sacrificing a goat. The summoned demon obeys your commands and is friendly to you. The demon remains until it is reduced to 0 hit points or until midnight, at which point it disappears in a gout of flame and returns to its original plane. If your attunement to the tattoo ends, the demon remains until it chooses to return to its original plane and will no longer obey your commands. You can only summon one demon at a time using this tattoo, and once you have summoned a demon, you can’t summon another until the following midnight.</p>
+            <p class="indent">The maximum CR of a demon you can summon depends on the rarity of the tattoo. Max CR 8 (vrock, hezrou)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Mark of Abrith" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MARK_OF_ABRITH_VERY_RARE">
+        <description>
+            <p>Produced by a special needle, this magic tattoo appears on your body as a mark of contract with the demon god Abrith.</p>
+            <p class="indent"><strong><i>Tattoo Attunement.</i></strong> To attune to this item, a person who has made a pact with Abrith must hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on your body.</p>
+            <p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+            <p class="indent"><strong><i></i></strong>Demon Speech. While attuned to the tattoo, you can speak, read, and write Abyssal.</p>
+            <p class="indent"><strong><i></i></strong>Demonic Sacrifice. Within the confines of Brushwick, or anotherarea with magical ties to Abrith, your tattoo allows you to summon a demon by performing a 1-minute long ritual involving sacrificing a goat. The summoned demon obeys your commands and is friendly to you. The demon remains until it is reduced to 0 hit points or until midnight, at which point it disappears in a gout of flame and returns to its original plane. If your attunement to the tattoo ends, the demon remains until it chooses to return to its original plane and will no longer obey your commands. You can only summon one demon at a time using this tattoo, and once you have summoned a demon, you can’t summon another until the following midnight.</p>
+            <p class="indent">The maximum CR of a demon you can summon depends on the rarity of the tattoo. Max CR 13 (glabrezu, nalfeshnee)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Mark of Abrith" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MARK_OF_ABRITH_LEGENDARY">
+        <description>
+            <p>Produced by a special needle, this magic tattoo appears on your body as a mark of contract with the demon god Abrith.</p>
+            <p class="indent"><strong><i>Tattoo Attunement.</i></strong> To attune to this item, a person who has made a pact with Abrith must hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on your body.</p>
+            <p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+            <p class="indent"><strong><i></i></strong>Demon Speech. While attuned to the tattoo, you can speak, read, and write Abyssal.</p>
+            <p class="indent"><strong><i></i></strong>Demonic Sacrifice. Within the confines of Brushwick, or anotherarea with magical ties to Abrith, your tattoo allows you to summon a demon by performing a 1-minute long ritual involving sacrificing a goat. The summoned demon obeys your commands and is friendly to you. The demon remains until it is reduced to 0 hit points or until midnight, at which point it disappears in a gout of flame and returns to its original plane. If your attunement to the tattoo ends, the demon remains until it chooses to return to its original plane and will no longer obey your commands. You can only summon one demon at a time using this tattoo, and once you have summoned a demon, you can’t summon another until the following midnight.</p>
+            <p class="indent">The maximum CR of a demon you can summon depends on the rarity of the tattoo. Max CR 19 and above (balor)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Many Miles Boots" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MANY_MILES_BOOTS">
+        <description>
+            <p>These brown leather boots have a golden sole and leave the symbol of a compass in your footsteps.</p>
+            <p class="indent">While wearing these boots, you and up to 8 other creatures traveling with you can travel for 10 hours at a normal pace without the risk of exhaustion. These boots gain additional properties based on how many miles you have walked in them. These properties function while you wear the boots and are lost if your attunement to the boots ends.</p>
+            <p class="indent"><strong><i>The Meaning of Haste.</i></strong> When you have walked at least 30 miles, your walking speed increases by 5 feet.</p>
+            <p class="indent">Path of Memory. When you have walked at least 60 miles, your speed and the speed of up to 8 other creatures traveling with you is doubled when traveling on a path, road, or route you have traveled before.</p>
+            <p class="indent"><strong><i>The Journey Home.</i></strong> When you have walked at least 300 miles, you can spend 1 hour to magically mark your current location. Once you have marked a location in this way, as an action, you can teleport yourself and up to 8 other willing creatures within 10 feet of you back to the marked location, after which the mark is erased. You can only have one location marked at a time.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Microphone of Dead Magic" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MICROPHONE_OF_DEAD_MAGIC">
+        <description>
+            <p>This hefty rod has a round tip made of fine wire mesh. It amplifies the volume of any sound made within 2 inches of its tip so that it can be heard out to 300 feet.</p>
+            <p class="indent"><strong><i>Antimagic Karaoke.</i></strong> By singing into the microphone’s tip, you can use an action to cast the antimagic field spell in a 1-mile-radius sphere centered on you. The microphone is not affected by the antimagic field it generates but can be affected by other antimagic fields or similar effects. To maintain concentration on this spell effect, you must use an action or bonus action to continue singing into the microphone on each of your turns. Once this property has been used, it can’t be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Rod</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Legendary</set>
+        </setters>
+    </element>
+    <element name="Pocket Zombie" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_POCKET_ZOMBIE">
+        <description>
+            <p>These small, spongy, humanoid effigies come in packages of 3. When you apply 1 pint of water to an effigy, it swells into a Medium-sized zombie that will obey your commands to the best of its abilities until it dies or until 1 hour has passed. After 1 hour, the zombie shrivels up and is destroyed.</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Sips' Hairbrush" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_SIPS_HAIRBRUSH">
+        <description>
+            <p>Once per day, when holding this spooky hairbrush, you can use your action to brush the hair of a creature within your reach. The creature must succeed on a DC 14 Charisma saving throw or have its personality altered fundamentally.</p>
+            <p class="indent">On a failed save, the creature’s alignment changes, affecting its personality. The GM can roll a d10 on the Alignment Change table or choose the new alignment. The creature gains new personality traits, ideals, and bonds to match its new alignment. These are added to any previous traits, ideals, bonds, and flaws if they do not conflict with them, and they replace the previous ones if they do. This effect lasts until the creature is targeted with a remove curse spell or similar magic. If the new alignment matches the creature’s current alignment, the item has no effect.</p>
+            <p class="indent">The hairbrush has no effect on creatures without hair or fur.</p>
+            <table>
+                <thead>
+                    <tr><td>d10</td><td>New Alignment</td></tr>
+                </thead>
+                <tr><td>1</td><td>Lawful Evil</td></tr>
+                <tr><td>2</td><td>Neutral Evil</td></tr>
+                <tr><td>3</td><td>Chaotic Evil</td></tr>
+                <tr><td>4</td><td>Lawful Neutral</td></tr>
+                <tr><td>5</td><td>True Neutral</td></tr>
+                <tr><td>6</td><td>Chaotic Neutral</td></tr>
+                <tr><td>7</td><td>Chaotic Good</td></tr>
+                <tr><td>8</td><td>Neutral Good</td></tr>
+                <tr><td>9</td><td>Lawfult Good</td></tr>
+                <tr><td>10</td><td>Roll again</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Splicer's Amulet" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_SPLICERS_AMULET">
+        <description>
+            <p>This amulet features an onyx and gold charm fashioned in the shape of a severed pangolin’s foot.</p>
+            <p class="indent">While you wear the amulet, you do not age, you can’t be aged magically, and you can’t die of old age. If the amulet stops working, or your attunement to the amulet ends your body resumes aging as normal. If you aren’t attuned to the amulet for more than 24 hours, time begins to rapidly catch up with you, reducing your remaining lifespan by the number of years you were attuned to the amulet. If this reduction exceeds the maximum natural lifespan of your species, you die.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement" addition="by a warlock">true</set>
+        </setters>
+    </element>
+    <element name="Soul Sugar Beer" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_SOUL_SUGAR_BEER">
+        <description>
+            <p>Served in a grinning mug, soul sugar beer tastes of sweet honey with a snap of rock candy and is typically garnished by flicking a gold coin into the mug after pouring.</p>
+            <p class="indent">For one hour after drinking this beverage, you gain 2 temporary hit points at the start of each of your turns and are immune to being frightened. These effects end if you drop to 0 hit points.</p>
+        </description>
+        <setters>
+            <set name="category">Potion</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Sticky Scroll" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_STICKY_SCROLL_UNCOMMON">
+        <description>
+            <p>This special spell scroll was scribed using magical ink derived from the secretions of an inkpot frog. The ink carries the frog’s stick-to-itiveness and holds fast to the page rather than disappearing after the first use.</p>
+            <p class="indent">You can cast a spell from a sticky scroll as you would with a normal spell scroll. However, once you cast a spell from a sticky scroll, it can be cast again. Each time you cast the spell from the scroll after the first use, roll a d4. The second time you use the scroll, you must roll a result of 2 or higher, or the scroll crumbles to dust and is destroyed after the spell is cast. The number you must roll on the d4 to prevent the scroll from being destroyed increases by 1 each time you use the scroll, requiring a 3 or higher on the third use and a 4 on the fourth use. If you use the scroll for a fifth time, it automatically crumbles and is destroyed after the spell is cast.</p>
+            <p class="indent">Creating a sticky scroll takes twice as long and costs twice as much as creating a normal spell scroll.</p>
+            <p class="indent">This scroll can contain a cantrip or 1st level spell.</p>
+        </description>
+        <setters>
+            <set name="category">Scrolls</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Scroll</set>
+            <set name="rarity">Uncommon</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Sticky Scroll" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_STICKY_SCROLL_RARE">
+        <description>
+            <p>This special spell scroll was scribed using magical ink derived from the secretions of an inkpot frog. The ink carries the frog’s stick-to-itiveness and holds fast to the page rather than disappearing after the first use.</p>
+            <p class="indent">You can cast a spell from a sticky scroll as you would with a normal spell scroll. However, once you cast a spell from a sticky scroll, it can be cast again. Each time you cast the spell from the scroll after the first use, roll a d4. The second time you use the scroll, you must roll a result of 2 or higher, or the scroll crumbles to dust and is destroyed after the spell is cast. The number you must roll on the d4 to prevent the scroll from being destroyed increases by 1 each time you use the scroll, requiring a 3 or higher on the third use and a 4 on the fourth use. If you use the scroll for a fifth time, it automatically crumbles and is destroyed after the spell is cast.</p>
+            <p class="indent">Creating a sticky scroll takes twice as long and costs twice as much as creating a normal spell scroll.</p>
+            <p class="indent">This scroll can contain a 2nd or 3rd level spell.</p>
+        </description>
+        <setters>
+            <set name="category">Scrolls</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Scroll</set>
+            <set name="rarity">Rare</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Sticky Scroll" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_STICKY_SCROLL_VERY_RARE">
+        <description>
+            <p>This special spell scroll was scribed using magical ink derived from the secretions of an inkpot frog. The ink carries the frog’s stick-to-itiveness and holds fast to the page rather than disappearing after the first use.</p>
+            <p class="indent">You can cast a spell from a sticky scroll as you would with a normal spell scroll. However, once you cast a spell from a sticky scroll, it can be cast again. Each time you cast the spell from the scroll after the first use, roll a d4. The second time you use the scroll, you must roll a result of 2 or higher, or the scroll crumbles to dust and is destroyed after the spell is cast. The number you must roll on the d4 to prevent the scroll from being destroyed increases by 1 each time you use the scroll, requiring a 3 or higher on the third use and a 4 on the fourth use. If you use the scroll for a fifth time, it automatically crumbles and is destroyed after the spell is cast.</p>
+            <p class="indent">Creating a sticky scroll takes twice as long and costs twice as much as creating a normal spell scroll.</p>
+            <p class="indent">This scroll can contain a 4th or 4th level spell.</p>
+        </description>
+        <setters>
+            <set name="category">Scrolls</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Scroll</set>
+            <set name="rarity">Very Rare</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Sticky Scroll" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_STICKY_SCROLL_LEGENDARY">
+        <description>
+            <p>This special spell scroll was scribed using magical ink derived from the secretions of an inkpot frog. The ink carries the frog’s stick-to-itiveness and holds fast to the page rather than disappearing after the first use.</p>
+            <p class="indent">You can cast a spell from a sticky scroll as you would with a normal spell scroll. However, once you cast a spell from a sticky scroll, it can be cast again. Each time you cast the spell from the scroll after the first use, roll a d4. The second time you use the scroll, you must roll a result of 2 or higher, or the scroll crumbles to dust and is destroyed after the spell is cast. The number you must roll on the d4 to prevent the scroll from being destroyed increases by 1 each time you use the scroll, requiring a 3 or higher on the third use and a 4 on the fourth use. If you use the scroll for a fifth time, it automatically crumbles and is destroyed after the spell is cast.</p>
+            <p class="indent">Creating a sticky scroll takes twice as long and costs twice as much as creating a normal spell scroll.</p>
+            <p class="indent">This scroll can contain a 6th, 7th, 8th, or 9th level spell.</p>
+        </description>
+        <setters>
+            <set name="category">Scrolls</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Scroll</set>
+            <set name="rarity">Legendary</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Tar Maw Blade" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_TAR_MAW_BLADE">
+        <description>
+            <p>This greatsword was crafted from the spine and jaw of a tar maw and is imbued with the creature’s goopy essence. You gain a +1 bonus on attack and damage rolls made using this magic weapon.</p>
+            <p class="indent">While you wield this sword, its blade oozes a thick, sticky tar. When you hit a creature with the sword, the target’s speed halved until the end of its next turn.</p>
+            <p class="indent"><strong><i>Ignited Blade.</i></strong> You can use a bonus action to speak the blade’s command word, causing the tar to ignite and burn with eerie blue flames that shed dim light in a 10-foot radius. While ignited in this way, the blade deals an extra 1d10 fire damage on a hit, and a creature hit by the ignited blade must succeed on a DC 16 Dexterity saving throw at the end of its next turn or take an additional 1d10 fire damage as the flaming tar sticks to it. A target can automatically succeed on this saving throw by using its action to drop prone and roll on the ground, putting out the flames. The blade remains ignited for 1 minute or until you drop or sheath the sword. Once you have used this property, you can’t use it again until the following dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Very Rare</set>
+            <set name="keywords">greatsword</set>
+            <set name="type" addition="greatsword">Weapon</set>
+            <set name="weapon">Greatsword</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">1</set> 
+        </setters>
+    </element>
+    <element name="Ultra Holy Water" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_ULTRA_HOLY_WATER">
+        <description>
+            <p>This flask contains 1d4 + 1 doses of highly potent holy water that shines faintly with a calming blue glow.</p>
+            <p class="indent"><strong><i>Spray.</i></strong> As an action, you can spray any number of doses of holy water onto a creature within 20 feet of you. Make a ranged attack against the target, treating the holy water as an improvised weapon. If the attack hits a fiend or undead, it takes 2d10 radiant damage for each dose spent.</p>
+            <p class="indent"><strong><i>Spritz.</i></strong> You can spend 10 minutes spritzing two doses of holy water on a point to create the effect of a hallow spell (save DC 16) centered on that point. You choose the effect you bind to the hallowed area.</p>
+        </description>
+        <setters>
+            <set name="category">Potion</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Very Rare</set>
+        </setters>
+    </element>
+    <element name="Vicious Greeting Card" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_VICIOUS_GREETING_CARD">
+        <description>
+            <p>This folded paper greeting card has a cheerful, colorful design on its front and back. The greeting card is a sentient magic item with 1 hit point, 20 AC, and immunity to damage from spells. It has a fly speed of 40 feet (hover).</p>
+            <p class="indent"><strong><i>Curse. </i></strong>This card is cursed. Opening this card curses you until you are targeted by a remove curse spell or similar magic. While you are cursed, the card follows you around and does whatever it can to annoy you, including acting immediately before your turn to attack you with the vicious mockery spell (spell save DC 15) during combat. It speaks with the voice of the person who sent you the card. If you destroy the greeting card or move more than one mile from it, it reappears in an unoccupied space adjacent to you after 1d4 + 1 hours.</p>
+            <p class="indent"><strong><i>Sentience.</i></strong> The card is lawful evil and has an Intelligence of 10, a Wisdom of 8, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet. The card can speak and understand Abyssal, Common, Infernal, and one other language chosen by the GM.</p>
+            <p class="indent"><strong><i>Personality.</i></strong> Each greeting card has its own uniquely unpleasant personality, but all enjoy heckling their victims.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Watchkeeper's Candle" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_WATCHKEEPERS_CANDLE">
+        <description>
+            <p>This candle resembles a tiny wax knight firmly seated on a candle holder.</p>
+            <p class="indent">When you light the candle, you can use your action to speak the item’s command word, causing the candle to come to life and grow into a Medium sized wax soldier that uses the statistics of animated armor. You can use your action to speak the command word again, returning the soldier to its candle form. If the soldier drops to 0 hit points, the candle is destroyed.</p>
+            <p class="indent">The soldier is friendly to you and obeys your instructions. While the soldier is active, it sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Creatures within 10 feet of the soldier can’t be surprised even if they are sleeping naturally.</p>
+            <p class="indent">The soldier can be summoned for a total of 8 hours, spent in 1-hour increments. Once all 8 hours have been used up, the candle is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Xanu Shard" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_XANU_SHARD">
+        <description>
+            <p>This shard of crystal contains a fragment of the god Xanu’s shattered essence.</p>
+            <p class="indent"><strong><i>Attunement.</i></strong> Consuming or embedding the shard in your body automatically attunes you to it. If this would cause you to go above the number of items you can attune to, you must choose to end attunement to one of your currently attuned items. Alternatively, you can attune to the shard as with a normal magic item.</p>
+            <p class="indent">You can only end your attunement to this item if Xanu allows you to.</p>
+            <p class="indent"><strong><i>Turn Automaton.</i></strong> The shard has 3 charges. You can use your action to expend 1 of the charges to attempt to turn constructs that are powered by soul gems. Each construct that can see or hear you within 30 feet of you must make a DC 14 Wisdom saving throw. If the construct fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+            <p class="indent">The shard regains 1d3 charges each day at dawn.</p>
+            <p class="indent"><strong><i>Soul Magic.</i></strong> Through Xanu’s power, you have access to the divine arcana of Soul Magic. You gain the ability to cast the following spells, based on your character level: 1-sense souls 5-soul bump 10-soulbound oath 15-purge soul</p>
+            <p class="indent">You can cast each of these spells once per day without using a spell slot, using Constitution as your spellcasting ability if you do not have the ability to cast spells. If you have the spellcasting trait, you can use your spellcasting ability in place of Constitution, and each Soul Magic spell is added to the spells you know and counts as a spell of your spellcasting class. If you prepare spells, you always have the Soul Magic spells prepared, and they don’t count against the number of spells you can prepare each day.</p>
+            <p class="indent">If Xanu is hostile towards you, each time you cast a Soul Magic spell, it has a 25% chance of going wild. If your spell goes wild, roll on the Chaos Surges table to determine the effect.</p>
+            <p class="indent"><strong><i></i></strong>Sentience. Xanu’s alignment is lawful neutral. He has an Intelligence of 25, a Wisdom of 20, and a Charisma of 26. He has hearing and truesight out to a range of 120 feet of each of his shards. Xanu can speak, read, and understand all languages and can communicate telepathically with a creature attuned to the shard. Xanu can also choose to project an illusory image of himself to accompany his voice. Xanu appears as a foreclaimer with dark gray skin covered in glowing white lines. He may or may not be wearing cargo pants. Xanu is present in all of his shards and is aware of them all simultaneously.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Artifact</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <grant type="Spell" level="1" id="ID_HPP_FOOLS_SPELL_SENSE_SOULS" />
+            <grant type="Spell" level="5" id="ID_HPP_FOOLS_SPELL_SOUL_BUMP" />
+            <grant type="Spell" level="10" id="ID_HPP_FOOLS_SPELL_SOULBOUND_OATH" />
+            <grant type="Spell" level="15" id="ID_HPP_FOOLS_SPELL_PURGE_SOUL" />
+        </rules>
+    </element>
+    <!--Gorthans Crafy Crafting Guide items-->
+    <element name="Amalgahound Pauldrons" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HPP_FOOLS_MAGIC_ITEM_AMALGAHOUND_PAULDRONS_UNCOMMON">
+        <description>
+            <p>These intimidating pauldrons made from the heads of the amalgahound still possess an aura of the creature’s aggression, intimidating those who come too close.</p>
+            <p class="indent">While wearing these pauldrons, when a creature within 30 feet of you that can hear you makes an attack against you, the amalgahound heads on your shoulders growl menacingly at the attacker. The attacker must succeed on a DC 12 Wisdom saving throw or become frightened until the end of its next turn. Once a creature has been affected by this effect, it is immune to being frightened by the pauldrons for the next 24 hours.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">shoulders</set>
+            <set name="type" addition="heavy">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Uncommon</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+        </setters>
+    </element>
+     <element name="Amalgahound Pauldrons" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HPP_FOOLS_MAGIC_ITEM_AMALGAHOUND_PAULDRONS_RARE">
+        <description>
+            <p>These intimidating pauldrons made from the heads of the amalgahound still possess an aura of the creature’s aggression, intimidating those who come too close.</p>
+            <p class="indent">While wearing these pauldrons, when a creature within 30 feet of you that can hear you makes an attack against you, the amalgahound heads on your shoulders growl menacingly at the attacker. The attacker must succeed on a DC 14 Wisdom saving throw or become frightened until the end of its next turn. Once a creature has been affected by this effect, it is immune to being frightened by the pauldrons for the next 24 hours.</p>
+            <p class="indent"><strong><i>Scary Buddies</i></strong>While wearing these pauldrons, you have advantage on Intimidation checks and saving throws to resist being frightened.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">shoulders</set>
+            <set name="type" addition="heavy">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+        </setters>
+    </element>
+     <element name="Amalgahound Pauldrons" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HPP_FOOLS_MAGIC_ITEM_AMALGAHOUND_PAULDRONS_VERY_RARE">
+        <description>
+            <p>These intimidating pauldrons made from the heads of the amalgahound still possess an aura of the creature’s aggression, intimidating those who come too close.</p>
+            <p class="indent">While wearing these pauldrons, when a creature within 30 feet of you that can hear you makes an attack against you, the amalgahound heads on your shoulders growl menacingly at the attacker. The attacker must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. Once a creature has been affected by this effect, it is immune to being paralyzed by the pauldrons for the next 24 hours.</p>
+            <p class="indent"><strong><i>Scary Buddies</i></strong>While wearing these pauldrons, you have advantage on Intimidation checks and saving throws to resist being frightened.</p>
+            <p class="indent"><strong><i>Loyal Protectors</i></strong>Both heads bite the attacker in retaliation that failed the saving throw, dealing 1d6 piercing damage if the attacker is within 5 feet of you.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">shoulders</set>
+            <set name="type" addition="heavy">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+        </setters>
+    </element>
+    <element name="Cryodon Fan" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CRYODON_FAN_VERY_RARE">
+        <description>
+            <p>This fan was crafted using scales from a cryodon and is always cold to the touch.</p>
+            <p class="indent">The fan has 5 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 16) from it : cone of cold (3 charges), polar fog* (2 charges), protection from energy (fire or cold only, 1 charge), sleet storm (2 charges).</p>
+            <p class="indent">The fan regains 1d3 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the fan shatters into a thousand tiny snowflakes.</p>
+            <p class="indent"><strong><i>Cryoarmor</i></strong>You can use it to cast fire shield (3 charges) and ray of frost (1 charge +8 to hit)</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>            
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cryodon Fan" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_CRYODON_FAN_LEGENDARY">
+        <description>
+            <p>This fan was crafted using scales from a cryodon and is always cold to the touch.</p>
+            <p class="indent">The fan has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 17) from it : cone of cold (3 charges), polar fog* (2 charges), protection from energy (fire or cold only, 1 charge), sleet storm (2 charges).</p>
+            <p class="indent">The fan regains 1d3 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the fan shatters into a thousand tiny snowflakes.</p>
+            <p class="indent"><strong><i>Cryoarmor</i></strong>You can use it to cast fire shield (3 charges) and ray of frost (1 charge +9 to hit)</p>
+            <p class="indent"><strong><i>Cryostorm</i></strong>You can use it to cast ice storm.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>            
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Doom Duck's Hat" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_DOOM_DUCKS_HAT_RARE">
+        <description>
+            <p>This tiny hat was stolen from a doom duck. The QUACKing demon’s hatred still oozes from it.</p>
+            <p class="indent"><strong><i>Aura of Hatred.</i></strong> While wearing this hat, when you are reduced to half your hit point maximum or fewer, your eyes emit a flashing red aura of hatred. The aura extends from you in a 10-foot-radius sphere that lasts until the end of your next turn. When a creature enters the affected area for the first time on a turn or starts its turn there, it must succeed on a DC 16 Constitution saving throw or become blinded until the end of its next turn. Once this property has been used, it can’t be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Doom Duck's Hat" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_DOOM_DUCKS_HAT_VERY_RARE">
+        <description>
+            <p>This tiny hat was stolen from a doom duck. The QUACKing demon’s hatred still oozes from it.</p>
+            <p class="indent"><strong><i>Aura of Hatred.</i></strong> While wearing this hat, when you are reduced to half your hit point maximum or fewer, your eyes emit a flashing red aura of hatred. The aura extends from you in a 15-foot-radius sphere that lasts until the end of your next turn. When a creature enters the affected area for the first time on a turn or starts its turn there, it must succeed on a DC 18 Constitution saving throw or become blinded until the end of its next turn. Once this property has been used, it can’t be used again until the next dawn.</p>
+            <p class="indent"><strong><i>Duck on This</i></strong>Additionally, a creature that fails its saving throw suffers one level of exhaustion.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Doom Duck's Hat" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_DOOM_DUCKS_HAT_LEGENDARY">
+        <description>
+            <p>This tiny hat was stolen from a doom duck. The QUACKing demon’s hatred still oozes from it.</p>
+            <p class="indent"><strong><i>Aura of Hatred.</i></strong> While wearing this hat, when you are reduced to half your hit point maximum or fewer, your eyes emit a flashing red aura of hatred. The aura extends from you in a 20-foot-radius sphere that lasts until the end of your next turn. When a creature enters the affected area for the first time on a turn or starts its turn there, it must succeed on a DC 120 Constitution saving throw or become blinded until the end of its next turn. Once this property has been used, it can’t be used again until the next dawn.</p>
+            <p class="indent"><strong><i>Duck on This</i></strong>Additionally, a creature that fails its saving throw suffers two level of exhaustion.</p>
+            <p class="indent"><strong><i>QUACK Off</i></strong>If you start your turn with hit points equal to or less than your hit point maximum while wearing the hat, your attacks deal an extra 5 (1d10) radiant damage on a hit.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Eradicator Missle Launcher" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_ERADICATOR_MISSLE_LAUNCHER">
+        <description>
+            <p>This missile launcher was stripped from an eradicator automaton. You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent">The missile launcher is a martial ranged weapon with a range of 30/60 feet and the heavy and reload (2 shots) properties. Each of its missiles deals 2d6 fire damage on a hit. The launcher holds two missiles. You can take the Attack action to shoot missiles at two targets within 5 feet of each other, making a separate attack roll for each missile. Alternatively, you can choose to fire just one missile. Once all the missiles are fired, it takes an action or bonus action to reload the weapon.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Rare</set>
+            <set name="keywords">cannon</set>
+            <set name="type" addition="cannon">Weapon</set>
+            <set name="weapon">Cannon</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" >
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CANNON"/>
+        </rules>
+    </append>
+    <element name="Weapon Proficiency (Cannon)" type="Proficiency" source="Fools Gold" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CANNON">
+        <supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+    <element name="Cannon" type="Weapon" source="Fools Gold" id="ID_HPP_FOOLS_WEAPON_CANNON">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,</supports>
+        <description>
+            <p/>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="range">30/60</set>
+            <set name="damage" type="fire">2d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CANNON</set>
+        </setters>
+    </element>
+    <element name="Eradicator Missle Launcher" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_ERADICATOR_MISSLE_LAUNCHER_VERY_RARE">
+        <description>
+            <p>This missile launcher was stripped from an eradicator automaton. You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent">The missile launcher is a martial ranged weapon with a range of 30/60 feet and the heavy and reload (3 shots) properties. Each of its missiles deals 2d6 fire damage on a hit. The launcher holds three missiles. You can take the Attack action to shoot missiles at three targets within 5 feet of each other, making a separate attack roll for each missile. Alternatively, you can choose to fire just one missile. Once all the missiles are fired, it takes an action or bonus action to reload the weapon.</p>
+            <p class="indent"><strong><i>Incendiary Rounds</i></strong> Additionally, each missile deals an extra 2d6 fire damage on a hit.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Very Rare</set>
+            <set name="keywords">cannon</set>
+            <set name="type" addition="cannon">Weapon</set>
+            <set name="weapon">Cannon</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <element name="Eradicator Missle Launcher" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_ERADICATOR_MISSLE_LAUNCHER_LEGENDARY">
+        <description>
+            <p>This missile launcher was stripped from an eradicator automaton. You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent">The missile launcher is a martial ranged weapon with a range of 30/60 feet and the heavy and reload (4 shots) properties. Each of its missiles deals 2d6 fire damage on a hit. The launcher holds four missiles. You can take the Attack action to shoot missiles at four targets within 5 feet of each other, making a separate attack roll for each missile. Alternatively, you can choose to fire just one missile. Once all the missiles are fired, it takes an action or bonus action to reload the weapon.</p>
+            <p class="indent"><strong><i>Incendiary Rounds</i></strong> Additionally, each missile deals an extra 2d6 fire damage on a hit.</p>
+            <p class="indent"><strong><i>Armor-piercing Rounds</i></strong> If a creature wearing armor takes damage from a missile, its AC is reduced by 2d4 until it repairs or replaces its armor.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Legendary</set>
+            <set name="keywords">cannon</set>
+            <set name="type" addition="cannon">Weapon</set>
+            <set name="weapon">Cannon</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <element name="Hooded Reaper's Lantern of Hypnosis" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HOODED_REAPERS_LANTERN_OF_HYPNOSIS_RARE">
+        <description>
+            <p>This spine-covered lantern was taken from the end of a hooded reaper’s tail. Strange truths are revealed within its hypnotic light.</p>
+            <p class="indent">The lantern emits bright light in a 15-foot radius. This light can’t be extinguished by any means, but can be covered.</p>
+            <p class="indent"><strong><i>True Light. </i></strong>The lantern has 3 charges. As a bonus action, you can expend 1 charge to activate the lantern’s magic for 1 minute. While active, all creatures perceiving the illuminated area do so as if with truesight. The lantern regains 1d3 charges each day at dawn.</p>
+            <p class="indent"><strong><i>Hypnotic Sway.</i></strong> As an action, you can wave the lantern hypnotically. Each creature that can see the lantern must succeed on a DC 15 Wisdom saving throw or be charmed by you until the end of its next turn or until it takes damage. While charmed, a target must move up to its speed toward the lantern on each of its turns. If a creature succeeds on its saving throw or the effect ends for it, it is immune to the lantern’s Hypnotic Sway for the next 24 hours.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Hooded Reaper's Lantern of Hypnosis" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HOODED_REAPERS_LANTERN_OF_HYPNOSIS_VERY_RARE">
+        <description>
+            <p>This spine-covered lantern was taken from the end of a hooded reaper’s tail. Strange truths are revealed within its hypnotic light.</p>
+            <p class="indent">The lantern emits bright light in a 25-foot radius. This light can’t be extinguished by any means, but can be covered.</p>
+            <p class="indent"><strong><i>True Light. </i></strong>The lantern has 3 charges. As a bonus action, you can expend 1 charge to activate the lantern’s magic for 1 minute. While active, all creatures perceiving the illuminated area do so as if with truesight. The lantern regains 1d3 charges each day at dawn.</p>
+            <p class="indent"><strong><i>Hypnotic Sway.</i></strong> As an action, you can wave the lantern hypnotically. Each creature that can see the lantern must succeed on a DC 17 Wisdom saving throw or be charmed by you until the end of its next turn or until it takes damage. While charmed, a target must move up to its speed toward the lantern on each of its turns. If a creature succeeds on its saving throw or the effect ends for it, it is immune to the lantern’s Hypnotic Sway for the next 24 hours.</p>
+            <p class="indent"><strong><i>Bright Light</i></strong></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+        </setters>
+    </element>
+    <element name="Hooded Reaper's Lantern of Hypnosis" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HOODED_REAPERS_LANTERN_OF_HYPNOSIS_LEGENDARY">
+        <description>
+            <p>This spine-covered lantern was taken from the end of a hooded reaper’s tail. Strange truths are revealed within its hypnotic light.</p>
+            <p class="indent">The lantern emits bright light in a 35-foot radius. This light can’t be extinguished by any means, but can be covered.</p>
+            <p class="indent"><strong><i>True Light. </i></strong>The lantern has 3 charges. As a bonus action, you can expend 1 charge to activate the lantern’s magic for 1 minute. While active, all creatures perceiving the illuminated area do so as if with truesight. The lantern regains 1d3 charges each day at dawn.</p>
+            <p class="indent"><strong><i>Hypnotic Sway.</i></strong> As an action, you can wave the lantern hypnotically. Each creature that can see the lantern must succeed on a DC 19 Wisdom saving throw or be charmed by you until the end of its next turn or until it takes damage. While charmed, a target must move up to its speed toward the lantern on each of its turns. If a creature succeeds on its saving throw or the effect ends for it, it is immune to the lantern’s Hypnotic Sway for the next 24 hours.</p>
+            <p class="indent"><strong><i>Bright Light</i></strong></p>
+            <p class="indent"><strong><i>Drop 'Em</i></strong> Additionally, a charmed target drops anything it is holding.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+        </setters>
+    </element>
+    <element name="Jungle Sheep Cloak" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_JUNGLE_SHEEP_CLOAK_UNCOMMON">
+        <description>
+            <p>This shaggy, multi-colored cloak is made from the poisonous fleece of a jungle sheep.</p>
+            <p class="indent"><strong><i>Really Wooly Toxic.</i></strong> While wearing this cloak, a creature that touches you or hits you with a melee attack must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Jungle Sheep Cloak" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_JUNGLE_SHEEP_CLOAK_RARE">
+        <description>
+            <p>This shaggy, multi-colored cloak is made from the poisonous fleece of a jungle sheep.</p>
+            <p class="indent"><strong><i>Really Wooly Toxic.</i></strong> While wearing this cloak, a creature that touches you or hits you with a melee attack must succeed on a DC 14 Constitution saving throw or take 3d4 poison damage.</p>
+            <p class="indent"><strong><i>Blood Poison. </i></strong>Additionally, a creature that fails its saving throw becomes poisoned for 1d4 rounds.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Jungle Sheep Cloak" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_JUNGLE_SHEEP_CLOAK_VERRY_RARE">
+        <description>
+            <p>This shaggy, multi-colored cloak is made from the poisonous fleece of a jungle sheep.</p>
+            <p class="indent"><strong><i>Really Wooly Toxic.</i></strong> While wearing this cloak, a creature that touches you or hits you with a melee attack must succeed on a DC 16 Constitution saving throw or take 4d4 poison damage.</p>
+            <p class="indent"><strong><i>Blood Poison. </i></strong>Additionally, a creature that fails its saving throw becomes poisoned for 1d6 rounds.</p>
+            <p class="indent"><strong><i>Hallucinations. </i></strong>While poisoned, the creature is overwhelmed by vivid hallucinations and is frightened of you.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Maxilla's Toothache" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MAXILLAS_TOOTHACHE_UNCOMMON">
+        <description>
+            <p>This blade is forged from the toothy, torn-off tentacle of a maxilla and inflicts horrible tearing damage. When you hit with this magic weapon, your attack deals an extra 1d4 slashing, 1d4 bludgeoning, and 1d4 piercing damage.</p>
+            <p class="indent"><strong><i>Bloody Bites.</i></strong> This awful blade causes messy wounds that are difficult to heal. When you hit a creature with this sword, it must make a DC 13 Constitution saving throw. On a failure, whenever the target regains hit points from any source, the number of hit points it regains is halved. This effect lasts until the target finishes a short or long rest.</p>
+        </description>
+        <setters>
+            <set name="keywords">sword</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="any sword">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+        </setters>
+    </element>
+    <element name="Maxilla's Toothache" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MAXILLAS_TOOTHACHE_RARE">
+        <description>
+            <p>This blade is forged from the toothy, torn-off tentacle of a maxilla and inflicts horrible tearing damage. When you hit with this magic weapon, your attack deals an extra 1d4 slashing, 1d4 bludgeoning, and 1d4 piercing damage.</p>
+            <p class="indent"><strong><i>Bloody Bites.</i></strong> This awful blade causes messy wounds that are difficult to heal. When you hit a creature with this sword, it must make a DC 13 Constitution saving throw. On a failure, whenever the target regains hit points from any source, the number of hit points it regains is halved. This effect lasts until the target finishes a short or long rest.</p>
+            <p class="indent"><strong><i>Tooth Decay.</i></strong> You have a +1 bonus to attack and damage rolls made with this weapon. Additionally, the sword deals an additional 1d4 necrotic damage on a hit.</p>
+            <p class="indent"><strong><i></i></strong></p>
+        </description>
+        <setters>
+            <set name="keywords">sword</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="any sword">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+            <set name="enhancement">1</set> 
+        </setters>
+    </element>
+    <element name="Maxilla's Toothache" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_MAXILLAS_TOOTHACHE_VERY_RARE">
+        <description>
+            <p>This blade is forged from the toothy, torn-off tentacle of a maxilla and inflicts horrible tearing damage. When you hit with this magic weapon, your attack deals an extra 1d4 slashing, 1d4 bludgeoning, and 1d4 piercing damage.</p>
+            <p class="indent"><strong><i>Bloody Bites.</i></strong> This awful blade causes messy wounds that are difficult to heal. When you hit a creature with this sword, it must make a DC 13 Constitution saving throw. On a failure, whenever the target regains hit points from any source, the number of hit points it regains is halved. This effect lasts until the target finishes a short or long rest.</p>
+            <p class="indent"><strong><i>Tooth Decay.</i></strong> You have a +1 bonus to attack and damage rolls made with this weapon. Additionally, the sword deals an additional 1d4 necrotic damage on a hit.</p>
+            <p class="indent"><strong><i>Virulent Venom. </i></strong>You have a +2 bonus to attack and damage rolls made with this weapon. Additionally, when you hit a creature with this weapon, it must succeed on a DC 14 Constitution saving throw or become poisoned for 1d4 rounds. While poisoned in this way, a creature takes 1d4 poison damage at the start of each of its turns.</p>
+        </description>
+        <setters>
+            <set name="keywords">sword</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="any sword">Weapon</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <element name="Helm of the Soul Prowler" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HELM_OF_THE_SOUL_PROWLER_RARE">
+        <description>
+            <p>Wondrous item, rare (requires attunement) This ever-shifting helmet is made from the liquid metal of a mercury dragon. Its surface is shiny and wet and a murmur of faint whispers can be heard coming from it. You gain a +2 bonus to AC while wearing this helm.</p>
+            <p class="indent"><strong><i>Mind Protection.</i></strong> While wearing the helm, you are immune to being charmed and to any magical effects or spells that would alter your perception. In addition, any creature attempting to read your mind is overwhelmed with a cacophony of shrieking voices and must succeed on a DC 16 Wisdom saving throw, taking 4d6 psychic damage on a failure, or half as much damage on a success.</p>
+            <p class="indent"><strong><i></i></strong></p>
+            <p class="indent"><strong><i></i></strong></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="2"/>
+        </rules>
+    </element>
+    <element name="Helm of the Soul Prowler" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HELM_OF_THE_SOUL_PROWLER_VERY_RARE">
+        <description>
+            <p>Wondrous item, rare (requires attunement) This ever-shifting helmet is made from the liquid metal of a mercury dragon. Its surface is shiny and wet and a murmur of faint whispers can be heard coming from it. You gain a +3 bonus to AC while wearing this helm.</p>
+            <p class="indent"><strong><i>Mind Protection.</i></strong> While wearing the helm, you are immune to being charmed and to any magical effects or spells that would alter your perception. In addition, any creature attempting to read your mind is overwhelmed with a cacophony of shrieking voices and must succeed on a DC 16 Wisdom saving throw, taking 6d6 psychic damage on a failure, or half as much damage on a success.</p>
+            <p class="indent"><strong><i>Horrible Headbutt. </i></strong>Additionally, you can use an action to headbutt a Medium or smaller creature as if making an unarmed attack. On a hit, the helmet leaves you and morphs onto the target’s head. While the target has the helm on its head, it is blinded, deafened, and silenced, and it takes 2d6 psychic damage at the beginning of each of its turns as the cacophony of voices overwhelms its mind. The helm can be removed from an affected target by a creature using an action to make a successful DC 14 Strength (Athletics) check.</p>
+            <p class="indent"><strong><i></i></strong></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="3"/>
+        </rules>
+    </element>
+    <element name="Helm of the Soul Prowler" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_HELM_OF_THE_SOUL_PROWLER_LEGENDARY">
+        <description>
+            <p>Wondrous item, rare (requires attunement) This ever-shifting helmet is made from the liquid metal of a mercury dragon. Its surface is shiny and wet and a murmur of faint whispers can be heard coming from it. You gain a +4 bonus to AC while wearing this helm.</p>
+            <p class="indent"><strong><i>Mind Protection.</i></strong> While wearing the helm, you are immune to being charmed and to any magical effects or spells that would alter your perception. In addition, any creature attempting to read your mind is overwhelmed with a cacophony of shrieking voices and must succeed on a DC 16 Wisdom saving throw, taking 8d6 psychic damage on a failure, or half as much damage on a success.</p>
+            <p class="indent"><strong><i>Horrible Headbutt. </i></strong>Additionally, you can use an action to headbutt a Medium or smaller creature as if making an unarmed attack. On a hit, the helmet leaves you and morphs onto the target’s head. While the target has the helm on its head, it is blinded, deafened, and silenced, and it takes 2d6 psychic damage at the beginning of each of its turns as the cacophony of voices overwhelms its mind. The helm can be removed from an affected target by a creature using an action to make a successful DC 14 Strength (Athletics) check.</p>
+            <p class="indent"><strong><i>Mercurial Wish. </i></strong>Additionally, you can use the helmet to cast the wish spell once. Once the spell has been cast, the helmet loses its legendary variant properties and permanently gains the properties of the very rare variant.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="4"/>
+        </rules>
+    </element>
+    <element name="Tar Maw Blade" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_TAR_MAW_BLADE_LEGENDARY">
+        <description>
+            <p>This greatsword was crafted from the spine and jaw of a tar maw and is imbued with the creature’s goopy essence. You gain a +2 bonus on attack and damage rolls made using this magic weapon.</p>
+            <p class="indent">While you wield this sword, its blade oozes a thick, sticky tar. When you hit a creature with the sword, the target’s speed halved until the end of its next turn.</p>
+            <p class="indent"><strong><i>Ignited Blade.</i></strong> You can use a bonus action to speak the blade’s command word, causing the tar to ignite and burn with eerie blue flames that shed dim light in a 10-foot radius. While ignited in this way, the blade deals an extra 1d10 fire damage on a hit, and a creature hit by the ignited blade must succeed on a DC 18 Dexterity saving throw at the end of its next turn or take an additional 2d10 fire damage as the flaming tar sticks to it. A target can automatically succeed on this saving throw by using its action to drop prone and roll on the ground, putting out the flames. The blade remains ignited for 1 minute or until you drop or sheath the sword.</p>
+            <p class="indent"><strong><i>Tar More. </i></strong>Once the Ignited Blade property has been used four times, it can’t be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Legendary</set>
+            <set name="keywords">greatsword</set>
+            <set name="type" addition="greatsword">Weapon</set>
+            <set name="weapon">Greatsword</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">2</set> 
+        </setters>
+    </element>
+    <element name="Watcher's Shield" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_WATCHERS_SHIELD_RARE">
+        <description>
+            <p>This extremely sturdy metal shield is crafted from a watcher automaton’s faceplate. The shield has three massive horns and resembles a triceratops’ head. While holding this shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.</p>
+            <p class="indent"><strong><i>Shield Bash. </i></strong>You can use this shield as a martial weapon. It has the heavy property and deals 1d6 bludgeoning damage plus 1d6 piercing damage on a hit.</p>
+            <p class="indent"><strong><i>Charging Bash.</i></strong> If you move at least 10 feet in a straight line immediately before making an attack with this shield, on a hit you deal extra bludgeoning damage equal to your proficiency bonus and push the target 10 feet away from you</p>
+            <p class="indent"><strong><i></i></strong></p>
+            <p class="indent"><strong><i></i></strong></p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="rarity">Rare</set>
+            <set name="enhancement">1</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+        <rules>
+            <stat name="ac:shield" value="1" bonus="enhancement"/>
+        </rules>
+    </element>
+    <element name="Watcher's Shield" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_WATCHERS_SHIELD_VERY_RARE">
+        <description>
+            <p>This extremely sturdy metal shield is crafted from a watcher automaton’s faceplate. The shield has three massive horns and resembles a triceratops’ head. While holding this shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.</p>
+            <p class="indent"><strong><i>Shield Bash. </i></strong>You can use this shield as a martial weapon. It has the heavy property and deals 1d6 bludgeoning damage plus 1d6 piercing damage on a hit.</p>
+            <p class="indent"><strong><i>Charging Bash.</i></strong> If you move at least 10 feet in a straight line immediately before making an attack with this shield, on a hit you deal extra bludgeoning damage equal to your proficiency bonus and push the target 15 feet away from you</p>
+            <p class="indent"><strong><i>Stick Around. </i></strong>You have a +1 bonus to attack and damage rolls made with this shield. If you hit a target that is adjacent to a wall or sturdy object with Charging Bash, you can forego the shield’s piercing damage to use your shield to pin it. A pinned target is restrained until the start of your next turn.</p>
+            <p class="indent"><strong><i></i></strong></p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">1</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+        <rules>
+            <stat name="ac:shield" value="1" bonus="enhancement"/>
+        </rules>
+    </element>
+    <element name="Watcher's Shield" type="Magic Item" source="Fools Gold" id="ID_HPP_FOOLS_MAGIC_ITEM_WATCHERS_SHIELD_LEGENDARY">
+        <description>
+            <p>This extremely sturdy metal shield is crafted from a watcher automaton’s faceplate. The shield has three massive horns and resembles a triceratops’ head. While holding this shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.</p>
+            <p class="indent"><strong><i>Shield Bash. </i></strong>You can use this shield as a martial weapon. It has the heavy property and deals 1d6 bludgeoning damage plus 1d6 piercing damage on a hit.</p>
+            <p class="indent"><strong><i>Charging Bash.</i></strong> If you move at least 10 feet in a straight line immediately before making an attack with this shield, on a hit you deal extra bludgeoning damage equal to your proficiency bonus and push the target 15 feet away from you</p>
+            <p class="indent"><strong><i>Stick Around. </i></strong>You have a +2 bonus to attack and damage rolls made with this shield. If you hit a target that is adjacent to a wall or sturdy object with Charging Bash, you can forego the shield’s piercing damage to use your shield to pin it. A pinned target is restrained until the start of your next turn.</p>
+            <p class="indent"><strong><i>Earth Shatter. </i></strong>As an action, you can slam your shield into the ground, cracking the terrain in a 10-foot-radius circle around you. Each creature in the area other than you must succeed on a DC 14 Strength saving throw or take 10 (3d6) bludgeoning damage and be knocked prone. Additionally, the area becomes difficult terrain for 1 minute.</p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="rarity">Legendary</set>
+            <set name="enhancement">2</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+        <rules>
+            <stat name="ac:shield" value="1" bonus="enhancement"/>
+        </rules>
+    </element>
+</elements>
