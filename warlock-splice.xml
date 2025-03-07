@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="warlock-splice.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/warlock-splice.xml" />
 		</update>
 	</info>
@@ -43,18 +43,18 @@
         <sheet display="false">
             <description></description>
         </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" level="1"/>
-            <grant type="Spell" id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK" level="1"/>
-            <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="3"/>
-            <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="3"/>
-            <grant type="Spell" id="ID_PHB_SPELL_MELD_INTO_STONE" level="5"/>
-            <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="5"/>
-            <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7"/>
-            <grant type="Spell" id="ID_HPP_FOOLS_SPELL_WIZARDLYS_ARCANE_OVERRIDE" level="7"/>
-            <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="9"/>
-            <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9"/>
-        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_DISGUISE_SELF</extend>
+            <extend>ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK</extend>
+            <extend>ID_PHB_SPELL_ALTER_SELF</extend>
+            <extend>ID_PHB_SPELL_ENHANCE_ABILITY</extend>
+            <extend>ID_PHB_SPELL_MELD_INTO_STONE</extend>
+            <extend>ID_PHB_SPELL_PLANT_GROWTH</extend>
+            <extend>ID_PHB_SPELL_POLYMORPH</extend>
+            <extend>ID_HPP_FOOLS_SPELL_WIZARDLYS_ARCANE_OVERRIDE</extend>
+            <extend>ID_PHB_SPELL_AWAKEN</extend>
+            <extend>ID_PHB_SPELL_MODIFY_MEMORY</extend>
+        </spellcasting>
     </element>
     <element name="Personalized Perfection" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_WARLOCK_SPLICE_PERSONALIZED_PERFECTION">
         <description>
