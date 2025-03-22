@@ -62,16 +62,16 @@
             <description></description>
         </sheet>
         <rules>
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="3" id="ID_PHB_SPELL_HUNTERS_MARK" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="3" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="5" id="ID_PHB_SPELL_BARKSKIN" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="5" id="ID_PHB_SPELL_WARDING_BOND" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="9" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="9" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="13" id="ID_PHB_SPELL_DOMINATE_BEAST" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="13" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="17" id="ID_PHB_SPELL_GREATER_RESTORATION" />
-            <grant type="Spell" prepared="true" spellcasting="paladin" level="17" id="ID_PHB_SPELL_HOLD_MONSTER" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="3" id="ID_PHB_SPELL_HUNTERS_MARK" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="3" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="5" id="ID_PHB_SPELL_BARKSKIN" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="5" id="ID_PHB_SPELL_WARDING_BOND" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="9" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="9" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="13" id="ID_PHB_SPELL_DOMINATE_BEAST" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="13" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="17" id="ID_PHB_SPELL_GREATER_RESTORATION" />
+            <grant type="Spell" prepared="true" spellcasting="Paladin" level="17" id="ID_PHB_SPELL_HOLD_MONSTER" />
         </rules>
     </element>
     <element name="Channel Divinity" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CD">
