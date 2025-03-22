@@ -1,7 +1,8 @@
 Index File:
 https://github.com/ShadowLinks/fools-gold-elements/raw/refs/heads/main/foolsgold.index
 
-Planning to include:
+Everything should be added now.
+
 - Races COMPLETE
   -   Beastfolk
   -   Mohsnian
@@ -22,4 +23,4 @@ Planning to include:
   -   Sorcerer Concentrated Chaos
   -   Warlock The Splice
   -   Wizard School of Onieromancy
-- Items from Gorthan's Crafty Crafting Guide
+- Items from Gorthan's Crafty Crafting Guide COMPLETE

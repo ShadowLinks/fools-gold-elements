@@ -80,7 +80,7 @@
             <p class="indent"><i><strong>Never Surrender.</strong></i> When a creature you can see drops to 0 hit points, as a reaction, you can share your life force with it. The creature regains 1 hit point and gains temporary hit points equal to your current hit point total. When you lose hit points, the creature loses an equal number of its temporary hit points, and when the creature loses temporary hit points, you also lose an equal number of hit points. Hit point and temporary hit point losses from this feature do not trigger this effect; only direct damage to you or the target does. This effect lasts for 1 minute or until you are incapacitated or fall unconscious.</p>
             <p class="indent"><i><strong>Strike Together.</strong></i> You can use your Channel Divinity to harmonize your attacks with your allies. As an action, you can choose a number of creatures you can see within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, you and the chosen creatures have advantage on attack rolls against a target if at least one of your allies is within 5 feet of the target and the ally isn’t incapacitated.</p>
         </description>
-        <sheet display="flase">
+        <sheet display="false">
             <description></description>
         </sheet>
         <rules>
