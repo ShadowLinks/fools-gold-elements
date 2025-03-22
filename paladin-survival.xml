@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="paladin-survival.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/paladin-survival.xml" />
 		</update>
 	</info>
@@ -62,16 +62,16 @@
             <description></description>
         </sheet>
         <rules>
-            <grant type="Spell" level="3" id="ID_PHB_SPELL_HUNTERS_MARK" />
-            <grant type="Spell" level="3" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" />
-            <grant type="Spell" level="5" id="ID_PHB_SPELL_BARKSKIN" />
-            <grant type="Spell" level="5" id="ID_PHB_SPELL_WARDING_BOND" />
-            <grant type="Spell" level="9" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL" />
-            <grant type="Spell" level="9" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" />
-            <grant type="Spell" level="13" id="ID_PHB_SPELL_DOMINATE_BEAST" />
-            <grant type="Spell" level="13" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" />
-            <grant type="Spell" level="17" id="ID_PHB_SPELL_GREATER_RESTORATION" />
-            <grant type="Spell" level="17" id="ID_PHB_SPELL_HOLD_MONSTER" />
+            <grant type="Spell" prepared="true" level="3" id="ID_PHB_SPELL_HUNTERS_MARK" />
+            <grant type="Spell" prepared="true" level="3" id="ID_HPP_FOOLS_SPELL_INSTANT_TRAP" />
+            <grant type="Spell" prepared="true" level="5" id="ID_PHB_SPELL_BARKSKIN" />
+            <grant type="Spell" prepared="true" level="5" id="ID_PHB_SPELL_WARDING_BOND" />
+            <grant type="Spell" prepared="true" level="9" id="ID_HPP_FOOLS_SPELL_GIFT_SPELL" />
+            <grant type="Spell" prepared="true" level="9" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" />
+            <grant type="Spell" prepared="true" level="13" id="ID_PHB_SPELL_DOMINATE_BEAST" />
+            <grant type="Spell" prepared="true" level="13" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" />
+            <grant type="Spell" prepared="true" level="17" id="ID_PHB_SPELL_GREATER_RESTORATION" />
+            <grant type="Spell" prepared="true" level="17" id="ID_PHB_SPELL_HOLD_MONSTER" />
         </rules>
     </element>
     <element name="Channel Divinity" type="Archetype Feature" source="Fools Gold" id="ID_HPP_FOOLS_ARCHETYPE_FEATURE_PALADIN_SURVIVAL_CD">
