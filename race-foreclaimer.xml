@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-foreclaimer.xml" />
 		</update>
 	</info>
@@ -251,7 +251,7 @@
         <rules>
             <stat name="Strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES"/>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" bonus="double" />
+            <stat name="athletics:proficiency" value="proficiency" bonus="double"/>
         </rules>
     </element>
     <element name="Toughened Nerves" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES">
