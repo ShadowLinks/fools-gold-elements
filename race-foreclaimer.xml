@@ -251,7 +251,8 @@
         <rules>
             <stat name="Strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES"/>
-            <stat name="athletics:proficiency" value="proficiency" bonus="double"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <stat name="athletics:proficiency" value="proficiency" bonus="double" />
         </rules>
     </element>
     <element name="Toughened Nerves" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_FORECLAIMER_TOUGHEND_NERVES">
