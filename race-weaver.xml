@@ -59,13 +59,24 @@
             <stat name="innate speed" value="30" bonus="base" />
             <stat name="speed:climb" value="speed" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM"/>
-            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ARAKNIGHT" />
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ARACHNID_ARTS" />
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_IMPROVED_SPIDER_CLIMB" />
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_LUCK_SPIDER" />
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_WEB_VISION" />
             <grant type="Racial Trait" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_SUBRACE" />
         </rules>
+    </element>
+    <element name="Araknight" type="Language" source="Fools Gold" id="ID__LANGUAGE_ARAKNIGHT">
+        <description>
+            <p>Typically spoken by Weavers.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Weavers</set>
+            <set name="script"></set>
+        </setters>
     </element>
     <element name="Arachnid Arts" type="Racial Trait" source="Fools Gold" id="ID_HPP_FOOLS_RACIAL_TRAIT_WEAVER_ARACHNID_ARTS">
         <description>
