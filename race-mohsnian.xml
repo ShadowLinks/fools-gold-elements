@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="race-mohsnian.xml" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/race-mohsnian.xml" />
 		</update>
 	</info>
@@ -24,7 +24,7 @@
             <h4>RESONANT IDENTITIES</h4>
             <p>Mohsnians choose their names when they find one that resonates with them. Until then, children are called “Child of” their parent’s name. For example, if a mohsnian named Raute gave life to three new mohsnians, they would be referred to as Eldest, Middlest, and Youngest Child of Raute until they decide on their own names. Young mohsnians usually pick a name for themselves within the first 10 years of their life, but some may take centuries to find a name that resonates perfectly with them. Mohsnian names are very varied. Some are influenced by other cultures and languages or are drawn from the natural world, concepts, and values, while a few are just pleasing sounds.</p>
             <p class="indent">Similarly, mohsnians pick their own genders if they wish to. Many mohsnians have no gender at all, while others enjoy experimenting with gender until they find one that resonates for them.</p>
-            <h4>name Traits</h4>
+            <h4>Mohsnian Traits</h4>
             <p>Your mohsnian character has some characteristics in common with other mohsnians.</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2. Another of your ability scores increases based on your birthstone.</p>
             <p class="indent"><strong><em>Age.</em></strong> Mohsnians reach adulthood around age 50 and can live hundreds of years before the arcane energies that power them finally run dry.</p>
